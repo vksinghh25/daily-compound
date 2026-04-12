@@ -1,0 +1,1264 @@
+{
+  "days": [
+    { "day": 1,  "topicId": "why-investing-matters" },
+    { "day": 2,  "topicId": "time-value-of-money" },
+    { "day": 3,  "topicId": "simple-vs-compound-interest" },
+    { "day": 4,  "topicId": "risk-vs-return" },
+    { "day": 5,  "topicId": "financial-goals" },
+    { "day": 6,  "topicId": "net-worth" },
+    { "day": 7,  "topicId": "emergency-fund" },
+    { "day": 8,  "topicId": "investment-horizon" },
+    { "day": 9,  "topicId": "life-stages-strategy" },
+    { "day": 10, "topicId": "cost-of-waiting" },
+    { "day": 11, "topicId": "savings-account-optimisation" },
+    { "day": 12, "topicId": "fixed-deposits" },
+    { "day": 13, "topicId": "ppf" },
+    { "day": 14, "topicId": "epf" },
+    { "day": 15, "topicId": "what-is-a-mutual-fund" },
+    { "day": 16, "topicId": "direct-vs-regular" },
+    { "day": 17, "topicId": "index-funds" },
+    { "day": 18, "topicId": "sip" },
+    { "day": 19, "topicId": "elss" },
+    { "day": 20, "topicId": "what-is-a-stock" },
+    { "day": 21, "topicId": "nse-bse" },
+    { "day": 22, "topicId": "stcg-ltcg-equity" },
+    { "day": 23, "topicId": "80c-80ccd-80d" },
+    { "day": 24, "topicId": "sovereign-gold-bonds" },
+    { "day": 25, "topicId": "asset-allocation" },
+    { "day": 26, "topicId": "rebalancing" },
+    { "day": 27, "topicId": "behavioral-biases" },
+    { "day": 28, "topicId": "common-mistakes" },
+    { "day": 29, "topicId": "investment-policy-statement" },
+    { "day": 30, "topicId": "investment-philosophy" }
+  ],
+  "sections": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "icon": "🧱",
+      "topics": [
+        {
+          "id": "why-investing-matters",
+          "title": "Why investing matters: beating inflation over time",
+          "content": {
+            "heroStat": "2.3×",
+            "heroLabel": "more wealth from investing vs leaving money in a savings account — in just 10 years",
+            "intro": "Saving money is not enough — inflation silently erodes its value every year. In India, consumer price inflation averages 5–6% annually, meaning ₹1 lakh today will buy only ₹74,000 worth of goods in 5 years if left idle. Investing is how you make your money grow faster than prices rise.",
+            "keyPoints": [
+              "Inflation in India runs at 5–6% per year on average; education and medical inflation are even higher at 10–14%",
+              "A savings account earning 3% when inflation is 6% means you are losing purchasing power every year",
+              "Investing puts your money to work in assets — stocks, bonds, real estate, gold — that grow over time",
+              "The goal is not just to preserve wealth but to grow it in real (inflation-adjusted) terms",
+              "Even modest returns of 10–12% CAGR from equity have historically crushed inflation in India over long periods"
+            ],
+            "example": "Priya keeps ₹5 lakh in a savings account at 3% for 10 years. It grows to ₹6.72 lakh. But with 6% inflation, she needs ₹8.95 lakh just to maintain the same purchasing power. She has actually lost ₹2.23 lakh in real terms.\n\nHer colleague Rahul invests the same ₹5 lakh in a Nifty 50 index fund averaging 12% CAGR. After 10 years he has ₹15.5 lakh — more than double in real terms.",
+            "comparison": {
+              "left": {
+                "name": "Priya",
+                "approach": "Savings Account · 3% p.a.",
+                "startAmount": "₹5,00,000",
+                "endAmount": "₹6.72 lakh",
+                "duration": "10 years",
+                "outcome": "Lost ₹2.23L in real terms after inflation",
+                "positive": false
+              },
+              "right": {
+                "name": "Rahul",
+                "approach": "Nifty 50 Index Fund · 12% CAGR",
+                "startAmount": "₹5,00,000",
+                "endAmount": "₹15.5 lakh",
+                "duration": "10 years",
+                "outcome": "More than doubled in real terms",
+                "positive": true
+              }
+            },
+            "tip": "Calculate your 'real return' before feeling good about any investment: Real Return = Nominal Return − Inflation Rate. A 7% FD in the 30% tax bracket gives 4.9% post-tax — barely above inflation.",
+            "funFact": "The Reserve Bank of India targets inflation at 4% (±2%). Despite this, everyday Indians experience higher effective inflation because food and healthcare — which make up a larger share of spending for most households — inflate faster than the headline CPI number.",
+            "action": "Open your bank app and find your savings account balance and interest rate. Then open any compound interest calculator (try Groww or Zerodha's). Enter your balance at 3% for 10 years — that's your savings account path. Then run the same amount at 10%. The difference between those two numbers is the exact cost of not investing. Write both down."
+          }
+        },
+        {
+          "id": "time-value-of-money",
+          "title": "Time value of money and the magic of compounding",
+          "content": {
+            "heroStat": "3.1×",
+            "heroLabel": "more wealth from starting just 10 years earlier — same ₹1 lakh, same 12% return, zero extra effort",
+            "intro": "A rupee today is worth more than a rupee tomorrow — because money available now can be invested and earn returns. This is the time value of money. Compounding amplifies this: you earn returns not just on your original investment but also on all the returns you have already earned, creating a snowball effect.",
+            "keyPoints": [
+              "Compounding means earning 'returns on returns' — the longer you stay invested, the more powerful it becomes",
+              "The Rule of 72: divide 72 by your annual return to find how many years it takes to double your money (72 ÷ 12% = 6 years)",
+              "Time in the market beats timing the market — starting early is the single biggest advantage an investor can have",
+              "Monthly compounding beats annual compounding; the more frequent the compounding, the better",
+              "Even small amounts invested consistently can build significant wealth over decades"
+            ],
+            "example": "Ankit invests ₹1 lakh at age 25 at 12% CAGR and never adds another rupee. By age 55, it grows to ₹29.96 lakh.\n\nSunita waits until age 35 to invest the same ₹1 lakh at the same 12%. By age 55, she has only ₹9.65 lakh.\n\nAnkit did nothing differently except start 10 years earlier — yet ends up with 3x more money. Those 10 early years were worth ₹20 lakh.",
+            "comparison": {
+              "left": {
+                "name": "Sunita",
+                "approach": "Started investing at age 35",
+                "startAmount": "₹1,00,000 · same 12% CAGR",
+                "endAmount": "₹9.65 lakh",
+                "duration": "20 years to age 55",
+                "outcome": "Good outcome — but left ₹20 lakh on the table by waiting 10 years",
+                "positive": false
+              },
+              "right": {
+                "name": "Ankit",
+                "approach": "Started investing at age 25",
+                "startAmount": "₹1,00,000 · same 12% CAGR",
+                "endAmount": "₹29.96 lakh",
+                "duration": "30 years to age 55",
+                "outcome": "3.1× more wealth than Sunita — from the same investment, same return, just 10 years earlier",
+                "positive": true
+              }
+            },
+            "tip": "Open a SIP today, even if it is only ₹500/month. The psychological and financial value of starting is greater than optimising the amount. You can always increase it later.",
+            "funFact": "Albert Einstein allegedly called compound interest the 'eighth wonder of the world.' Whether or not he said it, the math is undeniable: ₹10,000 invested at 15% CAGR for 40 years becomes ₹26.8 lakh — a 268x return on your original investment.",
+            "action": "Go to Groww.in or Zerodha's SIP calculator. Enter ₹2,000/month at 12% return. First set the period to how many years you have until you turn 60. Note the final amount. Then add 5 years to the period. The difference between those two numbers is what just 5 extra years of compounding is worth. If the gap shocks you, that's the point."
+          }
+        },
+        {
+          "id": "simple-vs-compound-interest",
+          "title": "Simple vs. compound interest: why it changes everything",
+          "content": {
+            "heroStat": "2.2×",
+            "heroLabel": "more money from compound vs simple interest — same ₹1 lakh, same 10% rate, 20 years",
+            "intro": "Simple interest is calculated only on the original principal. Compound interest is calculated on the principal plus all previously earned interest. This seemingly small difference produces dramatically different outcomes over time — and is the reason long-term investors in equity vastly outperform those who keep money in simple-interest instruments.",
+            "keyPoints": [
+              "Simple Interest formula: SI = P × R × T / 100. The interest amount stays the same every year",
+              "Compound Interest formula: A = P × (1 + R/100)^T. The interest amount grows every year",
+              "Most bank FDs compound quarterly, PPF compounds annually, mutual funds compound continuously",
+              "The gap between simple and compound interest widens dramatically over longer time horizons",
+              "When borrowing (loans, credit cards), compound interest works against you — pay off debt fast"
+            ],
+            "example": "₹1 lakh invested for 20 years at 10%:\n\nSimple Interest: ₹1,00,000 + (₹1,00,000 × 10% × 20) = ₹3,00,000\n\nCompound Interest (annual): ₹1,00,000 × (1.10)^20 = ₹6,72,750\n\nThe difference: ₹3,72,750 — more than 3.7x your original investment — created purely by compounding.",
+            "comparison": {
+              "left": {
+                "name": "Simple Interest",
+                "approach": "Interest calculated on principal only",
+                "startAmount": "₹1,00,000 · 10% p.a.",
+                "endAmount": "₹3,00,000",
+                "duration": "20 years",
+                "outcome": "Earned ₹2L in interest. Same ₹10,000 every single year — no growth on growth.",
+                "positive": false
+              },
+              "right": {
+                "name": "Compound Interest",
+                "approach": "Interest calculated on principal + past interest",
+                "startAmount": "₹1,00,000 · 10% p.a.",
+                "endAmount": "₹6,72,750",
+                "duration": "20 years",
+                "outcome": "Earned ₹5.72L — 2.2× more than simple interest, purely from compounding.",
+                "positive": true
+              }
+            },
+            "tip": "When comparing fixed income products, always ask for the 'effective annual yield' not just the stated rate. A 7% FD compounded quarterly is actually 7.19% effective — small but meaningful over large amounts.",
+            "funFact": "Credit cards in India charge 36–42% annual interest, compounded monthly. If you carry a ₹50,000 balance for 12 months without paying, you owe around ₹71,000 — a ₹21,000 interest charge on a single year of delay.",
+            "action": "Check your most recent credit card statement. If you have any outstanding balance, calculate what you'd owe after 12 months at 36% compounded monthly — use a compound interest calculator with monthly compounding. If you have no credit card debt, check your FD or RD rate and search for 'effective annual yield calculator' to see your real return after compounding frequency."
+          }
+        },
+        {
+          "id": "risk-vs-return",
+          "title": "Risk vs. return: the fundamental trade-off",
+          "content": {
+            "heroStat": "6 months",
+            "heroLabel": "for Nifty 50 to fully recover after a 38% crash in early 2020 — patience was the only strategy needed",
+            "intro": "Every investment involves a trade-off between risk and return. Higher potential returns always come with higher risk. Understanding this relationship is the foundation of making rational investment decisions — and avoiding the trap of chasing returns without understanding what you are signing up for.",
+            "keyPoints": [
+              "Risk is not just about losing money — it includes volatility, liquidity risk, credit risk, and inflation risk",
+              "The risk-return spectrum in India: savings account < FD < debt MF < balanced fund < large-cap equity < mid/small-cap equity",
+              "Diversification reduces risk without proportionally reducing returns — it is the only free lunch in investing",
+              "Your risk capacity (how much loss you can afford) and risk tolerance (how much volatility you can stomach) may differ",
+              "Time horizon is the greatest risk manager: a 20-year investor can ride out market crashes that would devastate a 1-year investor"
+            ],
+            "example": "In 2020, the Nifty 50 fell 38% between January and March. An investor who needed money that month locked in a massive loss. An investor with a 10-year horizon who stayed put saw the index recover and reach all-time highs within 6 months. Same investment, same crash — completely different outcomes based on time horizon and risk capacity.",
+            "comparison": {
+              "left": {
+                "name": "Arjun",
+                "approach": "Panicked and sold during the March 2020 crash",
+                "startAmount": "₹10 lakh portfolio",
+                "endAmount": "₹6.2 lakh",
+                "duration": "Loss locked in permanently",
+                "outcome": "Sold at -38%. Missed the entire recovery. Watched the market double from the sidelines.",
+                "positive": false
+              },
+              "right": {
+                "name": "Priya",
+                "approach": "Held through the crash with a 10-year horizon",
+                "startAmount": "₹10 lakh portfolio",
+                "endAmount": "₹12+ lakh",
+                "duration": "6 months later",
+                "outcome": "Did nothing. Portfolio hit new all-time highs within 6 months of the crash bottom.",
+                "positive": true
+              }
+            },
+            "tip": "Before any investment, ask: 'What is the worst realistic outcome, and can I live with it?' If a 40% temporary fall in your portfolio would make you sell in panic, you have taken on more risk than your temperament allows.",
+            "funFact": "SEBI requires all mutual fund advertisements to carry the line 'Mutual fund investments are subject to market risks.' This is not just legal boilerplate — it is a reminder that even professionally managed funds can and do lose value in the short term.",
+            "action": "Do a quick risk audit. List every place your money sits right now — savings account, FD, LIC policy, mutual funds, chit fund, whatever. Next to each, write the approximate annual return. Then write 6% next to each one (current inflation). Circle everything that doesn't beat 6%. That circle is the hidden cost you're currently paying for feeling 'safe'."
+          }
+        },
+        {
+          "id": "investment-horizon",
+          "title": "Investment horizon: short, medium, and long term",
+          "content": {
+            "heroStat": "0",
+            "heroLabel": "times Nifty 50 has given a negative return over any rolling 10-year period in its entire history",
+            "intro": "Your investment horizon — how long you can stay invested before needing the money — is arguably the most important factor in choosing where to invest. The same ₹1 lakh should be invested very differently depending on whether you need it in 6 months, 3 years, or 20 years.",
+            "keyPoints": [
+              "Short term (under 1 year): capital preservation is the priority — use savings accounts, liquid funds, or short-term FDs",
+              "Medium term (1–5 years): balance of safety and growth — debt mutual funds, RDs, balanced/hybrid funds",
+              "Long term (5+ years): growth is the priority — equity mutual funds, direct stocks, PPF, NPS",
+              "Never invest emergency funds or short-term goal money in equity — markets can stay down for 2–3 years",
+              "As the goal approaches, gradually shift from equity to debt (this is called 'glide path' investing)"
+            ],
+            "example": "Kavya has three goals:\n• Buy a car in 1 year (₹5 lakh): puts money in a liquid fund earning 6.5%\n• Daughter's school fees in 4 years (₹3 lakh): puts money in a short-duration debt fund\n• Retirement in 25 years (₹2 crore target): puts money in a Nifty 50 index fund SIP\n\nSame person, three completely different instruments — all chosen based on time horizon.",
+            "tip": "Write down your goal, the amount needed, and the date needed. That single discipline — matching instruments to horizons — will prevent 90% of investing mistakes.",
+            "funFact": "Historically, the Nifty 50 has never given a negative return over any rolling 10-year period in its history. Time horizon truly transforms equity from a risky bet to a reliable wealth creator.",
+            "action": "Write down every significant financial goal you have — car, house down payment, children's education, retirement, travel. For each, write two things: the rupee amount you think you'll need and the year you need it by. Now check: is your money for each goal sitting in the right type of instrument for its time horizon? A 10-year goal in a savings account is the same as leaving ₹10,000 on the table."
+          }
+        },
+        {
+          "id": "life-stages-strategy",
+          "title": "Life stages and how your investment strategy should evolve",
+          "content": {
+            "heroStat": "28",
+            "heroLabel": "India's median age in years — the average Indian investor has a 30+ year compounding runway ahead of them",
+            "intro": "Your financial strategy should not be static — it must evolve as your income, responsibilities, and time horizon change through life. A 25-year-old single professional has a completely different financial reality from a 45-year-old with a home loan, school-going children, and aging parents.",
+            "keyPoints": [
+              "20s (Early career): maximise equity exposure (80–100%), build emergency fund, start SIPs, buy term insurance",
+              "30s (Peak earning, peak responsibility): balance growth with protection, increase SIPs with salary hikes, plan for children's education",
+              "40s (Mid-career): reduce equity gradually, maximise tax-saving investments, review insurance coverage",
+              "50s (Pre-retirement): shift to capital preservation, boost NPS and PPF contributions, pay off all debt",
+              "60s+ (Retirement): generate stable income via SWP, FDs, SCSS; keep 20–30% in equity to beat inflation"
+            ],
+            "example": "Rohan at 27: 80% equity SIPs, 20% PPF. No dependents, high risk capacity.\nRohan at 42: 60% equity, 25% debt, 15% gold. Two kids, home loan. Balanced approach.\nRohan at 58: 35% equity (for inflation hedge), 50% debt, 15% gold. Capital preservation mode.\n\nSame person — completely different portfolios, all appropriate for their stage.",
+            "tip": "A simple age-based rule: keep your equity allocation at (100 minus your age) percent. At 30, that's 70% equity. At 50, 50% equity. Adjust up or down based on your personal risk tolerance.",
+            "funFact": "India's median age is just 28 years — one of the youngest major economies in the world. This demographic dividend means millions of Indian investors have a 30–35 year investing runway ahead of them, making equity the most powerful wealth-building tool available.",
+            "action": "Work out your current equity-to-debt ratio. Add up all money in stocks and mutual funds (equity). Add up all money in FDs, PPF, savings accounts, LIC, and similar (debt). Calculate the split as a percentage. Now use the 100-minus-age rule to find where it should be. If you're 30, you should have roughly 70% equity. Are you close? If not, now you know exactly what to fix first."
+          }
+        },
+        {
+          "id": "emergency-fund",
+          "title": "Emergency fund: why it comes before any investment",
+          "content": {
+            "heroStat": "3–6",
+            "heroLabel": "months of living expenses — the target size of your emergency fund before starting any investment",
+            "intro": "An emergency fund is 3–6 months of living expenses kept in a highly liquid, low-risk account. It is not an investment — it is financial insurance. Without one, any unexpected event — job loss, medical emergency, car breakdown — forces you to liquidate investments at the worst possible time or take high-interest loans.",
+            "keyPoints": [
+              "Target size: 3 months of expenses for stable salaried employees; 6 months for self-employed, freelancers, or those with dependents",
+              "Where to keep it: high-interest savings account or liquid mutual fund — not in FDs, stocks, or gold",
+              "Never touch it for planned expenses like holidays, gadgets, or down payments",
+              "Replenish it within 3–6 months after any withdrawal",
+              "Keep it completely separate from your investment accounts to avoid temptation"
+            ],
+            "example": "Vikram lost his job in January. Without an emergency fund, he would have had to break his SIPs and sell mutual fund units during a market downturn — locking in losses.\n\nBecause he had ₹2.4 lakh (6 months × ₹40,000 expenses) in a liquid fund, he lived comfortably for 5 months while job hunting — without touching a single investment.",
+            "comparison": {
+              "left": {
+                "name": "No Safety Net",
+                "approach": "Job lost · zero liquid savings",
+                "startAmount": "₹0 in emergency fund",
+                "endAmount": "Forced to sell investments",
+                "duration": "Crisis hits immediately",
+                "outcome": "Sold mutual funds at market lows + took a personal loan at 18% interest to survive.",
+                "positive": false
+              },
+              "right": {
+                "name": "Vikram",
+                "approach": "Job lost · ₹2.4L liquid fund ready",
+                "startAmount": "₹2.4L emergency fund",
+                "endAmount": "All investments intact",
+                "duration": "5 months job hunting",
+                "outcome": "Lived comfortably, found a better job, SIPs kept running throughout.",
+                "positive": true
+              }
+            },
+            "tip": "Build your emergency fund before starting any SIP or investment. Open a separate savings account or liquid fund account, label it 'Emergency Only', and automate ₹3,000–₹5,000/month into it until you reach your target.",
+            "funFact": "During COVID-19 lockdowns in 2020, over 12 crore Indians lost their jobs or livelihoods within weeks. Families with even a 2-month emergency fund fared dramatically better — avoiding predatory loans at 30–40% interest that took years to repay.",
+            "action": "Calculate your emergency fund number right now. Add up your fixed monthly expenses — rent, groceries, utilities, EMIs, subscriptions, transport. Multiply by 6. That is your target. Now check your liquid savings (savings account or liquid mutual fund only — not FDs or investments). The gap between your target and what you have is your most urgent financial task before any other investment."
+          }
+        },
+        {
+          "id": "financial-goals",
+          "title": "Financial goals: how to define and quantify them",
+          "content": {
+            "heroStat": "₹17.9L",
+            "heroLabel": "what a ₹10 lakh goal actually costs in 10 years at 6% inflation — goals need inflation-adjusted targets",
+            "intro": "Vague goals like 'save more money' or 'invest for the future' rarely get achieved. Specific, quantified financial goals — with a rupee amount, a deadline, and a chosen instrument — turn aspirations into plans. Every investment decision becomes easier when you know exactly what you are investing for.",
+            "keyPoints": [
+              "A good financial goal has three elements: a specific amount (₹X), a specific date (by year Y), and a purpose (for Z)",
+              "Categorise goals by horizon: short-term (1–3 years), medium-term (3–7 years), long-term (7+ years)",
+              "Use a future value calculator to account for inflation — a ₹10 lakh goal in 10 years costs ₹17.9 lakh at 6% inflation",
+              "Prioritise goals: emergency fund and retirement come before lifestyle goals like car or vacation",
+              "Review and update goals annually — income, responsibilities, and priorities change"
+            ],
+            "example": "Meera has three goals:\n1. Vacation to Europe in 2 years: ₹2,50,000 → invests ₹10,000/month in a liquid fund\n2. Down payment on a flat in 5 years: ₹15,00,000 → invests ₹20,000/month in a balanced fund\n3. Retirement corpus in 25 years: ₹3 crore → invests ₹12,000/month in a Nifty 50 index fund SIP\n\nEach goal has a clear number, timeline, and matching instrument.",
+            "tip": "Write your goals on paper or in a notes app. Research consistently shows that people who write down specific goals are significantly more likely to achieve them than those who keep them vague and mental.",
+            "funFact": "A Harvard Business Study found that the 3% of graduates who had written goals earned 10x more than the 97% who did not, 10 years after graduation. The same principle applies to financial goals — specificity creates accountability.",
+            "action": "Open Notes on your phone right now and write down your top 3 financial goals. For each, you need three things: the exact rupee amount, the year you need it, and what you are currently doing about it. If any column is blank, that is your gap. Then go to a SIP calculator and check whether your current monthly saving toward each goal will actually get you there in time."
+          }
+        },
+        {
+          "id": "net-worth",
+          "title": "Net worth: what it is and how to track it",
+          "content": {
+            "heroStat": "1×/year",
+            "heroLabel": "one annual snapshot is all it takes to know if your financial life is moving forward or backward",
+            "intro": "Net worth is the single most honest measure of your financial health. It is simply what you own minus what you owe: Assets − Liabilities = Net Worth. Tracking it regularly — even annually — gives you a clear picture of whether your financial life is moving forward or backward.",
+            "keyPoints": [
+              "Assets: savings accounts, FDs, mutual funds, stocks, PPF, EPF, gold, property, vehicles",
+              "Liabilities: home loan outstanding, car loan, personal loan, credit card debt, any borrowings",
+              "Net worth can be negative — common when young with a home loan and few assets. That is okay if it is trending upward",
+              "Track net worth at least once a year, ideally every April when you file taxes",
+              "Focus on growing net worth, not just income — a high earner who spends everything has zero net worth"
+            ],
+            "example": "Aditya's financial snapshot at 35:\nAssets: flat value ₹60L + MF portfolio ₹18L + EPF ₹8L + PPF ₹5L + car ₹4L + savings ₹2L = ₹97L\nLiabilities: home loan outstanding ₹42L + car loan ₹1.5L = ₹43.5L\n\nNet Worth = ₹97L − ₹43.5L = ₹53.5 lakh\n\nHis target: grow this to ₹3 crore by retirement at 55.",
+            "tip": "Use a simple Google Sheet with two columns — Assets and Liabilities. Update it every April 1st. Watching your net worth grow year on year is one of the most motivating things in personal finance.",
+            "funFact": "According to Credit Suisse's Global Wealth Report, the median wealth per adult in India is around $16,000 (roughly ₹13 lakh). The top 1% of Indians own 40% of the country's total wealth — highlighting both the inequality and the opportunity for disciplined middle-class savers to grow their net worth substantially.",
+            "action": "Do your first net worth calculation right now — it takes 10 minutes. Open a notes app or spreadsheet. List every asset: savings account, FDs, mutual funds, EPF, PPF, gold, property value, vehicle resale value. List every liability: home loan outstanding, car loan, personal loan, credit card balance. Subtract total liabilities from total assets. Whatever that number is, it is your starting point. Set a recurring reminder every April 1st to redo this."
+          }
+        },
+        {
+          "id": "cost-of-waiting",
+          "title": "The cost of waiting: why starting early matters more than starting big",
+          "content": {
+            "heroStat": "2.8×",
+            "heroLabel": "more money Bharat invested compared to Arjun — yet still ended up with less at retirement",
+            "intro": "The most common investing mistake in India is not picking the wrong fund — it is waiting. Waiting for the 'right time', waiting for a salary hike, waiting to understand more. Every year of delay has a concrete, calculable cost. And because of compounding, the cost of waiting grows exponentially the longer you wait.",
+            "keyPoints": [
+              "Starting 10 years early can result in 3–5x more wealth at retirement, even with the same total amount invested",
+              "There is no 'right time' to start — time in the market always beats timing the market",
+              "The first ₹1,000 SIP is more valuable than the ₹10,000 SIP started 10 years later",
+              "Delay is not neutral — every month you wait, you permanently lose the compounding that month would have generated",
+              "Start imperfectly today rather than perfectly later — the perfect portfolio started tomorrow is worse than a decent portfolio started today"
+            ],
+            "example": "Two friends, same salary, same 12% CAGR:\n\nArjun starts a ₹5,000/month SIP at age 22 and stops at 32 (invests for just 10 years, total ₹6 lakh invested).\n\nBharat starts a ₹5,000/month SIP at age 32 and continues until 60 (invests for 28 years, total ₹16.8 lakh invested).\n\nAt age 60:\n• Arjun: ₹1.76 crore — invested ₹6 lakh\n• Bharat: ₹1.60 crore — invested ₹16.8 lakh\n\nArjun invested less than half as much, for less than half as long — and still came out ahead.",
+            "comparison": {
+              "left": {
+                "name": "Bharat",
+                "approach": "₹5,000/month SIP · started at age 32",
+                "startAmount": "₹16.8L total invested",
+                "endAmount": "₹1.60 crore",
+                "duration": "28 years of investing",
+                "outcome": "Invested 2.8× more money than Arjun — and still ended up with less at age 60.",
+                "positive": false
+              },
+              "right": {
+                "name": "Arjun",
+                "approach": "₹5,000/month SIP · started at age 22, stopped at 32",
+                "startAmount": "₹6L total invested",
+                "endAmount": "₹1.76 crore",
+                "duration": "Just 10 years of investing",
+                "outcome": "Invested less, stopped earlier, retired richer. The 10-year head start made all the difference.",
+                "positive": true
+              }
+            },
+            "tip": "Open a mutual fund account today and start a SIP of whatever amount you can afford — even ₹100. The habit and the head start matter far more than the amount. You can always increase it next month.",
+            "funFact": "If you had invested ₹10,000 in the Nifty 50 index on January 1, 2000 and done nothing else, it would be worth approximately ₹1.5 lakh by 2024 — a 15x return. The only requirement was patience and the decision to start.",
+            "action": "Calculate the exact rupee cost of your delay. Go to any SIP calculator. Enter the monthly amount you are planning to invest. Set the return to 12% and the period to your retirement horizon. Run it starting today — note the final amount. Now run it starting exactly one year from today. The difference between those two numbers is what waiting 12 more months will cost you, in rupees, permanently."
+          }
+        }
+      ]
+    },
+    {
+      "id": "safe-savings",
+      "title": "Safe Savings",
+      "icon": "🏦",
+      "topics": [
+        {
+          "id": "savings-account-optimisation",
+          "title": "Savings account optimization and auto-sweep facilities",
+          "content": {
+            "heroStat": "2.7%",
+            "heroLabel": "is what SBI pays on your savings account — while some banks pay 7%. The switch takes 20 minutes.",
+            "intro": "Most Indians park money in a basic savings account, earn near-zero interest, and never think about it again. But not all savings accounts are equal — interest rates range from 2.7% to 7%, and smart features like auto-sweep FDs can make your idle cash work harder without any effort on your part.",
+            "keyPoints": [
+              "Interest rates vary wildly: SBI pays 2.7%, but IDFC First, Kotak, and AU Small Finance Bank pay 6–7% on the same balance",
+              "Auto-sweep facility: any balance above a threshold you set is automatically converted to an FD and swept back when you need it",
+              "Small Finance Banks (SFBs) are fully RBI-regulated and DICGC-insured up to ₹5 lakh — same protection as large banks",
+              "Keep only 3–6× monthly expenses in savings for liquidity; the rest should be earning more",
+              "Digital banks like Fi, Jupiter, and Niyo partner with SFBs to offer 6–7% rates with zero-balance accounts and a clean app experience"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Default savings account",
+                "approach": "SBI / major bank · 2.7% p.a.",
+                "startAmount": "₹2,00,000 idle",
+                "endAmount": "₹5,400/year",
+                "duration": "1 year",
+                "outcome": "Earned ₹5,400 in interest — below inflation, below what any alternative would give",
+                "positive": false
+              },
+              "right": {
+                "name": "High-yield + auto-sweep",
+                "approach": "IDFC First / AU SFB · 6.5% p.a.",
+                "startAmount": "₹2,00,000 idle",
+                "endAmount": "₹13,000/year",
+                "duration": "1 year",
+                "outcome": "Earned ₹13,000 — 2.4× more, with zero extra risk. Same DICGC insurance.",
+                "positive": true
+              }
+            },
+            "tip": "Enable auto-sweep today. Set the threshold at 3× your monthly expenses — that stays liquid. Everything above that sweeps into an FD at a higher rate and comes back automatically if you spend more. Most banks let you set this in under 5 minutes in their app.",
+            "funFact": "AU Small Finance Bank, India's largest SFB, currently offers up to 7.25% on savings accounts. Yet most salaried Indians still use the same bank their employer opened for salary — often earning 2.7%. The inertia costs the average middle-class household ₹8,000–₹15,000 in lost interest every year.",
+            "action": "Open your bank app right now and check your savings account interest rate. Then Google '[your bank name] savings interest rate 2024'. If it's below 5%, spend 20 minutes today reading about one high-yield alternative — IDFC First, AU SFB, or Kotak 811. You don't have to switch today, but know the number you're leaving on the table."
+          }
+        },
+        {
+          "id": "fixed-deposits",
+          "title": "Fixed deposits: mechanics, laddering, and premature withdrawal",
+          "content": {
+            "heroStat": "₹200L Cr",
+            "heroLabel": "parked in Indian FDs — more than the total market cap of all BSE-listed companies. Yet most earns below inflation.",
+            "intro": "Fixed Deposits are India's most trusted investment. They're safe, predictable, and require zero expertise. But most people make two mistakes: they pick one bank, lock in one FD, and never revisit it — missing higher rates elsewhere and losing liquidity in emergencies. The fix is a strategy called FD Laddering.",
+            "keyPoints": [
+              "FD rates currently range from 6.5% to 9% depending on bank, tenure, and whether you're a senior citizen (0.25–0.5% extra)",
+              "Small Finance Banks like AU, Ujjivan, and Jana offer 8–9% — fully DICGC-insured up to ₹5 lakh per bank",
+              "Premature withdrawal penalty: typically 0.5–1% deducted from the applicable rate — always factor this in before locking",
+              "FD interest is taxable as income — a 7% FD in the 30% tax bracket yields only 4.9% post-tax",
+              "TDS of 10% is deducted if interest exceeds ₹40,000/year (₹50,000 for senior citizens) — submit Form 15G/15H to avoid if income is below taxable limit"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Single large FD",
+                "approach": "₹5L locked in one 5-year FD",
+                "startAmount": "₹5,00,000",
+                "endAmount": "Broke early, penalty hit",
+                "duration": "Needed funds in Year 2",
+                "outcome": "Paid premature withdrawal penalty of 1% — lost ₹4,000+ and got a lower rate than planned",
+                "positive": false
+              },
+              "right": {
+                "name": "FD Ladder",
+                "approach": "₹1L each in 1yr / 2yr / 3yr / 4yr / 5yr FDs",
+                "startAmount": "₹5,00,000",
+                "endAmount": "One FD always maturing",
+                "duration": "5 years, rolling",
+                "outcome": "Always has a maturing FD for liquidity — never needs to break early, maximizes tenure-based rates",
+                "positive": true
+              }
+            },
+            "tip": "Ladder your FDs across 1, 2, and 3-year tenures. As each matures, renew for 3 years. This keeps money accessible while maximizing returns. For large amounts, split across 2–3 banks to stay within the ₹5L DICGC cover per bank.",
+            "funFact": "India's total FD corpus exceeds ₹200 lakh crore — dwarfing the entire mutual fund industry. Yet most of this sits in bank FDs earning 6–7% pre-tax, while inflation erodes purchasing power. The average Indian household has not reviewed their FD rate in over 3 years.",
+            "action": "List every FD you currently hold: which bank, what rate, when it matures. If you don't have any, decide what amount you'd like to lock away for 1 year and look up today's best rates on Paisabazaar.com. Compare your bank's rate vs. AU Small Finance Bank or Ujjivan SFB. The 1–2% difference on ₹2 lakh is ₹2,000–₹4,000 more per year, every year."
+          }
+        },
+        { "id": "recurring-deposits", "title": "Recurring deposits: disciplined saving with guaranteed returns", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "post-office-savings-schemes", "title": "Post Office Savings Schemes: MIS, TD, and RD", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "nsc", "title": "National Savings Certificate (NSC): lock-in and tax treatment", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "scss", "title": "Senior Citizen Savings Scheme (SCSS)", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "kisan-vikas-patra", "title": "Kisan Vikas Patra and other post office instruments", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "ppf",
+          "title": "Public Provident Fund (PPF): mechanics, limits, and loan facility",
+          "content": {
+            "heroStat": "EEE",
+            "heroLabel": "Triple tax-exempt — the only instrument where your contribution, interest earned, and maturity amount are all completely tax-free",
+            "intro": "PPF is India's most underrated wealth-building tool. It offers government-backed guaranteed returns, complete capital safety, and triple tax exemption — a combination no other instrument can match. The 15-year lock-in sounds scary, but for anyone building long-term wealth, that forced patience is exactly the feature, not a bug.",
+            "keyPoints": [
+              "Current interest rate: 7.1% p.a., compounded annually — declared by the government each quarter",
+              "Annual contribution: minimum ₹500, maximum ₹1.5 lakh per financial year (invest before April 5th for full-year compounding)",
+              "EEE status: deposits qualify for 80C deduction, interest is tax-free, maturity is tax-free — no other instrument offers all three",
+              "Partial withdrawal allowed from Year 7 onwards — up to 50% of the balance at end of Year 4",
+              "Loan against PPF available from Year 3 to Year 6 — at just 1% above the prevailing PPF rate",
+              "After 15 years, extend in 5-year blocks indefinitely — many retirees use PPF as a permanent tax-free income source"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Fixed Deposit at 7%",
+                "approach": "30% tax bracket — interest taxed as income",
+                "startAmount": "₹1.5L/year for 15 years",
+                "endAmount": "~₹31 lakh post-tax",
+                "duration": "15 years",
+                "outcome": "Interest taxed every year — effective yield drops to ~4.9%. Maturity amount is significantly lower.",
+                "positive": false
+              },
+              "right": {
+                "name": "PPF at 7.1%",
+                "approach": "EEE — zero tax at any stage",
+                "startAmount": "₹1.5L/year for 15 years",
+                "endAmount": "~₹40.7 lakh tax-free",
+                "duration": "15 years",
+                "outcome": "Every rupee of interest compounds untouched. ₹9+ lakh more than the FD — purely from tax efficiency.",
+                "positive": true
+              }
+            },
+            "tip": "Deposit into your PPF before April 5th every year. The interest is calculated on the minimum balance between the 5th and last day of each month — investing early in April means you earn interest for the full year on that deposit.",
+            "funFact": "₹1.5 lakh invested in PPF every year for 25 years (extending once after 15 years) compounds to approximately ₹1.03 crore — entirely tax-free. The same money in a taxed FD at the same rate would yield roughly ₹72 lakh. The ₹31 lakh gap is entirely created by tax efficiency.",
+            "action": "Check if you already have a PPF account — many people had one opened by parents. Log into your net banking and look under 'Accounts'. If you don't have one, open one today — SBI, HDFC, ICICI, and Post Offices all offer it, and online opening takes 15 minutes. Set a March 31st calendar reminder every year to max it out before the financial year ends."
+          }
+        },
+        {
+          "id": "epf",
+          "title": "Employee Provident Fund (EPF): understanding your EPFO account and UAN",
+          "content": {
+            "heroStat": "8.25%",
+            "heroLabel": "EPF interest rate for FY 2023–24 — tax-free, employer-matched, and most salaried Indians barely know how much they have",
+            "intro": "Your EPF account is probably your largest financial asset — and you likely know very little about it. Every month, 12% of your basic salary is deducted and your employer matches it. This is forced savings at 8.25% tax-free returns, with a government guarantee. Understanding it can add tens of lakhs to your retirement.",
+            "keyPoints": [
+              "Employee contributes 12% of basic salary; employer also contributes 12% — but 8.33% of that goes to EPS (Employee Pension Scheme), not your PF balance",
+              "UAN (Universal Account Number): your permanent EPF identity, stays with you across all jobs — find it on your salary slip",
+              "Interest rate: 8.25% for FY 2023–24, declared annually by the government — tax-free if withdrawn after 5 years of continuous service",
+              "Link Aadhaar, PAN, and bank account to your UAN on epfindia.gov.in — required for withdrawals and transfers",
+              "When changing jobs: always transfer your old PF to your new account via the EPFO portal — don't let it go inoperative",
+              "Contributions above ₹2.5 lakh/year are taxable; interest on excess contributions above ₹2.5L is also taxable post-2021"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "EPF ignored",
+                "approach": "Never checks balance, doesn't transfer on job change",
+                "startAmount": "Multiple PF accounts across 3 jobs",
+                "endAmount": "₹2–5L stuck in inoperative accounts",
+                "duration": "5 years of job changes",
+                "outcome": "Old accounts earn no interest after 3 years of inactivity. Money effectively lost to neglect.",
+                "positive": false
+              },
+              "right": {
+                "name": "EPF optimized",
+                "approach": "Transfers PF on every job change, checks annual passbook",
+                "startAmount": "Same 3 jobs",
+                "endAmount": "One consolidated account, growing at 8.25%",
+                "duration": "5 years",
+                "outcome": "All past employer contributions consolidated and compounding. Knows exact retirement corpus.",
+                "positive": true
+              }
+            },
+            "tip": "Log into epfindia.gov.in with your UAN right now and check your passbook. If you've changed jobs, look for multiple Member IDs under your UAN — each is an old PF account. File an online transfer request to consolidate them into your current employer's account.",
+            "funFact": "EPFO manages over ₹20 lakh crore in assets, making it one of the world's largest provident fund organizations. Yet over ₹16,000 crore sits in inoperative PF accounts — money that belongs to employees who simply never claimed or transferred it after changing jobs.",
+            "action": "Do this today: go to epfindia.gov.in, click 'For Employees', then 'Member Passbook'. Log in with your UAN. If you don't know your UAN, check your salary slip or email HR. Look at your balance, check if there are multiple old member IDs, and note the last employer contribution date. If anything looks off, call 1800-118-005 (EPFO helpline, toll-free)."
+          }
+        },
+        { "id": "vpf", "title": "Voluntary Provident Fund (VPF): the underrated EPF top-up", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "nps-basics", "title": "National Pension System (NPS): Tier 1 and Tier 2 explained", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "nps-allocation", "title": "NPS: choosing your asset allocation and pension fund manager", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "sukanya-samriddhi", "title": "Sukanya Samriddhi Yojana: rules, limits, and maturity", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "atal-pension-yojana", "title": "Atal Pension Yojana: who it's for and how it works", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } }
+      ]
+    },
+    {
+      "id": "fixed-income",
+      "title": "Fixed Income & Bonds",
+      "icon": "📜",
+      "topics": [
+        { "id": "rbi-retail-direct", "title": "RBI Retail Direct: buying government securities directly", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "treasury-bills", "title": "Treasury bills: short-term government borrowing explained", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "government-bonds", "title": "Government bonds: how they work and who should buy them", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "corporate-bonds", "title": "Corporate bonds and debentures: risk vs. FD returns", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "credit-ratings", "title": "Credit ratings in India: CRISIL, ICRA, CARE and what they mean", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "bond-pricing-yield", "title": "Bond pricing and yield: why they move inversely", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "sovereign-gold-bonds",
+          "title": "Sovereign Gold Bonds: interest, indexation, and tax-free maturity",
+          "content": {
+            "heroStat": "2.5%",
+            "heroLabel": "annual interest paid in cash on top of gold price gains — on top of a sovereign government guarantee",
+            "intro": "Sovereign Gold Bonds (SGBs) are government securities denominated in grams of gold. They give you complete gold price exposure without the hassle of physical gold — no storage costs, no making charges, no purity concerns. They also pay 2.5% annual interest on top of gold returns. The government stopped issuing new SGB series in 2024, so the only way to buy them today is on the secondary market (NSE/BSE) — where older series often trade at a discount to the current gold price.",
+            "keyPoints": [
+              "Government guarantee: issued by RBI on behalf of the Government of India — sovereign credit, zero default risk, held in Demat form",
+              "Returns = gold price appreciation + 2.5% p.a. interest paid semi-annually directly to your bank account regardless of where you bought",
+              "No new issuances: the government discontinued fresh SGB series in 2024 — the secondary market on NSE/BSE is now the only route to buy",
+              "Lock-in: 8 years to maturity from original issue date, with exit windows every 6 months from Year 5 for original subscribers",
+              "Tax — critical distinction: capital gains at maturity are tax-free ONLY for the original subscriber (primary market buyer). If you buy on the secondary market, your gains at maturity are taxable as LTCG at 12.5% — the tax-free benefit does not transfer.",
+              "2.5% interest is taxable as income for all holders regardless of how they acquired the bond"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Gold ETF",
+                "approach": "Tracks gold price, highly liquid, no interest",
+                "startAmount": "₹1,00,000",
+                "endAmount": "Gold price gain only",
+                "duration": "8 years",
+                "outcome": "No interest income. LTCG at 12.5% on gains. More liquid — can sell any day. Better if you need flexibility or a shorter horizon.",
+                "positive": false
+              },
+              "right": {
+                "name": "SGB (secondary market)",
+                "approach": "Via broker on NSE/BSE — sometimes at a discount",
+                "startAmount": "₹1,00,000",
+                "endAmount": "Gold price gain + 2.5% interest/year",
+                "duration": "8 years",
+                "outcome": "Earns 2.5% interest annually. If bought at a discount, effective gold exposure is cheaper than ETF. LTCG tax applies at maturity (not tax-free for secondary buyers).",
+                "positive": true
+              }
+            },
+            "tip": "Since no new SGB series are being issued, search for existing series on your broker's bond section (search 'SGB' on Zerodha or Groww). Some older series trade at a discount to spot gold — meaning you get the same gold exposure plus 2.5% interest at a lower entry price. Just note: as a secondary market buyer, the tax-free maturity benefit does not apply to you — your gains will be taxed as LTCG at 12.5%.",
+            "funFact": "India is the world's second largest consumer of gold, importing $35–40 billion worth every year. SGBs were introduced in 2015 specifically to reduce India's gold import bill by offering a financial alternative. The government issued 67 tranches over 9 years before discontinuing new issuances in 2024. Despite their clear advantages over physical gold, physical demand remains dominant — a reflection of how deeply gold is embedded in Indian culture.",
+            "action": "Open Zerodha, Groww, or any broker app and search 'SGB' in the bonds section. You'll see multiple series listed with their maturity dates and current prices. Compare the price per gram to today's spot gold price (search 'gold price India today'). If a series is trading below spot, you're getting gold at a discount plus 2.5% interest. Check the maturity date — a series maturing in 2–3 years gives you less compounding runway than one maturing in 6–7 years."
+          }
+        },
+        { "id": "rbi-floating-rate-bonds", "title": "RBI Floating Rate Savings Bonds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "ncds", "title": "Non-Convertible Debentures (NCDs): public issues and secondary market", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "debt-mf-overnight-liquid", "title": "Debt mutual funds: overnight and liquid funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "debt-mf-ultra-short", "title": "Debt mutual funds: ultra-short and low-duration funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "debt-mf-short-medium", "title": "Debt mutual funds: short and medium duration funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "debt-mf-gilt", "title": "Debt mutual funds: gilt funds and long-duration funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "debt-mf-credit-risk", "title": "Debt mutual funds: credit risk funds and the risks involved", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "debt-mf-taxation", "title": "Taxation of debt mutual funds post-2023 budget changes", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } }
+      ]
+    },
+    {
+      "id": "stock-market",
+      "title": "Stock Market",
+      "icon": "📈",
+      "topics": [
+        {
+          "id": "what-is-a-stock",
+          "title": "What is a stock: ownership, rights, and responsibilities",
+          "content": {
+            "heroStat": "₹5 Cr+",
+            "heroLabel": "what ₹10,000 invested in Wipro's 1980 IPO would be worth today — the compounding power of owning great businesses",
+            "intro": "A stock (or share) represents fractional ownership of a company. When you buy one share of Infosys or HDFC Bank, you own a tiny slice of that business — its assets, its profits, and its future growth. As the company grows and earns more, your share becomes more valuable. This is the fundamental mechanism behind most of the world's largest fortunes.",
+            "keyPoints": [
+              "Equity = ownership: you are a part-owner of the business, not a lender. Shareholders are last in line for claims, but benefit the most when the company thrives",
+              "Two ways to make money: capital appreciation (share price rises as business grows) and dividends (company distributes a portion of profits to shareholders)",
+              "Market price vs. intrinsic value: the stock price changes every second based on supply and demand — the underlying business value changes slowly. These can diverge significantly",
+              "Voting rights: shareholders can vote on major decisions at AGMs — board appointments, mergers, dividend policy. Retail holdings are tiny, but the right exists",
+              "Liquidity: listed stocks can be bought and sold in seconds during market hours (9:15 AM – 3:30 PM IST) — unlike real estate or private business stakes",
+              "Risk: if a company goes bankrupt, equity holders lose everything after lenders are repaid first — unlike FDs or bonds which have defined recovery rights"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Lending money (FD / Bond)",
+                "approach": "You are a creditor, not an owner",
+                "startAmount": "₹1,00,000",
+                "endAmount": "₹1,00,000 + fixed interest",
+                "duration": "5 years",
+                "outcome": "You earn fixed interest regardless of how well the company performs. Safe, but you never participate in the upside if the business 10x's.",
+                "positive": false
+              },
+              "right": {
+                "name": "Owning equity (Stock)",
+                "approach": "You are a part-owner of the business",
+                "startAmount": "₹1,00,000",
+                "endAmount": "Market-linked — could be ₹50,000 or ₹10,00,000",
+                "duration": "5 years",
+                "outcome": "No guaranteed return — but if the business grows 10x, so does your wealth. Risk and potential reward are two sides of the same coin.",
+                "positive": true
+              }
+            },
+            "tip": "Think of buying a stock as buying a business, not a lottery ticket. Ask three questions before buying: Do I understand how this company makes money? Do I trust its management? Would I be comfortable holding this for 5 years if the market closed tomorrow? If yes to all three, it's worth exploring further.",
+            "funFact": "Wipro's IPO in 1980 priced shares at ₹100. A single share, held until today through all splits and bonuses, would be worth over ₹50 lakh. ₹10,000 invested at IPO = over ₹5 crore today. This is not a fluke — it is the compounding power of owning a genuinely great business for decades.",
+            "action": "Pick one company whose product or service you use every day — Zomato, Asian Paints, HDFC Bank, Hindustan Unilever, or Tata Consultancy Services. Search it on Screener.in (free). Look at: revenue growth over 5 years, profit margin, and return on equity. You're not buying anything today — you're learning to see a company as a business, not just a price on a screen."
+          }
+        },
+        {
+          "id": "nse-bse",
+          "title": "How NSE and BSE work: exchanges, indices, and market structure",
+          "content": {
+            "heroStat": "₹300L Cr",
+            "heroLabel": "combined market cap of BSE-listed companies — making India the world's 5th largest stock market",
+            "intro": "NSE and BSE are India's two stock exchanges — the regulated marketplaces where buyers and sellers of stocks meet. Every trade you place goes through one of these two exchanges. Understanding how they work — their indices, market hours, settlement cycles — is the foundation of navigating markets with confidence.",
+            "keyPoints": [
+              "BSE (Bombay Stock Exchange): founded 1875, Asia's oldest exchange. 5,000+ listed companies. Benchmark index: Sensex (top 30 companies by free-float market cap)",
+              "NSE (National Stock Exchange): founded 1992, introduced electronic trading to India. ~2,000 companies. Benchmark index: Nifty 50 (top 50 companies)",
+              "Both exchanges are regulated by SEBI and operate under identical settlement and margin frameworks — prices are nearly identical on both",
+              "Settlement cycle: T+1 — buy shares on Monday, they appear in your Demat by Tuesday. Sell Monday, proceeds credited Tuesday. India moved to T+1 in 2023, ahead of the US.",
+              "Market hours: 9:15 AM – 3:30 PM IST, Monday–Friday. Pre-open session 9:00–9:15 AM sets the opening price via call auction.",
+              "Circuit breakers: if Nifty falls 10%, trading halts for 45 minutes — a SEBI mechanism to prevent panic-driven crashes from spiralling"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "BSE",
+                "approach": "Asia's oldest · Sensex · 5,000+ companies",
+                "startAmount": "Founded 1875",
+                "endAmount": "~35% of daily equity turnover",
+                "duration": "150 years of history",
+                "outcome": "More companies listed, including smaller firms. Sensex is the index most quoted in mainstream media. Historically dominant.",
+                "positive": false
+              },
+              "right": {
+                "name": "NSE",
+                "approach": "Tech-first · Nifty 50 · electronic from day one",
+                "startAmount": "Founded 1992",
+                "endAmount": "~65% of daily equity turnover",
+                "duration": "Dominant in derivatives",
+                "outcome": "Handles the majority of India's equity and nearly all derivatives trading. Nifty 50 is the benchmark index used by most mutual funds.",
+                "positive": true
+              }
+            },
+            "tip": "For retail investors, it doesn't matter which exchange your order routes through — your broker handles that automatically, always seeking the best price. What matters is what you're buying, not where. Focus your energy on the business, not the exchange plumbing.",
+            "funFact": "NSE is the world's largest derivatives exchange by number of contracts traded — ahead of Chicago, Hong Kong, and Eurex. Yet most Indians don't know this. The Nifty options market alone sees hundreds of thousands of crores in notional turnover on expiry days, driven by retail speculators who often lose money systematically.",
+            "action": "Visit nseindia.com today. Click on 'Market Data' → 'Nifty 50'. Look at the full list of 50 companies and their weightages. Notice that the top 10 companies make up over 60% of the index. That's what you own when you buy a Nifty 50 index fund. Also check 'Gainers' and 'Losers' of the day — get a feel for daily market movement."
+          }
+        },
+        { "id": "sebi", "title": "SEBI: role, regulations, and investor protection", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "demat-trading-account", "title": "Opening a Demat and trading account: what to look for in a broker", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "contract-note-settlement", "title": "Understanding a contract note and settlement cycle (T+1)", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "order-types", "title": "Market orders, limit orders, and stop-loss orders", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "reading-stock-quote", "title": "Reading a stock quote: price, volume, circuit limits, and 52-week range", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "stock-indices", "title": "Stock market indices: Sensex, Nifty 50, and sectoral indices", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "ipos", "title": "How IPOs work in India: applying via UPI and ASBA", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "sme-ipos", "title": "Understanding SME IPOs and their risks", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "fa-pl-statement", "title": "Fundamental analysis: reading a Profit & Loss statement", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "fa-balance-sheet", "title": "Fundamental analysis: reading a Balance Sheet", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "fa-cash-flow", "title": "Fundamental analysis: reading a Cash Flow statement", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "financial-ratios", "title": "Key financial ratios: P/E, P/B, ROE, ROCE, and Debt-to-Equity", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "peer-analysis", "title": "Comparing companies within a sector: peer analysis", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "management-quality", "title": "Management quality: how to evaluate promoters and leadership", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "moats", "title": "Moats and competitive advantages: what makes a business durable", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "ta-candlesticks", "title": "Technical analysis: candlestick charts and price patterns", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "ta-indicators", "title": "Technical analysis: moving averages, RSI, and MACD", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "dividend-investing", "title": "Dividend investing: yield, payout ratio, and dividend consistency", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } }
+      ]
+    },
+    {
+      "id": "mutual-funds",
+      "title": "Mutual Funds",
+      "icon": "💼",
+      "topics": [
+        {
+          "id": "what-is-a-mutual-fund",
+          "title": "What is a mutual fund: NAV, units, AUM, and how it all works",
+          "content": {
+            "heroStat": "₹67L Cr",
+            "heroLabel": "total assets managed by Indian mutual funds — more than doubled in 5 years as retail participation exploded",
+            "intro": "A mutual fund is simply a pool of money collected from thousands of investors, managed by a professional fund manager who invests it in stocks, bonds, or gold according to the fund's mandate. When you invest ₹1,000, you buy 'units' — a proportional slice of that pool. It's the most accessible, regulated, and diversified way for an ordinary Indian to invest in the market.",
+            "keyPoints": [
+              "NAV (Net Asset Value): the per-unit price of the fund, calculated daily. NAV = Total portfolio value ÷ Total number of units outstanding",
+              "Units: what you own. Invest ₹10,000 in a fund with NAV of ₹50 → you get 200 units. When NAV rises to ₹75, your investment is worth ₹15,000",
+              "AUM (Assets Under Management): total size of the fund. Larger AUM = more investor trust, but very large AUM can limit flexibility in small/mid-cap funds",
+              "Expense Ratio: the annual fee charged for managing your money, expressed as a % of AUM. Ranges from 0.06% (index funds) to 2.5% (active funds) — lower is better",
+              "Fund Manager: the person (or team) making investment decisions — their track record, tenure, and investment philosophy matter",
+              "SEBI regulates all mutual funds in India — all AMCs must register with SEBI, protecting investors from fraud"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Direct stock picking",
+                "approach": "Buy individual stocks yourself",
+                "startAmount": "₹10,000",
+                "endAmount": "1–2 stocks",
+                "duration": "Ongoing research required",
+                "outcome": "Concentration risk, requires deep research, minimum viable portfolio needs ₹50,000+. One bad bet hurts badly.",
+                "positive": false
+              },
+              "right": {
+                "name": "Nifty 50 Index Fund",
+                "approach": "One fund, instant diversification",
+                "startAmount": "₹100",
+                "endAmount": "Slice of 50 companies",
+                "duration": "Zero ongoing research",
+                "outcome": "Instant exposure to India's top 50 companies. Professional-grade diversification from ₹100 with 0.1% expense ratio.",
+                "positive": true
+              }
+            },
+            "tip": "Start with a Nifty 50 or Nifty 100 index fund. It tracks the largest Indian companies, has an expense ratio below 0.2%, requires zero research, and is where most experts tell first-time investors to begin. You can always add more sophisticated funds later.",
+            "funFact": "India now has over 10 crore (100 million) mutual fund folios — up from just 3 crore in 2017. The SIP revolution drove this: Indians collectively invest over ₹20,000 crore via SIPs every single month. Yet mutual fund penetration as a % of GDP in India is still just 17% — compared to 130%+ in the US — meaning most of the growth is still ahead.",
+            "action": "Download Groww or Zerodha Coin today. Search for 'Nifty 50 Index Fund'. Open any result and study the page: note the NAV, the AUM, the expense ratio, the 1-year return, and the 5-year return. You don't need to invest yet — just get comfortable reading a fund page. Compare two different Nifty 50 funds from different AMCs and notice what differs. You'll find the expense ratio is the main differentiator."
+          }
+        },
+        {
+          "id": "direct-vs-regular",
+          "title": "Direct vs. regular plans: the hidden cost of commissions",
+          "content": {
+            "heroStat": "1%",
+            "heroLabel": "the typical commission gap between regular and direct plans — sounds small, costs lakhs over 20 years",
+            "intro": "Every mutual fund in India exists in two versions: Regular and Direct. Regular plans are sold through distributors — banks, agents, online brokers — who earn a commission paid out of your returns. Direct plans skip the middleman entirely. Same fund, same manager, same portfolio — but the Direct plan has a lower expense ratio, and that difference compounds silently in your favour for decades.",
+            "keyPoints": [
+              "Regular plans include distributor commission (typically 0.5–1.5% extra per year) baked into the expense ratio — you pay it whether you know it or not",
+              "Direct plans are bought straight from the AMC's website or via platforms like Groww, Zerodha Coin, or MF Central — no commission layer",
+              "1% difference in expense ratio = approximately 23% more wealth over 20 years on the same SIP amount",
+              "Your fund's name tells you: 'Axis Bluechip Fund — Direct — Growth' vs 'Axis Bluechip Fund — Regular — Growth'",
+              "Switching from Regular to Direct is possible online, but check for exit load (usually 1% if redeemed within 1 year) and capital gains tax implications before switching"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Regular Plan",
+                "approach": "₹5,000/month SIP · 1.5% expense ratio · net 10.5% return",
+                "startAmount": "₹5,000/month",
+                "endAmount": "₹38.8 lakh",
+                "duration": "20 years",
+                "outcome": "Paid ₹7.2 lakh in hidden commissions over 20 years. Your distributor benefited more than you realised.",
+                "positive": false
+              },
+              "right": {
+                "name": "Direct Plan",
+                "approach": "₹5,000/month SIP · 0.3% expense ratio · net 11.7% return",
+                "startAmount": "₹5,000/month",
+                "endAmount": "₹47.9 lakh",
+                "duration": "20 years",
+                "outcome": "₹9.1 lakh more — from the same fund, same market, just by removing the commission layer.",
+                "positive": true
+              }
+            },
+            "tip": "Use Groww, Zerodha Coin, or MF Central (SEBI's free official platform) — all serve Direct plans by default. If you're already invested in Regular plans, do the math before switching: factor in exit load and capital gains tax. For long-horizon investments, the switch usually pays off.",
+            "funFact": "SEBI introduced Direct plans in January 2013. In the decade since, Direct plan AUM has grown to over ₹25 lakh crore. Yet a large portion of mutual fund assets are still in Regular plans — meaning millions of Indian investors are paying commissions without knowing it, often to banks and agents who recommended funds based on commission rates, not investor suitability.",
+            "action": "Open your mutual fund app right now and check every fund you hold. Does each fund name say 'Direct' or 'Regular'? If it says Regular, note the expense ratio. Search for the Direct version of the same fund and compare expense ratios. Calculate: expense ratio difference × your investment amount = approximate annual cost. That number is what you're paying annually for distribution."
+          }
+        },
+        { "id": "growth-vs-idcw", "title": "Growth vs. dividend (IDCW) option: which to choose and why", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "large-cap-funds", "title": "Equity mutual funds: large-cap funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "mid-small-cap-funds", "title": "Equity mutual funds: mid-cap and small-cap funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "flexi-multi-cap-funds", "title": "Equity mutual funds: flexi-cap and multi-cap funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "focused-contra-funds", "title": "Equity mutual funds: focused funds and contra funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "elss",
+          "title": "ELSS: tax-saving mutual funds under Section 80C",
+          "content": {
+            "heroStat": "₹46,800",
+            "heroLabel": "maximum annual tax saving from ELSS — with the shortest lock-in of any 80C instrument and equity-level returns",
+            "intro": "ELSS (Equity Linked Savings Scheme) is the only mutual fund category that qualifies for a Section 80C tax deduction. Invest up to ₹1.5 lakh per year and reduce your taxable income by the same amount — saving up to ₹46,800 in tax if you're in the 30% bracket. Unlike PPF or tax-saving FDs, your money is in the stock market, which means higher potential returns — and a 3-year lock-in, not 5 or 15.",
+            "keyPoints": [
+              "Tax deduction: invest up to ₹1.5L under Section 80C — saves ₹15,000 (20% bracket) / ₹30,000 (30%) / ₹46,800 (30% + cess)",
+              "Shortest 80C lock-in: 3 years — vs. PPF (15 years), NSC (5 years), tax-saving FD (5 years), life insurance (5+ years)",
+              "Equity-linked returns: ELSS funds invest ≥80% in stocks — historically 12–16% CAGR over long periods, though market risk applies",
+              "LTCG applies post lock-in: gains above ₹1 lakh taxed at 10% — still tax-efficient compared to FD interest taxed as income",
+              "SIP in ELSS: each monthly instalment has its own 3-year lock-in from that specific date — so you can't redeem the whole lump sum at the end of 3 years in a SIP",
+              "New Tax Regime: Section 80C deductions are not available under the new tax regime — ELSS is only relevant if you are under the old regime"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Tax-saving FD",
+                "approach": "5-year lock-in · 6.5% interest · taxed as income",
+                "startAmount": "₹1,50,000",
+                "endAmount": "~₹1.93L pre-tax",
+                "duration": "5 years",
+                "outcome": "In the 30% bracket, post-tax return is ~4.5% p.a. Inflation erodes the real gain. Locked for 5 years with no way out.",
+                "positive": false
+              },
+              "right": {
+                "name": "ELSS Fund",
+                "approach": "3-year lock-in · ~13% historical CAGR · 10% LTCG on gains above ₹1L",
+                "startAmount": "₹1,50,000",
+                "endAmount": "~₹2.15L (estimated)",
+                "duration": "3 years",
+                "outcome": "Freed in 3 years. Equity returns. Tax only on gains above ₹1L at 10%. Same ₹1.5L 80C benefit.",
+                "positive": true
+              }
+            },
+            "tip": "Don't wait until March to invest in ELSS — last-minute lump sums invest at one market level. Instead, run a ₹12,500/month SIP in ELSS from April, maxing out the ₹1.5L over the year while averaging across all market levels.",
+            "funFact": "The Axis Long Term Equity Fund (ELSS), launched in 2009, delivered over 20% CAGR for nearly a decade. ₹1.5 lakh invested annually for 10 years would have grown to over ₹5 crore. The tax saving was almost incidental — the equity compounding was the real story.",
+            "action": "Check which tax regime you filed under last year — old or new. If old regime, calculate your 80C gap: add EPF + LIC premiums + PPF contributions and subtract from ₹1.5L. That gap is your ELSS opportunity. Search 'ELSS funds 10-year returns' on Groww to find a fund with a consistent long-term track record. Start a SIP from next month rather than waiting until March."
+          }
+        },
+        {
+          "id": "index-funds",
+          "title": "Index funds: passive investing and tracking error",
+          "content": {
+            "heroStat": "92%",
+            "heroLabel": "of actively managed large-cap funds underperformed their benchmark index over the last 5 years in India",
+            "intro": "An index fund does one simple thing: it copies an index — like the Nifty 50 — by buying all its stocks in the same proportions. No fund manager is picking stocks. No guesses, no research, no surprises. You get the exact return of the market minus a tiny fee. And over the long term, that is often better than what most active fund managers deliver.",
+            "keyPoints": [
+              "Passive investing: the fund mirrors an index mechanically — Nifty 50, Nifty Next 50, Nifty 500, Sensex, or sectoral indices",
+              "Tracking error: the difference between the fund's actual return and the index it tracks — look for tracking error below 0.1% when comparing index funds",
+              "Expense ratio: typically 0.06%–0.2% for index funds vs. 1–2.5% for actively managed funds — this gap compounds dramatically over time",
+              "No fund manager risk: you're not betting on one person's stock-picking ability or their continued employment at the AMC",
+              "Predictability: you know exactly what you own (the index constituents), and rebalancing happens automatically when the index changes",
+              "Best starting point: most Indian financial experts recommend a Nifty 50 or Nifty 100 index fund as the foundation of any retail investor's portfolio"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Active Large-Cap Fund",
+                "approach": "Fund manager picks stocks · 1.5% expense ratio",
+                "startAmount": "₹5,000/month SIP",
+                "endAmount": "10.8% avg return (10 yr)",
+                "duration": "10 years",
+                "outcome": "Underperformed its own benchmark in 7 of 10 years. Higher fees, manager changed twice, returns below index.",
+                "positive": false
+              },
+              "right": {
+                "name": "Nifty 50 Index Fund",
+                "approach": "Mirrors index mechanically · 0.1% expense ratio",
+                "startAmount": "₹5,000/month SIP",
+                "endAmount": "12.1% avg return (10 yr)",
+                "duration": "10 years",
+                "outcome": "No manager risk, no surprises, lower cost — and beat 92% of active large-cap peers over 5 years.",
+                "positive": true
+              }
+            },
+            "tip": "When choosing between two index funds tracking the same index, compare only two numbers: (1) expense ratio — lower wins; (2) tracking error — lower wins. Both are on the AMC's factsheet. Everything else — fund house name, AUM size — matters much less for index funds.",
+            "funFact": "The Nippon India Nifty 50 BeES, launched in 2001, was one of Asia's first ETFs. Despite being available for over 20 years, index fund awareness among Indian retail investors only exploded after 2018 — driven largely by personal finance content on YouTube and Instagram. Today, index fund AUM in India exceeds ₹9 lakh crore.",
+            "action": "Go to Groww or Zerodha Coin and search 'Nifty 50 Index Fund'. Open results from 3 different AMCs — UTI, Nippon, and HDFC Nifty 50. Compare their expense ratios and 5-year returns. You'll notice the returns are almost identical. The only real differentiator is the expense ratio. The cheapest one is almost always the right choice. Bookmark it."
+          }
+        },
+        { "id": "etfs", "title": "ETFs: how they differ from index funds and how to buy them", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "sectoral-thematic-funds", "title": "Sectoral and thematic funds: high risk, high conviction", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "international-funds", "title": "International mutual funds and fund of funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "hybrid-funds", "title": "Hybrid funds: balanced advantage and aggressive hybrid funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "arbitrage-funds", "title": "Arbitrage funds: low risk, equity taxation", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "sip",
+          "title": "SIP: rupee cost averaging and the psychology of consistency",
+          "content": {
+            "heroStat": "₹20K Cr",
+            "heroLabel": "invested by Indians every single month via SIPs — a habit quietly building crores for millions of households",
+            "intro": "A SIP (Systematic Investment Plan) is simply an instruction to automatically invest a fixed amount in a mutual fund every month. It removes the need to time the market, automates the discipline, and through a concept called rupee cost averaging, naturally buys more units when markets are cheap and fewer when they are expensive — without you having to think about it.",
+            "keyPoints": [
+              "Rupee cost averaging: a fixed monthly investment buys more units when NAV is low and fewer when NAV is high — this averages your purchase cost down over time",
+              "Automation beats willpower: the money leaves your account on a fixed date before you can spend it — same principle as an EMI, but building wealth instead of repaying debt",
+              "Start from ₹100/month: no minimum is too small — the habit and the head start matter far more than the amount in the early years",
+              "SIP is a method, not a product: you are investing in a mutual fund via SIP — the fund's risk profile (equity, debt, hybrid) still fully applies",
+              "Step-Up SIP: increase your SIP amount by a fixed % or rupee amount each year — even ₹500/year increase has a dramatic long-term impact on the final corpus"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Market-timer",
+                "approach": "Waits for the 'right time' to invest a lump sum",
+                "startAmount": "₹60,000/year in one shot",
+                "endAmount": "Misses months, invests at peaks",
+                "duration": "10 years of timing attempts",
+                "outcome": "Studies show even perfect timing beats average SIP by only 2–4%. Imperfect timing does far worse. Stress levels: high.",
+                "positive": false
+              },
+              "right": {
+                "name": "SIP investor",
+                "approach": "₹5,000/month, auto-debit on the 5th",
+                "startAmount": "₹60,000/year, spread across 12 months",
+                "endAmount": "Averaged across all market levels",
+                "duration": "10 years of doing nothing",
+                "outcome": "Buys at every market level — crashes become buying opportunities automatically. Stress levels: zero.",
+                "positive": true
+              }
+            },
+            "tip": "Set your SIP date to the 5th or 6th of the month — a day or two after most salaries arrive. It should feel as automatic and painless as an EMI. Then look at it only once a year. The biggest SIP mistake is pausing it during market crashes — that is precisely when it's doing its best work.",
+            "funFact": "In April 2024, monthly SIP contributions crossed ₹20,000 crore for the first time in India's history. Over 8.9 crore SIP accounts are active. The average SIP account holder has been running their SIP for just 2.3 years — meaning most of the compounding is still ahead of them.",
+            "action": "If you don't have a SIP running, start one today — even ₹500/month in a Nifty 50 index fund takes 5 minutes on Groww. If you already have one, log in and check: what's the total amount invested vs. the current value? That difference is what SIP has earned you. Now add a Step-Up: increase the SIP by ₹500/month and see how much more it projects at retirement."
+          }
+        },
+        { "id": "stp-swp", "title": "STP and SWP: systematic transfer and withdrawal strategies", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "mf-factsheet", "title": "How to read a mutual fund factsheet and portfolio overlap", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "asset-allocation",
+          "title": "Asset allocation: building a portfolio across asset classes",
+          "content": {
+            "heroStat": "90%",
+            "heroLabel": "of a portfolio's long-term performance is explained by asset allocation — not stock picking or market timing",
+            "intro": "Asset allocation is the decision of how to split your money across different asset classes — equity, debt, gold, real estate, and cash. It is the single most important investment decision you will ever make. Research consistently shows that asset allocation explains over 90% of portfolio returns over time. Not which stocks you picked. Not when you bought. How you divided your money across asset classes.",
+            "keyPoints": [
+              "Asset classes move differently: when equities crash, bonds and gold often hold or rise — true diversification reduces overall portfolio volatility without proportionally reducing returns",
+              "The classic starting heuristic: (100 − your age) = equity %. A 30-year-old → 70% equity. A 50-year-old → 50% equity. Rough guide only, not a rigid rule.",
+              "Three core allocations for most Indians: equity (long-term growth), debt — FDs/PPF/bonds (stability + income), gold — SGBs/ETFs (inflation hedge, crisis buffer)",
+              "Risk tolerance matters as much as time horizon: a 28-year-old who panic-sold in the March 2020 crash needed a more conservative allocation than their age suggested",
+              "Allocation drift: after a bull market, your 70/30 equity/debt portfolio quietly becomes 82/18 — rebalancing annually corrects this and enforces 'buy low, sell high' mechanically",
+              "Real estate counts: your home's market value is part of your asset allocation, even though it is illiquid — many Indian families are heavily concentrated in real estate without realising it"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "100% equity portfolio",
+                "approach": "Maximum growth, maximum volatility",
+                "startAmount": "₹10,00,000",
+                "endAmount": "₹4,00,000 at trough (2008 crash)",
+                "duration": "60% peak-to-trough drawdown",
+                "outcome": "Most investors panic-sold near the bottom. Even those who held faced years of psychological pain. Theory says stay in — humans rarely do.",
+                "positive": false
+              },
+              "right": {
+                "name": "70% equity / 20% debt / 10% gold",
+                "approach": "Balanced growth with a buffer",
+                "startAmount": "₹10,00,000",
+                "endAmount": "₹7,20,000 at trough (2008 crash)",
+                "duration": "~28% peak-to-trough drawdown",
+                "outcome": "Far easier to hold through the crash. Gold surged, debt held. Recovered faster. Long-term returns within 1–2% of 100% equity.",
+                "positive": true
+              }
+            },
+            "tip": "Choose an asset allocation you can emotionally sustain through a 40% market crash — not one that maximises theoretical returns on paper. The best allocation is the one you will not abandon when markets fall. A 60/30/10 portfolio that you hold for 20 years vastly outperforms a 100% equity portfolio you sold in panic in year 3.",
+            "funFact": "During the 2008 global financial crisis, the Nifty 50 fell 60% peak to trough. A diversified 60/30/10 equity/debt/gold portfolio fell only ~25% in the same period — because gold surged ~30% and bonds held steady. The diversified investor recovered in 2 years. The 100% equity investor took over 4 years to get back to even.",
+            "action": "List every financial asset you own right now: savings account balance, FDs, mutual funds, stocks, PPF, EPF, NPS, gold (in rupees). Calculate the total and the % in each category. Is this the allocation you intended? Does it match your risk tolerance? If equity is over 80% of your portfolio and you're over 45, that is worth examining. If debt is over 60% and you're under 35, you may be leaving significant returns on the table."
+          }
+        },
+        {
+          "id": "rebalancing",
+          "title": "Rebalancing: when, why, and how to do it without panic",
+          "content": {
+            "heroStat": "1×/year",
+            "heroLabel": "once a year is all it takes to rebalance — the discipline that mechanically forces you to sell high and buy low",
+            "intro": "Rebalancing is the act of returning your portfolio to its target allocation after markets have moved it away. If you set a 70/30 equity/debt split and equities surge, your portfolio drifts to 80/20. Rebalancing sells some equity and buys debt to restore the 70/30. It sounds boring — but it is the one habit that enforces 'sell high, buy low' automatically, without any prediction or emotion.",
+            "keyPoints": [
+              "Why rebalance: market movements drift your allocation — a bull run silently increases your equity exposure beyond your intended risk level",
+              "When to rebalance: calendar-based (once a year, same date) or threshold-based (any asset class drifts more than 5% from target). Annual is simpler and good enough for most investors.",
+              "How to rebalance: sell overweight asset, buy underweight — or redirect new investments into the underweight category to avoid triggering capital gains",
+              "Tax-smart rebalancing: use new SIP contributions to rebalance first (no tax event). Only sell existing holdings if the drift is large — and check if LTCG or STCG applies.",
+              "Rebalancing inside tax-sheltered accounts (PPF, NPS, EPF) is free — no capital gains implications. Do it there first.",
+              "Emotional benefit: rebalancing gives you a structured reason to buy when markets are down and sell when they are up — the opposite of what most investors instinctively do"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "No rebalancing",
+                "approach": "Started 70/30 equity/debt, never touched it",
+                "startAmount": "₹10L at 70/30",
+                "endAmount": "Became 88/12 after 5-year bull run",
+                "duration": "5 years",
+                "outcome": "Far more risk than intended. When the crash came, fell harder than planned. No 'sell high' ever happened.",
+                "positive": false
+              },
+              "right": {
+                "name": "Annual rebalancer",
+                "approach": "Checks every April, restores to 70/30",
+                "startAmount": "₹10L at 70/30",
+                "endAmount": "Stays near 70/30 throughout",
+                "duration": "5 years",
+                "outcome": "Sold equity near highs, bought debt near lows — mechanically. Lower volatility. Slept better through crashes.",
+                "positive": true
+              }
+            },
+            "tip": "Set a calendar reminder every April 1st — the start of the financial year — to review and rebalance. Check your actual equity/debt/gold split vs. your target. If any asset class is more than 5% above its target, trim it and redeploy into what's underweight. Do this in 30 minutes and ignore the portfolio for the rest of the year.",
+            "funFact": "A study of Indian mutual fund investors found that those who rebalanced annually had 1.5–2% higher effective returns than those who never rebalanced — not because they timed anything, but simply because rebalancing forced them to systematically buy during corrections and reduce risk before crashes. The discipline itself was the alpha.",
+            "action": "Pull up your portfolio right now. Calculate your current allocation: total equity value, total debt value, total gold value. What's the percentage split? Compare to your target allocation. If anything is more than 5% off target, note what you need to sell and buy. Don't act immediately — check if it's STCG or LTCG first. Then schedule the actual rebalancing for the weekend."
+          }
+        },
+        { "id": "correlation-diversification", "title": "Correlation and diversification: why not all assets move together", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced & Mindset",
+      "icon": "🧠",
+      "topics": [
+        {
+          "id": "stcg-ltcg-equity",
+          "title": "Taxation: STCG and LTCG on equity",
+          "content": {
+            "heroStat": "12 months",
+            "heroLabel": "hold equity beyond 12 months and your tax rate drops from 20% to 12.5% — the most valuable holding rule in investing",
+            "intro": "The government taxes your equity profits differently depending on how long you held the investment. This one rule — the 12-month threshold — can save you significant money every year purely through timing. Understanding STCG and LTCG is not optional for any serious investor; it is the difference between keeping your gains and handing a chunk to the government unnecessarily.",
+            "keyPoints": [
+              "STCG (Short-Term Capital Gain): profit from equity or equity mutual funds held for 12 months or less — taxed at 20% (revised in Budget 2024, was 15%)",
+              "LTCG (Long-Term Capital Gain): profit from equity or equity mutual funds held for more than 12 months — taxed at 12.5% (revised in Budget 2024, was 10%)",
+              "LTCG exemption: first ₹1.25 lakh of LTCG per financial year is completely tax-free (revised from ₹1 lakh in Budget 2024)",
+              "No indexation on equity LTCG — indexation (adjusting for inflation) applies only to certain non-equity assets",
+              "STT (Securities Transaction Tax): 0.1% levied on every delivery equity trade automatically — separate from capital gains tax, non-negotiable",
+              "Tax harvesting: sell enough each March to realise up to ₹1.25L in LTCG tax-free, immediately reinvest — legally resets cost basis, saves up to ₹15,625 in tax every single year"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Sold at 11 months",
+                "approach": "STCG — ₹2L profit on equity",
+                "startAmount": "Cost: ₹5,00,000",
+                "endAmount": "Value: ₹7,00,000",
+                "duration": "Held 11 months",
+                "outcome": "Pays ₹40,000 in STCG tax at 20%. Saved nothing by selling early.",
+                "positive": false
+              },
+              "right": {
+                "name": "Waited to 13 months",
+                "approach": "LTCG — same ₹2L profit on equity",
+                "startAmount": "Cost: ₹5,00,000",
+                "endAmount": "Value: ₹7,00,000",
+                "duration": "Held 13 months",
+                "outcome": "₹1.25L exempt. Pays 12.5% on remaining ₹75,000 = ₹9,375. Saved ₹30,625 by waiting 2 months.",
+                "positive": true
+              }
+            },
+            "tip": "Before selling any equity investment, always check the purchase date. If you're within 4–6 weeks of the 12-month mark, it almost always makes sense to wait. The combined benefit of the lower 12.5% rate plus the ₹1.25L annual exemption can save ₹30,000–₹50,000 on meaningful positions.",
+            "funFact": "LTCG tax on listed equity was zero in India from 2004 all the way to 2018 — 14 years of completely tax-free long-term equity gains. It was reintroduced in the 2018 Union Budget by Finance Minister Arun Jaitley. The grandfathering clause protected gains up to January 31, 2018 — but from that date forward, LTCG has been taxable.",
+            "action": "Log into your Demat or mutual fund account. Find your longest-held investment. Note the purchase date and current unrealised gain. Is it STCG or LTCG? Calculate the tax at both rates. Now check: have you realised any LTCG this financial year? If it is under ₹1.25 lakh, you still have free headroom — consider harvesting gains before March 31st and reinvesting to reset your cost basis."
+          }
+        },
+        { "id": "stcg-ltcg-debt-gold", "title": "Taxation: STCG and LTCG on debt instruments and gold", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "80c-80ccd-80d",
+          "title": "Section 80C, 80CCD, and 80D: maximizing your tax deductions",
+          "content": {
+            "heroStat": "₹2L+",
+            "heroLabel": "in annual tax deductions available to every salaried Indian under the old regime — most claim less than half",
+            "intro": "The Income Tax Act gives you several legal routes to reduce your taxable income — and therefore your tax bill. Sections 80C, 80CCD(1B), and 80D are the three most powerful and accessible ones for salaried Indians. Together they can shield over ₹2 lakh of income from tax every year. Most people only partially use 80C and leave the rest completely untouched.",
+            "keyPoints": [
+              "Section 80C (up to ₹1.5L): EPF, PPF, ELSS, life insurance premium, home loan principal repayment, tuition fees, NSC, tax-saving FD, Sukanya Samriddhi — all count",
+              "Section 80CCD(1B) (additional ₹50,000): NPS contributions over and above the 80C limit — this is extra, not shared with 80C",
+              "Section 80D (up to ₹25,000): health insurance premium for self, spouse, and children. Up to ₹50,000 if you or your parents are senior citizens. Plus ₹5,000 for preventive check-ups within this limit",
+              "These deductions apply only under the Old Tax Regime — the New Regime offers lower slab rates but eliminates all 80C/80D deductions",
+              "Deductions reduce taxable income, not tax directly: ₹1.5L in 80C saves ₹46,800 in the 30% bracket, ₹31,200 in 20%, or ₹15,600 in 10%",
+              "Employer's NPS contribution (Section 80CCD(2)) is deductible separately — no cap under 80C — available even under the new tax regime"
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Partial claimer",
+                "approach": "Only EPF + LIC = ₹80,000 of 80C used",
+                "startAmount": "Taxable income: ₹12,00,000",
+                "endAmount": "Pays tax on ₹11,20,000",
+                "duration": "One financial year",
+                "outcome": "Leaves ₹70,000 of 80C unused, claims no 80CCD(1B) or 80D. Pays ~₹37,000 extra tax unnecessarily.",
+                "positive": false
+              },
+              "right": {
+                "name": "Full optimizer",
+                "approach": "80C (₹1.5L) + NPS 80CCD(1B) (₹50K) + 80D health insurance (₹25K)",
+                "startAmount": "Taxable income: ₹12,00,000",
+                "endAmount": "Pays tax on ₹9,75,000",
+                "duration": "One financial year",
+                "outcome": "Saves ₹1.02 lakh in tax legally. That's ₹1.02 lakh compounding in investments instead of going to the government.",
+                "positive": true
+              }
+            },
+            "tip": "The 80CCD(1B) NPS deduction is the most overlooked deduction in India. Opening an NPS Tier 1 account and contributing ₹50,000 saves ₹15,600 in tax at the 30% bracket — while simultaneously building a retirement corpus at market-linked returns. It is free money for disciplined investors.",
+            "funFact": "India has over 95 million income tax filers, but a large proportion do not fully utilise their Section 80C limit. At the 30% tax rate, every unused rupee of 80C allowance costs you 31.2 paise (including cess) in unnecessary tax. On the full ₹1.5L limit, that's ₹46,800 paid to the government that could have stayed in your pocket and compounded.",
+            "action": "Do this calculation now: add up all your current 80C investments (EPF deduction on salary slip + LIC annual premium + PPF deposit + ELSS SIP × 12). Subtract from ₹1.5L. That gap is what you're not using. Then check if you have a health insurance policy for yourself and your parents — if yes, the premium qualifies for 80D. If no policy exists, getting one serves double duty: protection + tax saving."
+          }
+        },
+        { "id": "tax-harvesting", "title": "Tax harvesting: how to legally reduce your capital gains tax", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "form-26as-ais", "title": "Understanding Form 26AS and AIS for investment income", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "pms", "title": "Portfolio Management Services (PMS): minimum ticket, strategies, and fees", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "aif", "title": "Alternative Investment Funds (AIF): Category I, II, and III", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "unlisted-shares", "title": "Unlisted shares and pre-IPO investing: opportunity and illiquidity risk", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "startup-investing", "title": "Startup investing and angel networks: how retail investors can participate", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "p2p-lending", "title": "Peer-to-peer (P2P) lending platforms in India: returns and default risk", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "fractional-real-estate", "title": "Fractional real estate platforms: Strata, hBits, and how they work", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "reits", "title": "REITs in India: Embassy, Mindspace, Brookfield — distributions and taxation", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "invits", "title": "InvITs: infrastructure investment trusts and their yield mechanics", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "direct-real-estate", "title": "Direct real estate investing: residential vs. commercial", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "gold-comparison", "title": "Gold: physical, digital, ETF, and Sovereign Gold Bond compared", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        { "id": "commodities-trading", "title": "Commodities trading in India: MCX and how retail investors can access it", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "behavioral-biases",
+          "title": "Behavioral biases: recency bias, herd mentality, and loss aversion",
+          "content": {
+            "heroStat": "2×",
+            "heroLabel": "the pain of a loss feels twice as intense as the pleasure of an equivalent gain — this asymmetry is why most investors make poor decisions",
+            "intro": "The biggest threat to your wealth is not a market crash, a bad fund, or rising inflation. It is your own brain. Decades of behavioural finance research show that humans are systematically irrational when it comes to money — and these predictable errors cost investors more than any market downturn. Knowing the biases by name is the first step to overcoming them.",
+            "keyPoints": [
+              "Loss aversion: losses feel psychologically twice as powerful as equivalent gains. This causes investors to hold losing stocks too long and sell winners too early — exactly backwards.",
+              "Recency bias: we assume the recent past will continue indefinitely. Markets up 30% → 'it will keep rising.' Markets down 20% → 'it will keep falling.' Both are wrong most of the time.",
+              "Herd mentality: we feel safe doing what everyone else is doing — buying NFOs in a bull market, panic-selling in a crash. The herd is usually wrong at extremes.",
+              "Confirmation bias: we seek information that confirms our existing view and ignore contradicting evidence. Bullish on a stock? You'll find reasons to stay bullish even as it deteriorates.",
+              "Anchoring: fixating on a specific price — 'I'll sell when it gets back to ₹500' — prevents rational decision-making based on current fundamentals.",
+              "Action bias: the urge to 'do something' when markets move. Most of the time, the best action is no action — but inactivity feels psychologically uncomfortable."
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Bias-driven investor",
+                "approach": "Follows gut, news, and friends' tips",
+                "startAmount": "₹5,00,000",
+                "endAmount": "Bought NFOs at market top, panic-sold in crash",
+                "duration": "5-year market cycle",
+                "outcome": "Bought high out of FOMO, sold low out of fear. Underperformed the index by 6–8% annually. Lost money in a rising market.",
+                "positive": false
+              },
+              "right": {
+                "name": "System-driven investor",
+                "approach": "SIP on fixed date, rebalance once a year, ignore news",
+                "startAmount": "₹5,00,000",
+                "endAmount": "Matched or beat index returns",
+                "duration": "5-year market cycle",
+                "outcome": "Did nothing during crashes. Added more via SIP automatically. Boring — and dramatically more profitable.",
+                "positive": true
+              }
+            },
+            "tip": "Build a system that removes decisions. Automate your SIP so you never decide whether to invest each month. Set your asset allocation once a year. Write down your investment rules before a crisis hits — so when fear is high, you follow the rules instead of your emotions. The goal is to make good investing boring.",
+            "funFact": "Daniel Kahneman and Amos Tversky's research on loss aversion won the 2002 Nobel Prize in Economics. Their work showed that humans feel the pain of a ₹10,000 loss roughly as intensely as the pleasure of a ₹20,000 gain. This is why investors hold loss-making stocks for years ('I'll wait till it recovers') while selling winners quickly ('I'll lock in the profit before it falls').",
+            "action": "Think about the last investment decision you made impulsively — during a market crash, after a friend's tip, or when you saw a fund return of 40%. Which bias was driving it? Write down three investment rules you will follow regardless of market conditions: for example, 'I will not stop my SIP when markets fall', 'I will not invest in any product I cannot explain in one sentence', 'I will rebalance once a year and not check my portfolio more than quarterly.'"
+          }
+        },
+        { "id": "media-and-noise", "title": "The role of media and noise: how to filter signal from hype", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "common-mistakes",
+          "title": "Common mistakes Indian retail investors make",
+          "content": {
+            "heroStat": "6–8%",
+            "heroLabel": "annual return gap between what markets delivered and what the average Indian retail investor actually earned — due to avoidable mistakes",
+            "intro": "The Indian stock market has delivered 12–14% CAGR over the long term. Yet the average retail investor earns significantly less — not because of bad luck, but because of a predictable set of repeated mistakes. These are not rare errors. They are systematic, well-documented, and entirely avoidable once you know what to look for.",
+            "keyPoints": [
+              "Chasing recent performance: buying last year's top-performing fund or sector — right when it is most likely to revert to the mean. Past 1-year returns are the worst predictor of future returns.",
+              "Too many funds: owning 15 different mutual funds does not mean 15x diversification — most large-cap funds hold the same 30 stocks. Overlap kills returns and creates confusion.",
+              "Stopping SIPs during crashes: the worst time to stop a SIP is when markets are down — that is precisely when you are buying units cheapest. Pausing then is locking in the loss.",
+              "Investing without an emergency fund: forced to redeem investments at market lows to cover a job loss or medical emergency — because there was no liquid buffer.",
+              "Mixing insurance and investment: ULIPs and endowment plans give poor returns on investment and inadequate insurance coverage. Buy term insurance and invest separately.",
+              "Ignoring expense ratios and taxes: a 1% higher expense ratio and 20% STCG instead of 12.5% LTCG silently compound against you for decades."
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Mistake-prone investor",
+                "approach": "Buys trending sectors, 12 overlapping funds, stops SIP in crash",
+                "startAmount": "₹5,000/month SIP for 10 years",
+                "endAmount": "~7% effective CAGR",
+                "duration": "10 years",
+                "outcome": "Earned ₹8.7L on ₹6L invested. The index returned 12%. The gap was entirely self-inflicted.",
+                "positive": false
+              },
+              "right": {
+                "name": "Disciplined investor",
+                "approach": "2 index funds, uninterrupted SIP, rebalances annually",
+                "startAmount": "₹5,000/month SIP for 10 years",
+                "endAmount": "~12% effective CAGR",
+                "duration": "10 years",
+                "outcome": "Earned ₹11.6L on ₹6L invested. Same market, same period — ₹2.9L more from avoiding mistakes.",
+                "positive": true
+              }
+            },
+            "tip": "The simplest portfolio that beats most retail investors: one Nifty 50 index fund + one short-duration debt fund. Add a Nifty Next 50 if you want more growth exposure. Three funds, annual rebalancing, uninterrupted SIP. Boring, proven, and devastatingly effective over 15+ years.",
+            "funFact": "SEBI's investor survey found that over 60% of retail investors who traded in the equity derivatives (F&O) segment lost money — and the average loss was ₹1.1 lakh per year. Yet F&O trading volumes in India are among the highest in the world, driven largely by retail participation. The most common mistake is confusing speculation with investing.",
+            "action": "Audit your portfolio for the six mistakes above. Count how many mutual funds you own — if it is more than 5, check for overlap at portfoliooverlap.com. Check if any funds are 'Regular' plan. Check if you have an endowment or ULIP policy — calculate the effective return vs. a term plan + index fund combination. One mistake fixed today can be worth lakhs over the next decade."
+          }
+        },
+        {
+          "id": "investment-policy-statement",
+          "title": "How to build and stick to an investment policy statement (IPS)",
+          "content": {
+            "heroStat": "1 page",
+            "heroLabel": "is all it takes — one written page of your investment rules that will protect you from yourself in every market crisis",
+            "intro": "An Investment Policy Statement (IPS) is a written document — it can be one page — that defines your financial goals, risk tolerance, target asset allocation, and the rules you will follow as an investor. Institutional investors like pension funds and endowments have used IPS for decades. For retail investors, it serves one critical purpose: when markets crash and panic sets in, you follow the document instead of your emotions.",
+            "keyPoints": [
+              "Goal clarity: your IPS states exactly what you are investing for — retirement at 55 with ₹5 crore, children's education in 12 years, a home down payment in 4 years. Vague goals lead to vague behaviour.",
+              "Target allocation: your intended split across equity, debt, and gold — e.g. 65% equity / 25% debt / 10% gold — and the acceptable drift range before rebalancing (e.g. ±5%)",
+              "Rules for adding money: when and how much you invest — monthly SIP amounts, step-up schedule, what to do with annual bonuses",
+              "Rules for removing money: under what conditions you will withdraw — and a commitment that a market crash is NOT one of those conditions",
+              "Fund selection criteria: the principles you use to pick instruments — e.g. only direct plans, only index funds for equity, no single stock above 5% of portfolio",
+              "Review schedule: when you review your IPS — annually, and only after a major life event (marriage, child, job change, inheritance)"
+            ],
+            "example": "A simple IPS might say:\n\n'Goal: retire at 58 with ₹4 crore in today's money. Time horizon: 22 years.\nAllocation: 70% equity (Nifty 50 + Nifty Next 50 index funds, direct plan) / 20% debt (PPF + short-duration fund) / 10% gold (SGB).\nSIP: ₹15,000/month, increase by ₹2,000 every April.\nRebalance: every April 1st if any asset class drifts >5%.\nI will not stop my SIP during market crashes. I will not check my portfolio more than once a quarter.'",
+            "tip": "Write your IPS when markets are calm and you are thinking clearly — not during a crash when emotions are high. The document's entire value is that it was written by your rational self and speaks to your panicked future self. Keep it somewhere you will actually find it: a Google Doc, your notes app, or pinned inside your investment folder.",
+            "funFact": "Yale University's endowment fund — one of the world's most successful, averaging 13.7% annual returns over 30 years — operates entirely from a strict investment policy statement that has remained largely unchanged for decades. The discipline of the written policy, not brilliant market timing, is the primary driver of its legendary performance.",
+            "action": "Write your own IPS today — it should take 20 minutes. Open a Google Doc or notes app. Write: (1) your primary financial goal and target amount, (2) your target asset allocation in percentages, (3) your monthly SIP amount and step-up plan, (4) your rebalancing rule, (5) three things you commit NOT to do during a market crash. Save it. Share it with your spouse if relevant. Revisit it every April."
+          }
+        },
+        {
+          "id": "investment-philosophy",
+          "title": "Building your complete investment philosophy: principles for life",
+          "content": {
+            "heroStat": "Day 30",
+            "heroLabel": "you now know more about investing than 95% of Indians — what matters from here is what you do with it",
+            "intro": "You have spent 30 days building a foundation that most Indians never develop in a lifetime. But knowledge without a philosophy is just information. An investment philosophy is the set of core beliefs and principles that guide every financial decision you make — in bull markets and bear markets, in abundance and in scarcity, for the next 30 years. This is what separates investors who build lasting wealth from those who perpetually start over.",
+            "keyPoints": [
+              "Simplicity compounds: a simple portfolio with low costs, held consistently for decades, beats complex strategies almost every time. Complexity is usually sold — not discovered.",
+              "Time is the asset, not money: a 25-year-old with ₹5,000/month is richer in the thing that matters most — time — than a 45-year-old with ₹50,000/month. Never waste years waiting to start.",
+              "Markets will always recover — but only if you stay invested: every crash in Indian market history has been followed by new highs. The only investors who permanently lost money were those who sold during the crash.",
+              "Your savings rate matters more than your return rate: going from a 10% to 12% return is hard — going from saving 15% of income to 25% is entirely within your control. Focus on what you can control.",
+              "Avoid ruin at all costs: the one unrecoverable mistake is leverage on volatile assets, concentrated bets that can go to zero, or confusing speculation with investing. High returns from high risk are meaningless if one bad year wipes out a decade of gains.",
+              "Wealth is not a destination — it is a practice: the habits you have built in these 30 days — tracking net worth, automating SIPs, rebalancing annually, reading before investing — are what sustain long-term wealth."
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Without a philosophy",
+                "approach": "Reacts to news, tips, and market moves",
+                "startAmount": "Same income, same starting capital",
+                "endAmount": "Constantly restarting, never compounding",
+                "duration": "20 years",
+                "outcome": "Perpetually optimising — switching funds, timing markets, chasing themes. High activity, low results. No compounding ever takes hold.",
+                "positive": false
+              },
+              "right": {
+                "name": "With a philosophy",
+                "approach": "Clear goals, written rules, boring execution",
+                "startAmount": "Same income, same starting capital",
+                "endAmount": "30 years of uninterrupted compounding",
+                "duration": "20 years",
+                "outcome": "Did less, earned more. The philosophy removed decisions — and removed the space for costly mistakes. Wealth built quietly.",
+                "positive": true
+              }
+            },
+            "tip": "Write your personal investment manifesto — three to five sentences that capture your core beliefs about money and investing. Read it once a year, or whenever you feel the urge to make an impulsive financial decision. The most powerful investment tool is a clear, written philosophy that you actually believe in.",
+            "funFact": "Warren Buffett has compounded at roughly 20% per year for over 60 years — not through complex derivatives, not through insider information, but through a simple philosophy: buy great businesses at fair prices and hold them for decades. His philosophy has not changed materially since the 1960s. The consistency of the philosophy is as important as the philosophy itself.",
+            "action": "Write your investment manifesto today. Five sentences maximum. What do you believe about money? What kind of investor do you want to be? What will you never do? What will you always do? Then take one concrete action in the next 48 hours: open that index fund SIP you have been meaning to start, consolidate your old EPF, open a PPF account, or write your IPS. The 30 days of learning mean nothing without the first action. Start now."
+          }
+        }
+      ]
+    }
+  ]
+}
