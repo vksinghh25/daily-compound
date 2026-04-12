@@ -87,8 +87,28 @@ export default function Sidebar({
             const isDone = completedTopics.has(topicId);
             const fullTitle = topicMap[topicId] ?? topicId;
             const colonIdx = fullTitle.indexOf(":");
-            const headline = colonIdx !== -1 ? fullTitle.slice(0, colonIdx).trim() : fullTitle;
-            const subtitle = colonIdx !== -1 ? fullTitle.slice(colonIdx + 1).trim() : null;
+
+            // Manual splits for titles without a colon
+            const manualSplits: Record<string, [string, string]> = {
+              "Time value of money and the magic of compounding": ["Time value of money", "and the magic of compounding"],
+              "Life stages and how your investment strategy should evolve": ["Life stages", "how your strategy should evolve"],
+              "Savings account optimization and auto-sweep facilities": ["Savings account optimisation", "and auto-sweep facilities"],
+              "Common mistakes Indian retail investors make": ["Common mistakes", "Indian retail investors make"],
+              "How to build and stick to an investment policy statement (IPS)": ["Investment policy statement", "how to build and stick to it"],
+            };
+
+            let headline: string;
+            let subtitle: string | null;
+
+            if (colonIdx !== -1) {
+              headline = fullTitle.slice(0, colonIdx).trim();
+              subtitle = fullTitle.slice(colonIdx + 1).trim();
+            } else if (manualSplits[fullTitle]) {
+              [headline, subtitle] = manualSplits[fullTitle];
+            } else {
+              headline = fullTitle;
+              subtitle = null;
+            }
 
             return (
               <button
