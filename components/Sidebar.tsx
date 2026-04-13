@@ -70,7 +70,7 @@ export default function Sidebar({
           <span className="text-2xl">💰</span>
           <div>
             <h1 className="text-white font-bold text-lg leading-tight">Daily Compounding</h1>
-            <p className="text-emerald-300 text-xs">Learn investing in 30 days</p>
+            <p className="text-emerald-300 text-xs">Learn investing — 30 days at a time</p>
           </div>
         </div>
       </button>
