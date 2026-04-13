@@ -64,7 +64,7 @@ export default function Sidebar({
         <div className="flex items-center gap-2">
           <span className="text-2xl">💰</span>
           <div>
-            <h1 className="text-white font-bold text-lg leading-tight">Daily Compound</h1>
+            <h1 className="text-white font-bold text-lg leading-tight">Daily Compounding</h1>
             <p className="text-emerald-300 text-xs">Learn investing in 30 days</p>
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function Sidebar({
       {/* Footer */}
       <div className="px-5 py-4 border-t border-white/10">
         <p className="text-emerald-400/60 text-xs text-center mb-2">
-          Daily Compound · Built for India
+          Daily Compounding · Built for India
         </p>
         <p className="text-white/25 text-xs text-center leading-snug">
           For educational purposes only. Not financial advice. Consult a SEBI-registered advisor before investing.

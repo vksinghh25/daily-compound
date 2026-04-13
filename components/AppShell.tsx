@@ -122,7 +122,7 @@ export default function AppShell({ sections, days }: AppShellProps) {
       <div className="md:hidden fixed inset-0 z-50 flex flex-col items-center justify-center px-8 text-center"
         style={{ background: "linear-gradient(160deg, #0d3a1e 0%, #1a6b3a 50%, #0d4a2a 100%)" }}>
         <span className="text-5xl mb-5">💰</span>
-        <h1 className="text-white text-2xl font-bold mb-3">Daily Compound</h1>
+        <h1 className="text-white text-2xl font-bold mb-3">Daily Compounding</h1>
         <p className="text-emerald-200 text-base leading-relaxed mb-6">
           This is a desktop-only experience for now. For the best experience, please open this on your laptop or computer.
         </p>

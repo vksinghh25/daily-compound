@@ -5,7 +5,7 @@ import "./globals.css";
 const sora = Sora({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"] });
 
 export const metadata: Metadata = {
-  title: "Daily Compound — Learn Investing in 30 Days",
+  title: "Daily Compounding — Learn Investing in 30 Days",
   description:
     "Spend 10–15 minutes a day for 30 days and go from financial beginner to confident investor. Free, jargon-free, built for India.",
 };

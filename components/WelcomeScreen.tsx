@@ -19,7 +19,7 @@ export default function WelcomeScreen({ totalTopics, onStart }: WelcomeScreenPro
     <div className="max-w-2xl mx-auto px-6 py-16 text-center">
       <div className="text-6xl mb-4">💰</div>
       <h1 className="text-4xl font-bold text-gray-900 mb-3">
-        Welcome to <span style={{ color: "#1D9E75" }}>Daily Compound</span>
+        Welcome to <span style={{ color: "#1D9E75" }}>Daily Compounding</span>
       </h1>
       <p className="text-gray-500 text-lg mb-10 leading-relaxed">
         10–15 minutes a day. 30 days. Go from financial beginner to confident investor —
@@ -57,7 +57,7 @@ export default function WelcomeScreen({ totalTopics, onStart }: WelcomeScreenPro
 
       {/* Disclaimer */}
       <p className="mt-10 text-xs text-gray-400 leading-relaxed max-w-md mx-auto">
-        <span className="font-semibold text-gray-500">Disclaimer:</span> Daily Compound is for educational purposes only. Nothing on this site constitutes financial advice. Please consult a SEBI-registered investment advisor before making any investment decisions.
+        <span className="font-semibold text-gray-500">Disclaimer:</span> Daily Compounding is for educational purposes only. Nothing on this site constitutes financial advice. Please consult a SEBI-registered investment advisor before making any investment decisions.
       </p>
     </div>
   );
