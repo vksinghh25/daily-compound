@@ -25,6 +25,7 @@ interface SidebarProps {
   activeTopic: string | null;
   completedTopics: Set<string>;
   onSelectTopic: (topicId: string) => void;
+  onHome: () => void;
 }
 
 export default function Sidebar({
@@ -33,6 +34,7 @@ export default function Sidebar({
   activeTopic,
   completedTopics,
   onSelectTopic,
+  onHome,
 }: SidebarProps) {
   const topicMap: Record<string, string> = {};
   for (const section of sections) {
@@ -60,7 +62,10 @@ export default function Sidebar({
       }}
     >
       {/* Brand */}
-      <div className="px-5 py-4 border-b border-white/10">
+      <button
+        onClick={onHome}
+        className="px-5 py-4 border-b border-white/10 text-left w-full transition-opacity hover:opacity-80"
+      >
         <div className="flex items-center gap-2">
           <span className="text-2xl">💰</span>
           <div>
@@ -68,7 +73,7 @@ export default function Sidebar({
             <p className="text-emerald-300 text-xs">Learn investing in 30 days</p>
           </div>
         </div>
-      </div>
+      </button>
 
       {/* Day list */}
       <nav className="flex-1 px-3 py-4 overflow-y-auto">

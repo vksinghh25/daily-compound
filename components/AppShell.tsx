@@ -136,6 +136,7 @@ export default function AppShell({ sections, days }: AppShellProps) {
         activeTopic={activeTopic}
         completedTopics={completedTopics}
         onSelectTopic={setActiveTopic}
+        onHome={() => setActiveTopic(null)}
       />
 
       <div className="flex flex-col flex-1 overflow-hidden" style={{ marginLeft: "280px" }}>
@@ -143,7 +144,7 @@ export default function AppShell({ sections, days }: AppShellProps) {
 
         <main className="flex-1 overflow-y-auto">
           {!activeTopic || !activeTopicData ? (
-            <WelcomeScreen totalTopics={allTopics.length} onStart={handleStart} />
+            <WelcomeScreen totalTopics={allTopics.length} completedCount={progressCompleted} onStart={handleStart} />
           ) : (
             <TopicContent
               topic={activeTopicData}
