@@ -190,8 +190,13 @@ export default function TopicContent({
               <h2 className="text-base font-semibold text-gray-500 uppercase tracking-wider mb-3">
                 Real-World Example
               </h2>
-              <div className="rounded-xl p-5 bg-gray-50 border border-gray-200">
-                <p className="text-gray-700 leading-relaxed whitespace-pre-line text-sm">{content.example}</p>
+              <div className="rounded-2xl overflow-hidden border border-emerald-100">
+                <div className="px-5 py-3 border-b border-emerald-100" style={{ backgroundColor: "#f0faf6" }}>
+                  <p className="font-bold text-sm" style={{ color: "#1D9E75" }}>In Practice</p>
+                </div>
+                <div className="px-5 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed whitespace-pre-line text-sm">{content.example}</p>
+                </div>
               </div>
             </section>
           ) : null}
