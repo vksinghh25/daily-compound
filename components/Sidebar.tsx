@@ -67,7 +67,7 @@ export default function Sidebar({
         className="px-5 py-4 border-b border-white/10 text-left w-full transition-opacity hover:opacity-80"
       >
         <div className="flex items-center gap-2">
-          <span className="text-2xl">💰</span>
+          <span className="text-2xl">🗓️</span>
           <div>
             <h1 className="text-white font-bold text-lg leading-tight">Daily Compounding</h1>
             <p className="text-emerald-300 text-xs whitespace-nowrap">Learn investing — 30 days at a time</p>

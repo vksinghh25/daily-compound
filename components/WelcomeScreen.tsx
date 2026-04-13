@@ -14,7 +14,7 @@ export default function WelcomeScreen({ totalTopics, completedCount, onStart }: 
     <div className="max-w-3xl mx-auto px-6 py-14">
       {/* Header */}
       <div className="text-center mb-12">
-        <div className="text-5xl mb-4">💰</div>
+        <div className="text-5xl mb-4">🗓️</div>
         <h1 className="text-4xl font-bold text-gray-900 mb-3">
           Welcome to <span style={{ color: "#1D9E75" }}>Daily Compounding</span>
         </h1>
