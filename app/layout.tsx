@@ -7,7 +7,22 @@ const sora = Sora({ subsets: ["latin"], weight: ["400", "500", "600", "700", "80
 export const metadata: Metadata = {
   title: "Daily Compounding — Learn Investing in 30 Days",
   description:
-    "Spend 10–15 minutes a day for 30 days and go from financial beginner to confident investor. Free, jargon-free, built for India.",
+    "A free 30-day course built for India. Master investing basics — compounding, mutual funds, SIPs, stocks, and tax — in 10 minutes a day.",
+  metadataBase: new URL("https://dailycompound.in"),
+  openGraph: {
+    type: "website",
+    url: "https://dailycompound.in/",
+    siteName: "Daily Compounding",
+    title: "Daily Compounding — Learn Investing in 30 Days",
+    description:
+      "A free 30-day course built for India. Master investing basics — compounding, mutual funds, SIPs, stocks, and tax — in 10 minutes a day.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Daily Compounding — Learn Investing in 30 Days",
+    description:
+      "A free 30-day course built for India. Master investing basics — compounding, mutual funds, SIPs, stocks, and tax — in 10 minutes a day.",
+  },
 };
 
 export default function RootLayout({
