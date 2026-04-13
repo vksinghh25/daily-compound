@@ -1,5 +1,7 @@
 "use client";
 
+import React from "react";
+
 interface ComparisonSide {
   name: string;
   approach: string;
@@ -39,6 +41,30 @@ interface TopicContentProps {
   onMarkComplete: () => void;
   onMarkIncomplete: () => void;
   dayNumber?: number | null;
+}
+
+function ExampleText({ text }: { text: string }) {
+  const highlightPattern = /(₹[\d,.]+(?:\s*(?:lakh|crore|crores|lakhs|L|Cr))?|\d+(?:\.\d+)?%|\d+(?:\.\d+)?[×x]|\d+x)/g;
+
+  const renderParagraph = (para: string, pIdx: number) => {
+    const parts: (string | React.ReactElement)[] = [];
+    let lastIndex = 0;
+    const regex = new RegExp(highlightPattern.source, "g");
+    let match;
+    while ((match = regex.exec(para)) !== null) {
+      if (match.index > lastIndex) parts.push(para.slice(lastIndex, match.index));
+      parts.push(
+        <span key={match.index} className="font-bold" style={{ color: "#1D9E75" }}>
+          {match[0]}
+        </span>
+      );
+      lastIndex = match.index + match[0].length;
+    }
+    if (lastIndex < para.length) parts.push(para.slice(lastIndex));
+    return <p key={pIdx} className={`text-gray-700 text-sm leading-relaxed${pIdx > 0 ? " mt-3" : ""}`}>{parts}</p>;
+  };
+
+  return <>{text.split("\n\n").map(renderParagraph)}</>;
 }
 
 export default function TopicContent({
@@ -195,7 +221,7 @@ export default function TopicContent({
                   <p className="font-bold text-sm" style={{ color: "#1D9E75" }}>In Practice</p>
                 </div>
                 <div className="px-5 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed whitespace-pre-line text-sm">{content.example}</p>
+                  <ExampleText text={content.example} />
                 </div>
               </div>
             </section>
