@@ -31,6 +31,38 @@
     { "day": 29, "topicId": "investment-policy-statement" },
     { "day": 30, "topicId": "investment-philosophy" }
   ],
+  "daysIntermediate": [
+    { "day": 1,  "topicId": "recurring-deposits" },
+    { "day": 2,  "topicId": "post-office-savings-schemes" },
+    { "day": 3,  "topicId": "nsc" },
+    { "day": 4,  "topicId": "scss" },
+    { "day": 5,  "topicId": "vpf" },
+    { "day": 6,  "topicId": "nps-basics" },
+    { "day": 7,  "topicId": "nps-allocation" },
+    { "day": 8,  "topicId": "sukanya-samriddhi" },
+    { "day": 9,  "topicId": "rbi-retail-direct" },
+    { "day": 10, "topicId": "treasury-bills" },
+    { "day": 11, "topicId": "government-bonds" },
+    { "day": 12, "topicId": "corporate-bonds" },
+    { "day": 13, "topicId": "credit-ratings" },
+    { "day": 14, "topicId": "bond-pricing-yield" },
+    { "day": 15, "topicId": "rbi-floating-rate-bonds" },
+    { "day": 16, "topicId": "ncds" },
+    { "day": 17, "topicId": "debt-mf-overnight-liquid" },
+    { "day": 18, "topicId": "debt-mf-ultra-short" },
+    { "day": 19, "topicId": "debt-mf-short-medium" },
+    { "day": 20, "topicId": "debt-mf-gilt" },
+    { "day": 21, "topicId": "debt-mf-credit-risk" },
+    { "day": 22, "topicId": "debt-mf-taxation" },
+    { "day": 23, "topicId": "sebi" },
+    { "day": 24, "topicId": "demat-trading-account" },
+    { "day": 25, "topicId": "contract-note-settlement" },
+    { "day": 26, "topicId": "order-types" },
+    { "day": 27, "topicId": "reading-stock-quote" },
+    { "day": 28, "topicId": "stock-indices" },
+    { "day": 29, "topicId": "ipos" },
+    { "day": 30, "topicId": "growth-vs-idcw" }
+  ],
   "sections": [
     {
       "id": "foundations",
@@ -444,10 +476,170 @@
             "action": "List every FD you currently hold: which bank, what rate, when it matures. If you don't have any, decide what amount you'd like to lock away for 1 year and look up today's best rates on Paisabazaar.com. Compare your bank's rate vs. AU Small Finance Bank or Ujjivan SFB. The 1–2% difference on ₹2 lakh is ₹2,000–₹4,000 more per year, every year."
           }
         },
-        { "id": "recurring-deposits", "title": "Recurring deposits: disciplined saving with guaranteed returns", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "post-office-savings-schemes", "title": "Post Office Savings Schemes: MIS, TD, and RD", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "nsc", "title": "National Savings Certificate (NSC): lock-in and tax treatment", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "scss", "title": "Senior Citizen Savings Scheme (SCSS)", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "recurring-deposits",
+          "title": "Recurring deposits: disciplined saving with guaranteed returns",
+          "content": {
+            "heroStat": "6.7–7.5%",
+            "heroLabel": "Current RD interest rates — better than a savings account, locked in for the full tenure the moment you open it",
+            "intro": "A Recurring Deposit is the simplest forced-savings habit you can build. Every month, a fixed amount is automatically deducted from your savings account and earns bank-guaranteed interest — just like an FD, but paid in monthly installments. If you struggle to invest a lump sum, RDs let you build a corpus ₹500 at a time.",
+            "keyPoints": [
+              "Tenure: 6 months to 10 years. The interest rate is fixed at the time of opening — it doesn't change even if bank rates fall later",
+              "Interest is compounded quarterly and paid out at maturity. Tax is not deducted at source unless total interest across all RDs at one bank exceeds ₹40,000/year (₹50,000 for seniors)",
+              "Interest earned is fully taxable as income — added to your taxable income for the year it accrues, regardless of whether you've received it yet",
+              "Premature closure allowed after 1–3 months (varies by bank), with a penalty of 0.5–1% below the contracted rate",
+              "Small Finance Banks (AU SFB, Ujjivan, ESAF) offer 7.5–9% on RDs — covered by DICGC insurance up to ₹5 lakh per bank",
+              "Post Office RD: 6.7% p.a. compounded quarterly, 5-year tenure, sovereign-guaranteed with no bank default risk"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Savings Account",
+                "approach": "Deposits ₹5,000/month — same cadence, no lock-in",
+                "startAmount": "₹5,000/month for 2 years",
+                "endAmount": "~₹1,24,500",
+                "duration": "2 years",
+                "outcome": "Earns ~3.5% on average balance. Easy to dip into. Interest is low and the habit often breaks.",
+                "positive": false
+              },
+              "right": {
+                "name": "RD at 7%",
+                "approach": "Same ₹5,000/month auto-debited, rate locked in",
+                "startAmount": "₹5,000/month for 2 years",
+                "endAmount": "~₹1,29,500",
+                "duration": "2 years",
+                "outcome": "Earns ₹9,500 in interest — 2× more than savings account. The forced lock-in prevents impulsive withdrawals.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Use RDs for a specific goal with a defined time horizon — a vacation in 18 months, a gadget, your annual insurance premium. The forced cadence makes it a commitment, not just an account you forget to top up.",
+            "funFact": "India has over 30 crore RD accounts — it is one of the most widely held financial products in the country. Yet most holders don't know that Post Office RDs can be extended in 5-year blocks indefinitely, effectively making it a perpetual monthly savings vehicle with sovereign backing.",
+            "action": "Log into your net banking and open an RD right now — most banks let you do it in under 3 clicks. Pick a tenure that matches a specific goal. Set the monthly amount to something painless: even ₹1,000/month at 7% for 3 years becomes ₹40,000+ at maturity. If you want higher rates, compare AU Small Finance Bank or Ujjivan SFB against your current bank."
+          }
+        },
+        {
+          "id": "post-office-savings-schemes",
+          "title": "Post Office Savings Schemes: MIS, TD, and RD",
+          "content": {
+            "heroStat": "7.4%",
+            "heroLabel": "Post Office Monthly Income Scheme rate — paid every month, government-guaranteed, no market risk",
+            "intro": "India Post runs a family of savings schemes that most urban investors overlook in favour of banks. These instruments are backed directly by the Government of India — safer than any private bank — and often offer higher rates. They cater to specific needs: regular monthly income, tax-efficient compounding, and long-term capital safety.",
+            "keyPoints": [
+              "Monthly Income Scheme (MIS): deposit a lump sum, earn 7.4% p.a. paid every month. Limit: ₹9 lakh (single), ₹15 lakh (joint). 5-year lock-in. No TDS but interest is taxable",
+              "Post Office Time Deposit (TD): identical to a bank FD. Rates — 1-yr: 6.9%, 2-yr: 7.0%, 3-yr: 7.1%, 5-yr: 7.5%. The 5-year TD is the only FD-type product that qualifies for 80C deduction",
+              "Post Office RD: 6.7% for 5 years, compounded quarterly. Can be opened for minors. Minimum ₹100/month",
+              "All Post Office schemes are sovereign-guaranteed — backed by the Government of India, not DICGC. There is no ₹5 lakh cap — the entire amount is protected",
+              "Accounts can be opened at any of India's 1.65 lakh post offices, via IPPB (India Post Payments Bank), or through the India Post Mobile Banking app",
+              "Interest rates are reviewed quarterly by the government and are often 0.25–0.5% above equivalent bank rates"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Bank FD",
+                "approach": "3-year FD at 7.0%, quarterly payout, TDS on interest",
+                "startAmount": "₹9,00,000 lump sum",
+                "endAmount": "~₹10,89,000 pre-tax",
+                "duration": "3 years",
+                "outcome": "TDS deducted. Interest is good but rate is lower, and deposits above ₹5L carry some bank risk.",
+                "positive": false
+              },
+              "right": {
+                "name": "Post Office MIS at 7.4%",
+                "approach": "Monthly income of ₹5,550 directly to savings account, no TDS",
+                "startAmount": "₹9,00,000 lump sum",
+                "endAmount": "₹3,33,000 interest over 5 years",
+                "duration": "5 years",
+                "outcome": "Higher rate, monthly cash flow, no TDS deducted, and 100% government-guaranteed regardless of amount.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "If you need regular income from a lump sum — retired, freelancer, or on sabbatical — the Post Office MIS is one of the best structured instruments available. The ₹9L single / ₹15L joint limit is the main constraint. Couples can split a ₹15L deployment between two individual accounts for maximum coverage.",
+            "funFact": "Post Office Small Savings Schemes collectively manage over ₹15 lakh crore. Many rural Indians have never had a bank account but have had a Post Office savings account for generations. The scheme predates India's banking system as we know it — some accounts trace back to the British postal savings system introduced in 1882.",
+            "action": "Look up current Post Office savings rates at indiapost.gov.in under 'Financial Services'. If you or a family member has ₹1–5 lakh sitting in a savings account earning 3.5%, calculate what MIS or TD would earn instead. The gap on ₹3 lakh is ₹11,700+ extra per year — every year — with zero additional risk."
+          }
+        },
+        {
+          "id": "nsc",
+          "title": "National Savings Certificate (NSC): lock-in and tax treatment",
+          "content": {
+            "heroStat": "7.7%",
+            "heroLabel": "NSC interest rate (2024–25) — government-guaranteed, with a built-in 80C deduction on both investment and reinvested interest",
+            "intro": "The National Savings Certificate is a fixed-income instrument issued by India Post. It's like a government bond made accessible to every Indian — no demat account, no market risk, and a built-in tax deduction. NSC is particularly powerful for people in the 30% tax bracket who want guaranteed returns with a tax shield but have already maxed out their PPF.",
+            "keyPoints": [
+              "Current rate: 7.7% p.a., compounded annually. Interest is reinvested automatically — you don't receive it yearly. The full amount (principal + compounded interest) is paid at maturity after 5 years",
+              "No maximum investment limit. Minimum ₹1,000. Available at any post office — in electronic form since 2016",
+              "Tax treatment: your investment qualifies for 80C deduction (up to ₹1.5L limit). The accrued interest each year is deemed reinvested and also qualifies for 80C for years 1–4",
+              "Year 5 interest is taxable as income but does NOT get 80C benefit — it's treated as received at maturity",
+              "NSC can be pledged as collateral for a bank loan — useful if you need liquidity in an emergency without breaking the investment",
+              "Transferable from one person to another (once) before maturity — allows gifting to family members"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Bank FD at 7.0%",
+                "approach": "30% tax bracket — interest paid annually and fully taxed",
+                "startAmount": "₹1,50,000 invested",
+                "endAmount": "~₹1,96,000 post-tax",
+                "duration": "5 years",
+                "outcome": "Effective post-tax yield drops to ~4.9%. Flexible but tax drag significantly erodes real returns.",
+                "positive": false
+              },
+              "right": {
+                "name": "NSC at 7.7%",
+                "approach": "80C on investment + reinvested interest each year",
+                "startAmount": "₹1,50,000 invested",
+                "endAmount": "~₹2,17,000 + ₹46,500 tax saved upfront",
+                "duration": "5 years",
+                "outcome": "Effective post-tax yield ~8.5% for 30% bracket. Each year's reinvested interest also reduces your 80C tax bill.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "NSC works best when you have unused 80C headroom after maxing PPF. The reinvested interest acting as additional 80C each year is a subtle benefit most people miss — it's effectively a deduction on a deduction. Track it: your NSC certificate (or IPPB account) shows accrued interest year by year — declare this in your ITR under 'Income from Other Sources' and simultaneously claim the 80C deduction.",
+            "funFact": "NSC was introduced in 1956 as one of the first instruments used by the Indian government to mobilize household savings for nation-building. For decades it was sold as a physical paper certificate — you could literally hold a government bond in your hand. Since 2016, NSC is available only in electronic form via India Post accounts, and the old physical certificates are no longer issued.",
+            "action": "If you have unused 80C capacity and have already maxed PPF, check whether NSC fits. On ₹50,000 invested, you recover ₹15,000 in tax savings immediately (30% bracket). Open an India Post savings account online at ippbonline.com or visit any post office — NSC can be bought in under 15 minutes."
+          }
+        },
+        {
+          "id": "scss",
+          "title": "Senior Citizen Savings Scheme (SCSS)",
+          "content": {
+            "heroStat": "8.2%",
+            "heroLabel": "SCSS interest rate (2024–25) — the highest guaranteed rate available to Indian retirees, paid quarterly by the government",
+            "intro": "The Senior Citizen Savings Scheme is the best guaranteed-return product available to anyone aged 60 or above. It offers 8.2% interest paid every quarter — higher than any major bank FD — with a direct government guarantee. For retirees who need predictable income and capital safety, SCSS is a cornerstone instrument.",
+            "keyPoints": [
+              "Eligibility: age 60+. Or 55–60 if retired under Voluntary Retirement Scheme (VRS) or superannuation. Defence personnel can invest from age 50+",
+              "Investment limit: minimum ₹1,000, maximum ₹30 lakh per individual. Couples can each hold ₹30 lakh individually — ₹60 lakh total household coverage",
+              "Interest: 8.2% p.a. paid quarterly on April 1, July 1, October 1, January 1 — directly into your linked savings account",
+              "Tenure: 5 years. Can be extended once for 3 more years within 1 year of maturity",
+              "Tax: investment qualifies for 80C deduction up to ₹1.5L. Interest is fully taxable. TDS applies if annual interest exceeds ₹50,000 (senior threshold)",
+              "Premature closure allowed: after 1 year with 1.5% penalty, after 2 years with 1% penalty. No penalty after the 5-year maturity"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Senior Citizen Bank FD",
+                "approach": "7.5% rate, quarterly payout, TDS deducted, ₹5L DICGC limit",
+                "startAmount": "₹30,00,000 deployed",
+                "endAmount": "₹2,25,000/year interest",
+                "duration": "5 years",
+                "outcome": "Safe, but 0.7% lower rate than SCSS. TDS reduces take-home. Bank default risk applies above ₹5L.",
+                "positive": false
+              },
+              "right": {
+                "name": "SCSS at 8.2%",
+                "approach": "Government-guaranteed quarterly income, 80C deduction on investment",
+                "startAmount": "₹30,00,000 deployed",
+                "endAmount": "₹2,46,000/year — ₹20,500/month",
+                "duration": "5 years",
+                "outcome": "₹21,000 more per year vs the bank FD. 100% government-guaranteed. Ideal retirement income foundation.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "If you're about to retire and receive gratuity, PF withdrawal, or a lump sum — put it in SCSS within 1 month of receiving it. The rule for VRS retirees is strict: investment must be made within 1 month of receiving the retirement benefits. Don't let the money sit in a savings account while you 'plan' where to put it — every month of delay is a month of 8.2% lost.",
+            "funFact": "The SCSS interest rate has consistently been set 0.5–1% higher than equivalent bank FD rates — this is explicit government policy to provide retirees with a higher guaranteed income floor. A retired couple with ₹60 lakh in SCSS (₹30L each) generates ₹4.92 lakh per year — over ₹40,000/month — from a zero-risk, zero-effort instrument.",
+            "action": "If you have a parent or grandparent who is retired with money sitting in a savings account or low-rate FD: show them SCSS. At ₹10 lakh invested, they earn ₹82,000/year — ₹20,000+ more than a typical bank FD. Over 5 years, that's ₹1 lakh extra. Help them open an account at any post office, SBI, HDFC, or ICICI branch — the process takes under 30 minutes."
+          }
+        },
         { "id": "kisan-vikas-patra", "title": "Kisan Vikas Patra and other post office instruments", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
         {
           "id": "ppf",
@@ -531,10 +723,150 @@
             "action": "Do this today: go to epfindia.gov.in, click 'For Employees', then 'Member Passbook'. Log in with your UAN. If you don't know your UAN, check your salary slip or email HR. Look at your balance, check if there are multiple old member IDs, and note the last employer contribution date. If anything looks off, call 1800-118-005 (EPFO helpline, toll-free)."
           }
         },
-        { "id": "vpf", "title": "Voluntary Provident Fund (VPF): the underrated EPF top-up", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "nps-basics", "title": "National Pension System (NPS): Tier 1 and Tier 2 explained", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "nps-allocation", "title": "NPS: choosing your asset allocation and pension fund manager", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "sukanya-samriddhi", "title": "Sukanya Samriddhi Yojana: rules, limits, and maturity", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "vpf",
+          "title": "Voluntary Provident Fund (VPF): the underrated EPF top-up",
+          "content": {
+            "heroStat": "8.25%",
+            "heroLabel": "VPF interest rate — same as EPF, tax-free up to ₹2.5L/year, zero setup beyond a single HR form",
+            "intro": "VPF is the simplest high-return investment most salaried Indians don't know exists. You contribute more than the mandatory 12% to your EPF account voluntarily — and earn the same 8.25% tax-free rate on every extra rupee. There's no new account to open, no app to download, no fund manager to pick. You fill one form with your HR and it starts the next salary cycle.",
+            "keyPoints": [
+              "VPF = additional voluntary contributions to your existing EPF account. Same account, same 8.25% rate, same tax treatment. No new account needed",
+              "You can contribute up to 100% of your basic salary voluntarily — any amount above the mandatory 12% EPF",
+              "Tax: VPF contributions qualify for 80C deduction. Interest is tax-free — but only on total EPF + VPF contributions up to ₹2.5 lakh/year. Interest on contributions above ₹2.5L is taxable (rule introduced in 2021)",
+              "Your employer does NOT match VPF contributions. Only your own money goes in at the VPF rate",
+              "Lock-in: until retirement or resignation. Partial withdrawals allowed for specific needs — home purchase, medical emergency, child's education",
+              "To start: email your HR team asking to start VPF contributions. Mention the amount per month. Most companies process it within 1–2 payroll cycles"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Bank FD at 7.5%",
+                "approach": "30% tax bracket — interest taxed every year",
+                "startAmount": "₹10,000/month extra savings",
+                "endAmount": "~₹8.7 lakh",
+                "duration": "5 years",
+                "outcome": "Effective post-tax yield ~5.25%. Good flexibility but tax drag significantly reduces real returns.",
+                "positive": false
+              },
+              "right": {
+                "name": "VPF at 8.25%",
+                "approach": "Tax-free interest + 80C deduction, same EPFO account",
+                "startAmount": "₹10,000/month extra via VPF",
+                "endAmount": "~₹9.4 lakh",
+                "duration": "5 years",
+                "outcome": "Effective post-tax equivalent yield ~11.8%. Higher return, zero market risk, and no investment decisions required.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "VPF is most powerful for people in the 30% tax bracket who have already maxed 80C via other instruments but still want more tax-free compounding. Even without the 80C benefit, 8.25% tax-free beats almost every fixed-income instrument in the market — and requires zero ongoing effort.",
+            "funFact": "Despite being one of the best fixed-income options for salaried Indians, fewer than 5% of EPF subscribers use VPF. The main reason: HR departments almost never proactively inform employees about it. A single email to your HR asking 'Can I start VPF contributions?' unlocks a government-guaranteed 8.25% tax-free instrument in 24–48 hours — most people just never ask.",
+            "action": "Email your HR team today: 'Hi, I'd like to start VPF contributions. Can you let me know the process?' Ask to add ₹2,000–₹5,000/month above your current EPF. Calculate: ₹5,000/month in VPF at 8.25% for 10 years = approximately ₹9 lakh — entirely tax-free, with zero investment decisions required. If you're already near the ₹2.5L annual limit for tax-free EPF+VPF, consult your CA before adding more."
+          }
+        },
+        {
+          "id": "nps-basics",
+          "title": "National Pension System (NPS): Tier 1 and Tier 2 explained",
+          "content": {
+            "heroStat": "₹60,000",
+            "heroLabel": "maximum additional tax deduction available via NPS Tier 1 under Section 80CCD(1B) — over and above the ₹1.5L 80C limit",
+            "intro": "NPS is India's government-run retirement savings system — a market-linked pension account that lets you invest in equity, bonds, and government securities with very low costs. Its biggest selling point isn't the returns — it's the extra ₹60,000 tax deduction that no other instrument offers. For anyone in the 30% bracket, that alone saves ₹18,720 in tax every year.",
+            "keyPoints": [
+              "Two accounts: Tier 1 (pension account — mandatory, locked till 60) and Tier 2 (voluntary savings account — no lock-in, no additional tax benefit, acts like a flexible MF account)",
+              "Tier 1 tax benefits: 80CCD(1) — up to 10% of salary (basic+DA) within the ₹1.5L 80C limit. 80CCD(1B) — additional ₹50,000 deduction, completely separate from 80C. Total possible deduction: ₹2 lakh/year",
+              "Employer NPS contribution (Sec 80CCD(2)): up to 10% of basic salary is deductible with no upper limit — this is the best part of corporate NPS, fully outside 80C and 80CCD(1B)",
+              "Minimum contribution: ₹1,000/year for Tier 1 to keep the account active. No maximum",
+              "At age 60: withdraw up to 60% of corpus tax-free. The remaining 40% must be used to buy an annuity (monthly pension), which is taxable as income",
+              "Partial withdrawals allowed after 3 years for specific needs: higher education, home purchase, critical illness, disability"
+            ],
+            "example": "Sneha earns ₹15 lakh/year and is in the 30% tax bracket. She already maxes out 80C (₹1.5L via PPF + ELSS).\n\nShe contributes ₹50,000 to NPS Tier 1 under Section 80CCD(1B).\n\nTax saved: ₹50,000 × 30% = ₹15,000 per year.\nOver 20 years at 12% return: that ₹50,000/year grows to approximately ₹45 lakh — while saving ₹3 lakh in total tax along the way.\n\nThis is the only instrument in India that offers a tax deduction completely outside the ₹1.5L 80C ceiling.",
+            "tip": "The best use of NPS is claiming the 80CCD(1B) deduction — the extra ₹50,000 above 80C. If your employer offers NPS under 80CCD(2), ask HR to route a portion of your CTC as employer NPS contribution — it's completely outside all caps and reduces both your taxable salary and your employer's cost slightly.",
+            "funFact": "NPS has grown from 1 lakh subscribers in 2009 to over 7 crore subscribers in 2024. The scheme was originally only for government employees — private sector employees were allowed to join only in 2009. Today, NPS is one of the lowest-cost investment vehicles in India, with fund management charges as low as 0.09% — a fraction of what mutual funds charge.",
+            "action": "Check if your employer offers NPS. Ask HR: 'Does our company have an NPS plan under 80CCD(2)?' If yes, request to have a portion of your CTC routed as employer NPS contribution — the tax saving can be significant. If your employer doesn't offer it, open an NPS account independently at npstrust.org.in or through your net banking. Contribute at least ₹50,000 to claim the 80CCD(1B) benefit this financial year."
+          }
+        },
+        {
+          "id": "nps-allocation",
+          "title": "NPS: choosing your asset allocation and pension fund manager",
+          "content": {
+            "heroStat": "75%",
+            "heroLabel": "maximum equity allocation allowed in NPS — tapering down automatically after age 50 under the Auto Choice lifecycle fund",
+            "intro": "Once you open an NPS account, the two most important decisions are: how to split your money across asset classes, and which pension fund manager to pick. Most people leave it at the default and never revisit it — a costly mistake. A well-chosen allocation at 30 can generate 30–40% more corpus by retirement than a poorly chosen one.",
+            "keyPoints": [
+              "Four asset classes: E (Equity — index funds, up to 75%), C (Corporate bonds), G (Government securities), A (Alternative assets like REITs/InvITs, up to 5%)",
+              "Two choice modes: Active Choice (you set % for each class, rebalance annually) or Auto Choice (lifecycle fund — shifts automatically from equity to bonds as you age)",
+              "Auto Choice has 3 sub-options: Aggressive (LC-75, starts at 75% equity), Moderate (LC-50, starts at 50% equity), Conservative (LC-25, starts at 25% equity). Aggressive is best for most people under 45",
+              "Seven Pension Fund Managers (PFMs) to choose from: SBI, LIC, UTI, HDFC, ICICI, Kotak, Aditya Birla. You can switch PFM once per year",
+              "Performance varies across PFMs — check 5-year and 10-year annualised returns on npstrust.org.in before choosing. HDFC, SBI, and UTI have historically shown strong equity fund performance",
+              "Charges are very low: PFM charges 0.01–0.09% per year. This is 10–20× cheaper than an actively managed mutual fund"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Conservative Auto Choice (LC-25)",
+                "approach": "Starts at 25% equity, heavy bonds from day one",
+                "startAmount": "₹50,000/year from age 30",
+                "endAmount": "~₹1.2 crore at 60",
+                "duration": "30 years",
+                "outcome": "Lower volatility but significantly lower long-term corpus. Misses the equity growth window in peak earning years.",
+                "positive": false
+              },
+              "right": {
+                "name": "Aggressive Auto Choice (LC-75)",
+                "approach": "75% equity until 50, then gradually shifts to bonds",
+                "startAmount": "₹50,000/year from age 30",
+                "endAmount": "~₹1.85 crore at 60",
+                "duration": "30 years",
+                "outcome": "Over 50% more retirement corpus from the same contributions — purely from higher equity allocation in earlier decades.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "If you're under 45 and have more than 15 years to retirement, choose Aggressive LC-75 Auto Choice. It gives you maximum equity exposure now — when compounding works best — and automatically de-risks as you approach 60. You don't need to actively manage anything. Review your PFM's performance once a year and switch if it has consistently underperformed peers for 3+ years.",
+            "funFact": "The NPS equity funds (Asset Class E) are index funds that track the Nifty 50 — they don't try to beat the market. This passive approach, combined with a 0.09% charge, means NPS equity funds are among the cheapest index fund options available in India — cheaper than most direct-plan index mutual funds.",
+            "action": "Log into your NPS account at nps.kfintech.com or cams.npscra.com. Check your current allocation. If you're under 45 and in Conservative or Moderate Auto Choice — switch to Aggressive LC-75. Then compare your current PFM's 5-year equity fund return against the top performer on npstrust.org.in. If the gap is more than 1%, consider switching PFM — you can do it once per year."
+          }
+        },
+        {
+          "id": "sukanya-samriddhi",
+          "title": "Sukanya Samriddhi Yojana: rules, limits, and maturity",
+          "content": {
+            "heroStat": "8.2%",
+            "heroLabel": "SSY interest rate (2024–25) — the highest EEE (triple tax-exempt) rate available anywhere in India",
+            "intro": "Sukanya Samriddhi Yojana is a government savings scheme specifically for girl children. It offers 8.2% interest — the highest rate with EEE (exempt-exempt-exempt) tax status of any instrument in India. If you have a daughter below age 10, not opening an SSY account is one of the most expensive financial mistakes you can make.",
+            "keyPoints": [
+              "Eligibility: girl child below age 10. Maximum 2 accounts per family (one per girl child). In case of twins/triplets at birth, a third account is allowed",
+              "Deposits: minimum ₹250/year to keep active, maximum ₹1.5 lakh/year. Contributions must be made for 15 years from account opening",
+              "Interest: 8.2% p.a., compounded annually. Declared quarterly by the government. Account earns interest until maturity at age 21 — even after the 15-year contribution period ends",
+              "EEE status: contributions qualify for 80C deduction (₹1.5L limit). Interest is completely tax-free. Maturity amount is completely tax-free",
+              "Partial withdrawal: 50% of balance allowed after the girl turns 18, for higher education or marriage expenses only",
+              "Maturity: account matures when girl turns 21, or earlier on marriage after age 18. The full corpus including interest is paid out tax-free"
+            ],
+            "comparison": {
+              "left": {
+                "name": "FD for daughter's education",
+                "approach": "₹1.5L/year in bank FD at 7%, interest taxed",
+                "startAmount": "₹1.5L/year for 15 years",
+                "endAmount": "~₹37 lakh (post-tax, 30% bracket)",
+                "duration": "21 years (with reinvestment)",
+                "outcome": "Tax drag reduces effective yield to ~4.9%. Flexible but significantly lower corpus for the same effort.",
+                "positive": false
+              },
+              "right": {
+                "name": "Sukanya Samriddhi at 8.2%",
+                "approach": "₹1.5L/year for 15 years, EEE — zero tax at any stage",
+                "startAmount": "₹1.5L/year for 15 years",
+                "endAmount": "~₹69 lakh tax-free at maturity",
+                "duration": "21 years",
+                "outcome": "₹32 lakh more than the FD for identical contributions — purely from a higher rate and zero tax drag.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Open the SSY account as early as possible — even if your daughter is 1 or 2 years old. Every extra year of compounding at 8.2% is significant. The 15-year contribution window starts from account opening, not from birth — so opening at age 5 vs age 9 means 4 fewer years of contributions and compounding.",
+            "funFact": "SSY was launched in 2015 under the Beti Bachao Beti Padhao campaign. Within 8 years, over 3 crore accounts have been opened across India. At ₹1.5L/year invested from birth for 15 years and left to compound till age 21, the maturity amount crosses ₹69 lakh — entirely tax-free — on a total investment of just ₹22.5 lakh. The ₹46 lakh difference is pure compounding.",
+            "action": "If you have a daughter below 10, open an SSY account this week. You can do it at any post office or major bank (SBI, HDFC, ICICI etc.) with the girl's birth certificate, your ID proof, and address proof. Start with even ₹5,000–₹10,000 this year. Then set a reminder each April to deposit before the financial year ends — and ideally before April 5th for maximum interest compounding."
+          }
+        },
         { "id": "atal-pension-yojana", "title": "Atal Pension Yojana: who it's for and how it works", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } }
       ]
     },
@@ -543,12 +875,232 @@
       "title": "Fixed Income & Bonds",
       "icon": "📜",
       "topics": [
-        { "id": "rbi-retail-direct", "title": "RBI Retail Direct: buying government securities directly", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "treasury-bills", "title": "Treasury bills: short-term government borrowing explained", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "government-bonds", "title": "Government bonds: how they work and who should buy them", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "corporate-bonds", "title": "Corporate bonds and debentures: risk vs. FD returns", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "credit-ratings", "title": "Credit ratings in India: CRISIL, ICRA, CARE and what they mean", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "bond-pricing-yield", "title": "Bond pricing and yield: why they move inversely", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "rbi-retail-direct",
+          "title": "RBI Retail Direct: buying government securities directly",
+          "content": {
+            "heroStat": "Zero",
+            "heroLabel": "brokerage or intermediary fees — RBI Retail Direct lets you buy government bonds directly from the RBI, cutting out every middleman",
+            "intro": "RBI Retail Direct is a platform launched by the Reserve Bank of India in 2021 that lets individual investors buy government bonds, treasury bills, and state government securities directly — without a broker, without a mutual fund, and without any fees. It democratises access to instruments that were previously only available to banks and institutions.",
+            "keyPoints": [
+              "What you can buy: Government of India dated securities (G-Secs), Treasury Bills (91-day, 182-day, 364-day), State Development Loans (SDLs), and Sovereign Gold Bonds during issuance windows",
+              "Zero fees: no brokerage, no demat charges, no AMC fees. Interest is credited directly to your bank account. Securities are held in your RDG (Retail Direct Gilt) account with the RBI",
+              "How to open: go to rbiretaildirect.org.in, complete KYC with PAN and Aadhaar, link your bank account. Account opening is free and takes 2–3 days",
+              "How to buy: participate in primary auctions (new issuances) — you submit a non-competitive bid and get allotted at the weighted average cut-off yield. You can also buy and sell in the secondary market on the NDS-OM platform",
+              "Interest: paid semi-annually directly to your bank account. Fully taxable as income — no TDS but must be declared in ITR",
+              "Minimum investment: ₹10,000 for G-Secs and SDLs. ₹10,000 for T-bills. No maximum"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Gilt Mutual Fund",
+                "approach": "Buys the same government bonds via a fund",
+                "startAmount": "₹1,00,000 invested",
+                "endAmount": "NAV-based returns minus 0.3–0.5% expense ratio",
+                "duration": "3 years",
+                "outcome": "Convenient with liquidity, but expense ratio eats into returns every year. Fund manager may deviate from your preferred duration.",
+                "positive": false
+              },
+              "right": {
+                "name": "RBI Retail Direct",
+                "approach": "Buy the same bonds directly, zero fees",
+                "startAmount": "₹1,00,000 invested",
+                "endAmount": "Full coupon rate credited to bank account, no expense ratio",
+                "duration": "3 years",
+                "outcome": "0.3–0.5% higher annual return from zero fees. You choose exactly which bond to buy and hold to maturity with no surprises.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Retail Direct is best suited for buy-and-hold investors who want guaranteed returns from a specific government bond. If you need flexibility to exit early, a gilt mutual fund is easier — the secondary market on NDS-OM has lower liquidity for retail investors. Use Retail Direct when you have a specific goal (retirement, child's education) and want to match a bond's maturity date to that goal.",
+            "funFact": "Before RBI Retail Direct launched in 2021, retail investors could only access government bonds indirectly through mutual funds or by going through a broker. The RBI was inspired by the US TreasuryDirect system. India now has one of the few central bank-operated direct retail bond platforms in the world — and it's completely free to use.",
+            "action": "Open your RBI Retail Direct account at rbiretaildirect.org.in — the process takes about 15 minutes online. You don't need to buy anything immediately. Once the account is open, browse the 'Upcoming Auctions' section to see what government bonds are currently being issued and at what indicative yields. Compare these yields with your bank FD rates — you'll often find G-Secs offering the same or better rates with zero credit risk."
+          }
+        },
+        {
+          "id": "treasury-bills",
+          "title": "Treasury bills: short-term government borrowing explained",
+          "content": {
+            "heroStat": "91 days",
+            "heroLabel": "shortest tenure T-bill — the safest short-term parking instrument in India, backed by the Government of India with no credit risk",
+            "intro": "Treasury Bills are short-term government borrowing instruments issued by the RBI on behalf of the Government of India. They're issued at a discount and redeemed at face value — the difference is your return. For parking money for 3, 6, or 12 months with zero credit risk and returns competitive with short-term FDs, T-bills are hard to beat.",
+            "keyPoints": [
+              "Three tenures: 91-day (3-month), 182-day (6-month), and 364-day (1-year) T-bills. Issued every week via RBI auctions",
+              "Issued at a discount to face value: you buy a ₹1,00,000 T-bill for, say, ₹98,300 and receive ₹1,00,000 at maturity. The ₹1,700 difference is your return",
+              "Current indicative yields (2024–25): 91-day ~6.8–7.0%, 182-day ~7.0–7.1%, 364-day ~7.0–7.2% — competitive with short-term bank FDs",
+              "Zero credit risk: issued by the Government of India through the RBI. The only risk is opportunity cost (you're locked in for the tenure)",
+              "How to buy: via RBI Retail Direct (rbiretaildirect.org.in) or through your broker's bond platform (Zerodha, HDFC Securities etc.). Non-competitive bids are accepted — you get allotted at the average cut-off yield",
+              "Tax: gains are taxed as Short-Term Capital Gains and added to your income (for holdings under 3 years). No TDS, but must be declared in ITR"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Savings Account",
+                "approach": "Park ₹5 lakh for 3 months at 3.5%",
+                "startAmount": "₹5,00,000",
+                "endAmount": "~₹5,04,375 after 3 months",
+                "duration": "91 days",
+                "outcome": "Fully liquid but very low yield. ₹4,375 in interest, taxable. Easy to access but money works poorly.",
+                "positive": false
+              },
+              "right": {
+                "name": "91-day T-bill at ~7%",
+                "approach": "Park ₹5 lakh for 91 days at government yield",
+                "startAmount": "₹5,00,000",
+                "endAmount": "~₹5,08,750 at maturity",
+                "duration": "91 days",
+                "outcome": "₹8,750 in returns — 2× the savings account — with zero credit risk. Ideal for money you won't need for exactly 3 months.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "T-bills are ideal for money you know you won't need for a fixed short window — advance tax payments, upcoming large purchases, or emergency fund money that you want to earn more than savings account rates. Don't use them for money you might need before maturity — there's no premature exit like an FD (though you can sell on the secondary market at prevailing prices).",
+            "funFact": "T-bills have existed in India since 1917 — they predate India's independence. The RBI issues T-bills worth thousands of crores every single week to help the government manage its short-term cash flow. For decades, retail investors had no access to these auctions — that changed with RBI Retail Direct in 2021, opening the same instruments that banks use to park overnight cash.",
+            "action": "If you have surplus money sitting in a savings account for 3–6 months — emergency fund top-up, advance tax corpus, or upcoming large expense — consider putting it in a 91-day or 182-day T-bill. Open your RBI Retail Direct account and place a non-competitive bid in the next weekly auction. The minimum is ₹10,000. Your bid is accepted at the weighted average yield — no guesswork required."
+          }
+        },
+        {
+          "id": "government-bonds",
+          "title": "Government bonds: how they work and who should buy them",
+          "content": {
+            "heroStat": "Zero",
+            "heroLabel": "credit risk — a Government of India bond is the only instrument in India where default is constitutionally impossible",
+            "intro": "A government bond is a loan you give to the Indian government. In return, the government pays you a fixed interest (called a coupon) every six months and returns your principal at maturity. It's the purest form of a risk-free return — the government can always print more rupees to repay you. That certainty is exactly why G-Sec yields set the floor for every other interest rate in the economy.",
+            "keyPoints": [
+              "Government bonds (G-Secs) are issued by the RBI on behalf of the Government of India. State governments issue similar bonds called State Development Loans (SDLs) — these carry slightly higher yields (~0.5%) than central government bonds",
+              "Coupon: fixed interest rate paid semi-annually. Example: a '7.18% GS 2033' bond pays 7.18% per year (3.59% every 6 months) and returns face value in 2033",
+              "Tenures range from 1 year to 40 years. Short-duration bonds (under 5 years) have less price volatility. Long-duration bonds (10–30 years) move significantly with interest rate changes",
+              "Price vs. yield: the coupon is fixed, but bond prices move in the secondary market. If you buy at auction and hold to maturity, you receive exactly the coupon + principal — no price risk",
+              "How to buy: RBI Retail Direct (rbiretaildirect.org.in) for primary auctions and secondary market. Also available via brokers (Zerodha, HDFC Securities) and gilt mutual funds",
+              "Tax: coupon income is taxed as regular income. Capital gains on sale before maturity are taxed as STCG (under 3 years) or LTCG at 12.5% (3+ years)"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Bank FD at 7.0%",
+                "approach": "3-year FD — safe but only DICGC-insured up to ₹5L",
+                "startAmount": "₹10,00,000",
+                "endAmount": "~₹12,25,000 pre-tax",
+                "duration": "3 years",
+                "outcome": "Convenient and fixed. But limited to ₹5L safety net — amounts above carry bank default risk, however small.",
+                "positive": false
+              },
+              "right": {
+                "name": "3-year G-Sec at 7.1%",
+                "approach": "Buy via RBI Retail Direct, hold to maturity",
+                "startAmount": "₹10,00,000",
+                "endAmount": "~₹12,28,000 pre-tax",
+                "duration": "3 years",
+                "outcome": "Slightly higher yield, zero credit risk regardless of amount, and no ₹5L cap. Government cannot default.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Government bonds are best suited for the fixed-income portion of your portfolio where capital safety is non-negotiable — think retirement corpus, large goal-based savings, or any amount above ₹5L where DICGC bank insurance doesn't fully cover you. For smaller amounts and convenience, FDs remain simpler.",
+            "funFact": "India's government bond market is one of the largest in Asia — the outstanding stock of G-Secs exceeds ₹100 lakh crore. Yet until 2021, retail investors had almost no direct access. Banks, insurance companies, and mutual funds held the bulk of G-Secs, earning steady yields unavailable to ordinary Indians. RBI Retail Direct changed this — but awareness remains low, with fewer than 5 lakh retail accounts opened in 3 years.",
+            "action": "Go to rbiretaildirect.org.in and browse the 'G-Sec' section. Look at what 5-year and 10-year government bonds are currently yielding. Compare to your bank FD rates. If you have more than ₹5 lakh to invest in fixed income, seriously consider splitting between bank FDs (for convenience) and G-Secs (for safety on the excess amount). No brokerage, no risk above ₹5L — the maths often works out in G-Secs' favour."
+          }
+        },
+        {
+          "id": "corporate-bonds",
+          "title": "Corporate bonds and debentures: risk vs. FD returns",
+          "content": {
+            "heroStat": "1–3%",
+            "heroLabel": "yield premium corporate bonds offer over G-Secs — the extra return is your compensation for taking on the company's credit risk",
+            "intro": "Corporate bonds are loans to companies rather than the government. In exchange for lending to a company, you earn a higher interest rate than a government bond — because companies, unlike the government, can default. Understanding what drives that extra yield, and when it's worth taking, is a core skill for any serious fixed-income investor.",
+            "keyPoints": [
+              "Corporate bonds are issued by companies (public or private) to raise debt. Non-Convertible Debentures (NCDs) are the most common form available to retail investors — listed on exchanges, tradeable",
+              "Yield spread: the extra yield over a comparable G-Sec is called the credit spread. AAA-rated bonds (safest) may offer 0.5–1% extra. Lower-rated bonds can offer 2–5% extra — but with much higher default risk",
+              "Secured vs unsecured: secured NCDs are backed by specific company assets — if the company defaults, assets are sold to repay bondholders. Unsecured bonds have no such backing — avoid these unless you deeply understand the issuer",
+              "Liquidity risk: listed NCDs can be sold on exchanges before maturity, but liquidity is often thin. You may not find a buyer at a fair price. Plan to hold to maturity",
+              "How to buy: primary issuances (NCD IPOs) via your broker during the offer period. Secondary market via NSE/BSE bond platform or through your Zerodha/HDFC Securities account",
+              "Tax: interest is taxed as regular income. Capital gains on sale are STCG (under 3 years) or LTCG at 12.5% (3+ years)"
+            ],
+            "comparison": {
+              "left": {
+                "name": "AA-rated Corporate NCD at 9%",
+                "approach": "Chase the higher yield without analysing the company",
+                "startAmount": "₹5,00,000 for 3 years",
+                "endAmount": "Interest paid, but issuer defaults in year 2",
+                "duration": "3 years",
+                "outcome": "Higher coupon looks attractive — but recovery in default can take years and is often partial. Retail investors routinely lose principal chasing 1–2% extra yield.",
+                "positive": false
+              },
+              "right": {
+                "name": "AAA-rated PSU Bond at 7.5%",
+                "approach": "Accept slightly lower yield for near-government safety",
+                "startAmount": "₹5,00,000 for 3 years",
+                "endAmount": "~₹6,13,000 pre-tax",
+                "duration": "3 years",
+                "outcome": "Near-zero default risk (PSU backed by government). Predictable income. The 1.5% yield sacrifice buys significant peace of mind.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "A useful rule of thumb: if a corporate bond is offering more than 2% above the equivalent G-Sec yield, ask yourself why. Is the company taking on unusual risk? Is the sector under stress? 'Extra yield' always means 'extra risk somewhere' — your job is to figure out where. For most retail investors, AAA-rated PSU bonds or AAA private sector bonds are the only corporate bonds worth holding directly.",
+            "funFact": "The IL&FS default in 2018 was a watershed moment for Indian retail bond investors. IL&FS was AAA-rated by CRISIL just months before it defaulted on ₹94,000 crore of debt. Thousands of retail investors, trusting the top rating, lost significant money. It exposed the limitations of credit ratings and the dangers of chasing yield — lessons that still shape how careful investors approach corporate bonds today.",
+            "action": "Look up the current NCD listings on NSE's bond platform (nseindia.com → Debt → Corporate Bonds). Filter for AAA-rated issuers. Compare their yields to the current 3-year G-Sec yield. The spread you see is your credit risk premium. Ask yourself: is this company's 1% extra worth the risk of holding their debt for 3–5 years? If you can't answer that confidently, stick to G-Secs or gilt funds."
+          }
+        },
+        {
+          "id": "credit-ratings",
+          "title": "Credit ratings in India: CRISIL, ICRA, CARE and what they mean",
+          "content": {
+            "heroStat": "AAA",
+            "heroLabel": "highest credit rating — signals the lowest default probability and is typically held by government-backed or blue-chip issuers",
+            "intro": "When a company or government body borrows money by issuing bonds, a credit rating agency independently assesses their ability to repay. The rating is a letter-grade shorthand for default risk — from AAA (extremely safe) to D (already in default). Understanding ratings is non-negotiable before buying any corporate bond or debt mutual fund.",
+            "keyPoints": [
+              "India's three main rating agencies: CRISIL (owned by S&P), ICRA (owned by Moody's), and CARE. All follow a broadly similar scale — AAA, AA, A, BBB, BB, B, C, D",
+              "Investment grade: AAA to BBB. Below investment grade (junk): BB and lower. Most mutual funds and institutional investors are mandated to hold only investment-grade bonds",
+              "Rating modifiers: + or – after the letter indicates relative standing within a category. AA+ is better than AA, which is better than AA–",
+              "Ratings are not permanent: a bond rated AAA today can be downgraded to AA or lower if the company's financials deteriorate. Always check the rating outlook (Stable / Positive / Negative / Watch) alongside the rating itself",
+              "Rating shopping: companies can choose which agency rates them — and may pick the one that gives them the highest rating. IL&FS, DHFL, and Yes Bank all held high ratings shortly before collapse",
+              "Debt mutual funds disclose ratings of all holdings in their monthly factsheets — check the credit quality before investing in any debt fund"
+            ],
+            "comparison": {
+              "left": {
+                "name": "BBB-rated NBFC bond at 10.5%",
+                "approach": "Attractive yield — just barely investment grade",
+                "startAmount": "₹2,00,000 for 2 years",
+                "endAmount": "Issuer downgraded to BB, price drops 15–20%",
+                "duration": "1 year into investment",
+                "outcome": "Bond price collapses on downgrade. Selling means realising a loss. Holding means uncertainty. The 2.5% yield premium was not worth the risk.",
+                "positive": false
+              },
+              "right": {
+                "name": "AAA PSU bond at 7.5%",
+                "approach": "Lower yield, but near-zero downgrade risk",
+                "startAmount": "₹2,00,000 for 2 years",
+                "endAmount": "~₹2,31,000 pre-tax",
+                "duration": "2 years",
+                "outcome": "Predictable. No surprises. AAA government-backed issuers have never defaulted in India's history.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Don't just look at the current rating — look at the trend. A bond downgraded from AAA to AA is more concerning than one that has been AA for 5 years. Also check the issuer's financial health independently: debt-to-equity, interest coverage ratio, and operating cash flow. Ratings are a starting point, not a verdict.",
+            "funFact": "CRISIL was founded in 1987 as India's first credit rating agency — years before most Indians had even heard of a mutual fund. Today it rates over 30,000 entities. Despite this scale, several high-profile failures (IL&FS, DHFL, Reliance Capital) were rated investment grade weeks before default — a reminder that ratings measure probability of repayment, not certainty.",
+            "action": "Pick any debt mutual fund you own or are considering. Go to the fund's factsheet (available on the AMC website or Value Research). Look at the credit quality breakdown — what % is AAA, AA, A, and below? A high-quality fund should have 80%+ in AAA/sovereign paper. If you see more than 10–15% in AA– or below, understand why before investing."
+          }
+        },
+        {
+          "id": "bond-pricing-yield",
+          "title": "Bond pricing and yield: why they move inversely",
+          "content": {
+            "heroStat": "Inverse",
+            "heroLabel": "bond prices and yields always move in opposite directions — the most counterintuitive and important concept in fixed income",
+            "intro": "This is the one concept that confuses almost every first-time bond investor: when interest rates rise, existing bond prices fall — and when rates fall, bond prices rise. Understanding this relationship is essential for anyone investing in gilt funds, long-duration bonds, or any debt mutual fund with duration risk.",
+            "keyPoints": [
+              "A bond's coupon is fixed at issuance. If you buy a 7% bond and market rates rise to 8%, your 7% bond is now less attractive — so its price falls until its yield matches the market rate",
+              "Yield to Maturity (YTM): the total return you'd earn if you bought the bond today and held it to maturity. YTM accounts for the current price, remaining coupon payments, and face value repayment",
+              "Duration: a measure of a bond's sensitivity to interest rate changes. A bond with duration 5 years loses approximately 5% in price for every 1% rise in interest rates",
+              "Long-duration bonds (10–30 year G-Secs) are highly sensitive to rate changes — great when rates fall, painful when rates rise. Short-duration bonds are much less affected",
+              "If you hold a bond to maturity: you always receive the coupon + face value regardless of price fluctuations. Price volatility only matters if you sell before maturity",
+              "Gilt mutual funds benefit when RBI cuts rates (bond prices rise → NAV rises). They lose when RBI hikes rates (bond prices fall → NAV falls)"
+            ],
+            "example": "You buy a ₹1,00,000 government bond with a 7% coupon, 10-year maturity.\n\nScenario A — RBI cuts rates to 6%:\nThe old 7% coupon is now more valuable than new bonds. Price rises to ~₹1,07,200. If you sell, you make a capital gain on top of the coupon income.\n\nScenario B — RBI hikes rates to 8%:\nNew bonds offer 8%. Your 7% coupon is now less attractive. Price falls to ~₹93,300. If you sell, you take a capital loss — even though you earned all your coupons.\n\nScenario C — You hold to maturity regardless:\nYou receive ₹7,000/year for 10 years + ₹1,00,000 at the end. The price movements along the way are irrelevant.",
+            "tip": "Long-duration gilt funds (10+ year duration) are a tactical bet on falling interest rates — they can return 12–15% in a rate-cut cycle but can lose 8–12% when rates rise. They are not a safe fixed-income option for most retail investors. If you want the stability of bonds without duration risk, stick to short-duration funds (1–3 year duration) or buy bonds directly and hold to maturity.",
+            "funFact": "In 2020–21, when the RBI slashed rates aggressively during COVID, long-duration gilt funds returned 12–15% in a single year — more than many equity funds. Investors who didn't understand why this happened chased these returns in 2022, just as the rate cycle reversed. Gilt funds lost 3–6% that year. The investors were confused — the concept of price-yield inverse relationship explains everything.",
+            "action": "Check the 'Modified Duration' of any debt fund you own — it's listed in the fund's factsheet. A duration of 1 means ~1% price change per 1% rate move. A duration of 7 means 7% price change. Now look at the current RBI rate cycle — are rates rising or falling? If rates are rising and you hold a long-duration fund, consider whether that duration risk matches your goal."
+          }
+        },
         {
           "id": "sovereign-gold-bonds",
           "title": "Sovereign Gold Bonds: interest, indexation, and tax-free maturity",
@@ -590,14 +1142,334 @@
             "action": "Open Zerodha, Groww, or any broker app and search 'SGB' in the bonds section. You'll see multiple series listed with their maturity dates and current prices. Compare the price per gram to today's spot gold price (search 'gold price India today'). If a series is trading below spot, you're getting gold at a discount plus 2.5% interest. Check the maturity date — a series maturing in 2–3 years gives you less compounding runway than one maturing in 6–7 years."
           }
         },
-        { "id": "rbi-floating-rate-bonds", "title": "RBI Floating Rate Savings Bonds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "ncds", "title": "Non-Convertible Debentures (NCDs): public issues and secondary market", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "debt-mf-overnight-liquid", "title": "Debt mutual funds: overnight and liquid funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "debt-mf-ultra-short", "title": "Debt mutual funds: ultra-short and low-duration funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "debt-mf-short-medium", "title": "Debt mutual funds: short and medium duration funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "debt-mf-gilt", "title": "Debt mutual funds: gilt funds and long-duration funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "debt-mf-credit-risk", "title": "Debt mutual funds: credit risk funds and the risks involved", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "debt-mf-taxation", "title": "Taxation of debt mutual funds post-2023 budget changes", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } }
+        {
+          "id": "rbi-floating-rate-bonds",
+          "title": "RBI Floating Rate Savings Bonds",
+          "content": {
+            "heroStat": "NSC+0.35%",
+            "heroLabel": "how the RBI Floating Rate Bond yield is set — always 0.35% above the current NSC rate, reviewed every 6 months",
+            "intro": "RBI Floating Rate Savings Bonds are government-issued bonds where the interest rate is not fixed — it resets every 6 months based on the prevailing NSC rate. This makes them unique: in a rising interest rate environment, your return goes up automatically. They're ideal for investors who want government safety but are worried about locking in a rate that might become uncompetitive.",
+            "keyPoints": [
+              "Issued by RBI, available at major banks (SBI, HDFC, ICICI, Axis etc.) and RBI Retail Direct. No secondary market — cannot be sold before maturity",
+              "Interest rate: NSC rate + 0.35%. NSC is currently 7.7%, so current rate = 8.05%. Rate resets on January 1 and July 1 every year",
+              "Interest is paid semi-annually (every 6 months) directly to your bank account. Not cumulative — no compounding",
+              "Tenure: 7 years. No premature exit (except for senior citizens — allowed after 4 years at age 60–70, 5 years at 70–80, 6 years at 80+)",
+              "No maximum investment limit. Minimum ₹1,000. Available to individuals and HUFs",
+              "Tax: interest is fully taxable as income. No TDS deducted, but must be declared in ITR. No 80C deduction on investment"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Fixed-rate 7-year Bank FD",
+                "approach": "Lock in 7.25% for 7 years — rate doesn't change",
+                "startAmount": "₹5,00,000 for 7 years",
+                "endAmount": "~₹7,73,000 pre-tax",
+                "duration": "7 years",
+                "outcome": "Good if rates fall (you kept the higher rate). Bad if rates rise — you're stuck at 7.25% while the market moves to 8–9%.",
+                "positive": false
+              },
+              "right": {
+                "name": "RBI Floating Rate Bond",
+                "approach": "Rate resets every 6 months — rises with the market",
+                "startAmount": "₹5,00,000 for 7 years",
+                "endAmount": "Depends on rate cycle — earns more if rates stay high or rise",
+                "duration": "7 years",
+                "outcome": "Government-guaranteed and adapts to rate environment. Current rate 8.05% — and rises if NSC rate is hiked. No reinvestment risk on coupons.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "RBI Floating Rate Bonds work best when you expect interest rates to remain elevated or rise further. If you believe rates will fall significantly (rate-cut cycle), a fixed-rate instrument locks in today's high rate and beats the floating bond. Think of the floating bond as insurance against being caught in a low-rate lock-in — useful, but not always the highest-return choice.",
+            "funFact": "RBI Floating Rate Savings Bonds were relaunched in 2020 after the older 7.75% RBI Bonds were discontinued. The floating structure was a deliberate design choice — to ensure the bond always offers a 'fair' rate relative to the market, preventing the scenario where millions of savers are locked into uncompetitive rates for years. Currently, at 8.05%, they offer more than most 7-year bank FDs with full sovereign backing.",
+            "action": "Compare the current RBI Floating Rate Bond rate (check the RBI website or your bank) against the 7-year FD rate at your bank. If the floating rate is higher — and you don't need the money for 7 years — it's worth considering over the bank FD. Visit your nearest SBI or HDFC branch or check RBI Retail Direct to subscribe. Remember: no premature exit for most investors, so only deploy money you genuinely won't need."
+          }
+        },
+        {
+          "id": "ncds",
+          "title": "Non-Convertible Debentures (NCDs): public issues and secondary market",
+          "content": {
+            "heroStat": "NCD",
+            "heroLabel": "'Non-Convertible' means the bond cannot be converted to equity — you are always a lender, never a shareholder, regardless of company performance",
+            "intro": "Non-Convertible Debentures are corporate bonds issued to the public by companies — from blue-chip PSUs to smaller NBFCs — and listed on stock exchanges. They look attractive: higher yields than FDs, a fixed tenure, and the familiarity of a company name. But they carry credit risk that FDs don't, and their 'listed' status is more illusion than liquidity for most retail investors.",
+            "keyPoints": [
+              "NCDs are issued via public NCD issues (like an IPO but for bonds) with a specific interest rate, tenure, and repayment schedule. After listing, they trade on BSE/NSE's debt segment",
+              "Secured vs unsecured: secured NCDs are backed by identifiable company assets. In default, secured holders have a claim on those assets. Unsecured NCD holders join the general creditor queue — recovery is uncertain and slow",
+              "Interest payment options: monthly, quarterly, annually, or cumulative (paid at maturity). Monthly NCDs appeal to retirees wanting regular income — but check the post-tax yield carefully",
+              "Liquidity trap: while technically listed and tradeable, most NCDs have very low daily trading volumes. Selling a ₹5 lakh NCD position before maturity often means accepting a steep discount or finding no buyer at all",
+              "Minimum investment: typically ₹1,000–₹10,000 per NCD unit during IPO. Face value is usually ₹1,000. Secondary market purchases go through your demat account",
+              "Tax: interest income is taxed as regular income. Capital gains on early sale are STCG (under 3 years) or LTCG at 12.5%. No TDS on listed NCDs held in demat form"
+            ],
+            "comparison": {
+              "left": {
+                "name": "NBFC NCD at 10.5% (BBB-rated)",
+                "approach": "High yield, below-investment-grade issuer",
+                "startAmount": "₹2,00,000 for 3 years",
+                "endAmount": "Issuer faces stress, rating downgraded, secondary price drops 20%",
+                "duration": "18 months in",
+                "outcome": "Selling means a ₹40,000 loss on top of coupons received. Holding to maturity is uncertain. Yield premium was not worth the risk.",
+                "positive": false
+              },
+              "right": {
+                "name": "PSU NCD (AAA) at 7.8%",
+                "approach": "Near-sovereign safety, listed for familiarity",
+                "startAmount": "₹2,00,000 for 3 years",
+                "endAmount": "~₹2,46,800 pre-tax",
+                "duration": "3 years",
+                "outcome": "Full principal returned, all coupons paid. Lower yield but zero credit surprises. AAA PSU issuers have a near-perfect repayment record.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Treat NCDs like illiquid investments — assume you cannot exit before maturity. If you need that flexibility, a short-duration debt mutual fund is a better vehicle. Only buy NCDs if you plan to hold to maturity, you've verified the credit rating is AAA or AA+ from at least two agencies, and the issuer is a company whose finances you've at least glanced at.",
+            "funFact": "The DHFL NCD saga remains the most painful retail bond default in India's history. DHFL (Dewan Housing Finance) issued NCDs to thousands of retail investors, many of them retirees seeking higher income than FDs. The company was rated AA just months before it collapsed in 2019. Investors are still recovering money — over 5 years later — at a fraction of their original investment.",
+            "action": "If you're evaluating an NCD IPO, check three things before applying: (1) The credit rating from at least two agencies — both must be AA or higher. (2) Whether it's secured or unsecured — never buy unsecured NCDs from non-PSU issuers. (3) The issuer's debt-to-equity ratio and interest coverage ratio from their latest annual report. If any of these are unclear, skip the issue and buy a liquid or short-duration debt fund instead."
+          }
+        },
+        {
+          "id": "debt-mf-overnight-liquid",
+          "title": "Debt mutual funds: overnight and liquid funds",
+          "content": {
+            "heroStat": "1 day",
+            "heroLabel": "redemption timeline for liquid funds — your money is back in your bank account by the next working day, with no exit load after 7 days",
+            "intro": "Overnight and liquid funds are the safest category of debt mutual funds — designed for parking money for days to weeks, not years. They invest in extremely short-term instruments with near-zero credit and duration risk. For anyone keeping a large emergency fund or short-term savings in a savings account, liquid funds are a straightforward upgrade in returns with essentially no additional risk.",
+            "keyPoints": [
+              "Overnight funds: invest only in securities maturing in 1 day (overnight repo, CBLO). Virtually no credit or interest rate risk. Yields typically track the RBI repo rate closely — currently ~6.5%",
+              "Liquid funds: invest in instruments maturing within 91 days — T-bills, commercial paper, certificates of deposit. Slightly higher returns than overnight funds (~7%), minimal risk",
+              "Both categories are SEBI-mandated to hold no instruments beyond their respective duration limits. This makes them among the most regulated and predictable debt fund categories",
+              "Exit load: SEBI mandates a graded exit load for liquid funds if redeemed within 7 days (0.0070% on day 1, tapering to zero). Zero exit load after day 7. Overnight funds have no exit load",
+              "Redemption: liquid funds follow T+1 settlement — redeem today, money in account tomorrow. Instant redemption (up to ₹50,000 or 90% of investment, whichever is lower) is available on most platforms",
+              "Tax: gains are taxed as income (STCG) — exactly like interest income. No advantage over FDs from a tax perspective. The benefit is liquidity, not tax efficiency"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Savings Account at 3.5%",
+                "approach": "Park ₹3 lakh emergency fund — fully liquid",
+                "startAmount": "₹3,00,000",
+                "endAmount": "~₹3,10,500 after 1 year",
+                "duration": "1 year",
+                "outcome": "₹10,500 in interest. Completely liquid. But earning less than half of what a liquid fund offers on the same money.",
+                "positive": false
+              },
+              "right": {
+                "name": "Liquid Fund at ~7%",
+                "approach": "Same ₹3 lakh, T+1 redemption, no exit load after 7 days",
+                "startAmount": "₹3,00,000",
+                "endAmount": "~₹3,21,000 after 1 year",
+                "duration": "1 year",
+                "outcome": "₹10,500 more than savings account with comparable liquidity. Zero credit risk. Accessible within 1 business day.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Use a liquid fund for your emergency fund — not your entire emergency fund, but the portion beyond 1–2 months of expenses (which you keep in a savings account for instant access). The T+1 redemption is fast enough for most non-cash emergencies. Most hospitals, insurers, and landlords accept NEFT transfers — which takes a day anyway.",
+            "funFact": "Liquid funds collectively manage over ₹7 lakh crore — they are the single largest category of mutual funds in India by AUM. But this is almost entirely corporate and institutional money: companies parking surplus cash overnight or for a few weeks. Retail investors are largely unaware that the same instrument is accessible with as little as ₹500 and better returns than their savings accounts.",
+            "action": "Calculate how much you currently keep in your savings account beyond your monthly expenses. If it's more than ₹50,000, open a liquid fund account on Zerodha Coin, Groww, or MFCentral. Move the surplus there. Use the auto-debit SIP feature to keep topping it up. The extra 3–3.5% on ₹2 lakh is ₹6,000–₹7,000 more per year — for doing nothing differently."
+          }
+        },
+        {
+          "id": "debt-mf-ultra-short",
+          "title": "Debt mutual funds: ultra-short and low-duration funds",
+          "content": {
+            "heroStat": "3–6 months",
+            "heroLabel": "ideal holding period for ultra-short duration funds — the sweet spot between liquid fund safety and short-duration fund returns",
+            "intro": "Ultra-short and low-duration funds occupy the middle ground between liquid funds (maximum safety) and short-duration funds (higher returns with more risk). They're designed for money you won't need for 3–12 months — advance tax corpus, planned large purchases, or parking between investments. They offer better returns than liquid funds with only marginally more risk.",
+            "keyPoints": [
+              "Ultra-short duration funds: invest in instruments with Macaulay duration of 3–6 months. Typical yield: 7–7.5%. Examples: HDFC Ultra Short Fund, ICICI Ultra Short Fund",
+              "Low-duration funds: Macaulay duration of 6–12 months. Slightly higher yields of 7.2–7.8% but marginally more sensitivity to rate changes",
+              "Money market funds: invest in instruments up to 1 year maturity — CPs, CDs, T-bills. Very similar to ultra-short but SEBI-categorised separately. Often the highest-quality credit in this space",
+              "Exit load: most ultra-short funds have zero exit load, making them redeemable any time. Always verify before investing — a handful of funds levy 0.25–0.5% within 30–90 days",
+              "Credit quality matters here: some ultra-short funds chase higher yields by holding AA or lower-rated paper. Always check the portfolio's credit profile — stick to funds with 90%+ AAA/sovereign paper",
+              "Tax: same as liquid funds — gains taxed as income (STCG). No tax advantage over FDs for short holding periods. Advantage over FDs is flexibility — no premature withdrawal penalty"
+            ],
+            "comparison": {
+              "left": {
+                "name": "6-month Bank FD at 6.5%",
+                "approach": "Lock up ₹2 lakh for 6 months",
+                "startAmount": "₹2,00,000",
+                "endAmount": "~₹2,06,500 pre-tax",
+                "duration": "6 months",
+                "outcome": "Safe but completely illiquid. Breaking early means a 0.5–1% penalty. If you need money in month 4, you pay the price.",
+                "positive": false
+              },
+              "right": {
+                "name": "Ultra-Short Fund at 7.2%",
+                "approach": "Same ₹2 lakh, redeemable any day with no exit load",
+                "startAmount": "₹2,00,000",
+                "endAmount": "~₹2,07,200 pre-tax",
+                "duration": "6 months",
+                "outcome": "Higher return with full flexibility. If an emergency hits in month 3, you redeem with no penalty and no questions asked.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Ultra-short funds are ideal for your advance tax corpus. If you need to pay ₹50,000 in quarterly advance tax on September 15, park the money in an ultra-short fund in April. It earns 7%+ for 5 months and is redeemable on September 14 without any penalty. This is significantly better than the money sitting idle in a savings account.",
+            "funFact": "The Franklin Templeton debt fund crisis of 2020 was triggered partly by poor credit quality in 'short-duration' funds. Six Franklin debt funds — including ultra-short and low-duration categories — were wound up after they couldn't meet redemptions, because fund managers had added illiquid, low-rated paper to boost returns. ₹26,000 crore of investor money was locked up for over 2 years. The lesson: always check what a fund actually holds, not just its category name.",
+            "action": "If you have an upcoming large expense in 3–9 months — advance tax, insurance premium, school fees, vacation — calculate the exact date and amount. Park that money in an ultra-short or money market fund today. On Value Research (valueresearchonline.com), filter ultra-short funds by '1-year return' and check the top performers. Verify that 90%+ of the portfolio is AAA or sovereign-rated before investing."
+          }
+        },
+        {
+          "id": "debt-mf-short-medium",
+          "title": "Debt mutual funds: short and medium duration funds",
+          "content": {
+            "heroStat": "1–4 years",
+            "heroLabel": "ideal investment horizon for short and medium duration funds — long enough to smooth out rate volatility, short enough to preserve capital",
+            "intro": "Short and medium duration debt funds are the workhorses of a fixed-income portfolio for time horizons of 1–4 years. They hold bonds with maturities of 1–7 years, earn higher yields than liquid or ultra-short funds, and carry moderate interest rate sensitivity. For money that doesn't belong in equity but needs to work harder than a savings account, these are the funds to understand.",
+            "keyPoints": [
+              "Short duration funds: Macaulay duration of 1–3 years. Yield typically 7.2–8%. Less sensitive to RBI rate changes than medium or long duration funds",
+              "Medium duration funds: Macaulay duration of 3–4 years. Yield 7.5–8.5%. More affected by rate movements — can see NAV dips of 2–4% in a rate-hike cycle",
+              "Banking & PSU funds: invest primarily in instruments issued by banks, PSUs, and public financial institutions. High credit quality (AAA dominated), duration typically 1–3 years. One of the safest active debt categories",
+              "Corporate bond funds: minimum 80% in AA+ or above corporate paper. Higher yields than Banking & PSU funds but with marginally more credit risk",
+              "The credit quality trade-off: some funds in this space add lower-rated paper to boost yield. A fund showing 8.5% vs. the category average of 7.8% is almost certainly taking more credit risk — check what's in the portfolio",
+              "Tax: STCG (under 3 years) taxed as income. LTCG after 3 years taxed at 12.5% without indexation — less favourable than the old regime but still relevant for high earners in the 30% bracket"
+            ],
+            "comparison": {
+              "left": {
+                "name": "3-year FD at 7.0%",
+                "approach": "Lock ₹5 lakh in a bank FD for 3 years",
+                "startAmount": "₹5,00,000",
+                "endAmount": "~₹6,12,500 pre-tax",
+                "duration": "3 years",
+                "outcome": "Fully predictable. Zero surprises. But completely illiquid — premature closure costs 0.5–1%. Also, if rates rise in year 2, you're stuck at 7%.",
+                "positive": false
+              },
+              "right": {
+                "name": "Short Duration Fund at ~7.8%",
+                "approach": "Same ₹5 lakh, redeemable anytime after exit load period",
+                "startAmount": "₹5,00,000",
+                "endAmount": "~₹6,25,000 pre-tax (indicative)",
+                "duration": "3 years",
+                "outcome": "Higher indicative return, full liquidity, and if rates rise — the fund's rolling yield improves as bonds mature and get reinvested at higher rates.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "For a 2–3 year goal, consider a Banking & PSU debt fund over a plain FD. You get similar (or better) returns, high credit quality, and full liquidity. The one scenario where FDs win: when you are absolutely certain you won't need the money early and want 100% predictability on the final amount — locking in a specific rate with no NAV fluctuation.",
+            "funFact": "India's corporate bond market is dominated by AAA-rated paper from banks and PSUs. Over 70% of the corporate bond market is rated AAA — a far higher concentration than in the US or Europe, where investment grade spans AAA to BBB. This means Indian debt fund managers have relatively less room to add diversified credit risk, and 'credit risk funds' here are genuinely riskier relative to the overall market than their global counterparts.",
+            "action": "If you have a financial goal in 2–4 years (home down payment, car purchase, sabbatical fund), open a short duration or Banking & PSU fund via Zerodha Coin or MFCentral. Set up a monthly SIP into it alongside your equity SIP. In 2–3 years, this becomes a predictable corpus with better returns than FDs and full liquidity when the goal approaches. Check the fund's 3-year rolling returns and credit quality on Value Research before picking."
+          }
+        },
+        {
+          "id": "debt-mf-gilt",
+          "title": "Debt mutual funds: gilt funds and long-duration funds",
+          "content": {
+            "heroStat": "10–30 years",
+            "heroLabel": "duration of bonds held by gilt funds — the longest duration available in mutual funds, and the most sensitive to RBI rate decisions",
+            "intro": "Gilt funds invest exclusively in government securities — zero credit risk, but maximum duration risk. They are the most volatile category of debt mutual funds, capable of returning 12–15% in a rate-cut year and losing 8–12% when rates rise. They are a tactical tool, not a safe parking vehicle — and most retail investors misuse them precisely because of the confusing 'government bond = safe' association.",
+            "keyPoints": [
+              "Gilt funds: invest only in G-Secs. SEBI requires minimum 80% in government securities across all maturities. Zero credit risk — no company can default. But significant duration risk",
+              "Long-duration funds: Macaulay duration over 7 years. High sensitivity to rate changes. A 1% RBI rate cut can push NAV up 8–12% instantly. A 1% hike can do the reverse",
+              "Gilt funds with 10-year constant duration: a special sub-category that always maintains ~10-year duration. Maximum duration risk, maximum rate sensitivity — for the informed rate-cycle investor only",
+              "When to use gilt funds: when you believe the RBI is entering a rate-cut cycle and rates will fall significantly over 1–2 years. The price appreciation from falling yields adds to regular coupon income",
+              "When NOT to use gilt funds: as a 'safe' alternative to FDs — the NAV can drop 8–10% in a rate-hike year, shocking investors who expected capital preservation. They are not a substitute for liquid or short-duration funds",
+              "Tax: same as other debt funds — STCG as income, LTCG at 12.5% after 3 years"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Gilt Fund in a rate-hike cycle",
+                "approach": "Invested ₹5 lakh expecting 'safe government bonds'",
+                "startAmount": "₹5,00,000",
+                "endAmount": "~₹4,55,000 after 1 year",
+                "duration": "1 year (2022 rate-hike cycle)",
+                "outcome": "NAV fell ~9% as RBI hiked rates by 250 bps. Investors who needed capital preservation were badly hurt despite 'zero credit risk'.",
+                "positive": false
+              },
+              "right": {
+                "name": "Gilt Fund in a rate-cut cycle",
+                "approach": "Deliberately entered in anticipation of RBI rate cuts",
+                "startAmount": "₹5,00,000",
+                "endAmount": "~₹5,70,000 after 1 year",
+                "duration": "1 year (2020 COVID rate-cut cycle)",
+                "outcome": "14% return in a single year — coupon income plus capital appreciation as bond prices rose sharply on rate cuts.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Gilt funds are best used as a deliberate rate-cycle bet, not a default allocation. If you believe the RBI will cut rates over the next 12–18 months, a 10–20% tactical allocation in a gilt fund can boost overall portfolio returns meaningfully. Exit when the rate-cut cycle nears its end — don't wait for the inevitable hike. Most retail investors should keep gilt fund exposure small and time-limited.",
+            "funFact": "In 2020, when the RBI cut the repo rate from 5.15% to 4.0% during COVID, long-duration gilt funds returned 12–15% in a single year — more than the Sensex. Many retail investors, seeing these returns, poured money into gilt funds in 2021 and 2022 — just as the global inflation surge prompted rate hikes. Those latecomers saw double-digit losses. The cycle is unforgiving to those who arrive after the move.",
+            "action": "Before investing in any gilt or long-duration fund, look up the current RBI repo rate and read the latest Monetary Policy Committee (MPC) statement. Is the RBI signalling rate cuts, hikes, or a pause? If cuts are being signalled, a modest gilt fund allocation can be rewarding. If hikes are underway, stay away. Set a reminder to revisit in 6 months — gilt funds require active monitoring, unlike most other fund categories."
+          }
+        },
+        {
+          "id": "debt-mf-credit-risk",
+          "title": "Debt mutual funds: credit risk funds and the risks involved",
+          "content": {
+            "heroStat": "65%",
+            "heroLabel": "minimum allocation to AA or below-rated paper that SEBI mandates for a fund to be classified as a 'credit risk fund' — making the category's risk explicit by design",
+            "intro": "Credit risk funds deliberately invest in lower-rated bonds to earn higher yields. They are the only SEBI debt category explicitly named after the risk they take. In good times, they outperform their peers by 1–2%. In bad times — when even one holding defaults — they can lose 5–15% overnight. Understanding why they exist, and when they blow up, is essential before you ever consider one.",
+            "keyPoints": [
+              "Credit risk funds must hold at least 65% in AA or lower-rated instruments. This is the risk — they deliberately step down the credit quality ladder to earn more yield",
+              "The yield pick-up over safer categories is typically 1–2% per year. But a single default can wipe out 2–3 years of that extra yield in one day",
+              "Concentration risk: credit risk funds often have large positions in individual issuers. A 5–10% holding in one company that defaults causes an immediate and severe NAV drop",
+              "Side-pocketing: when a holding defaults, SEBI allows funds to 'side-pocket' the bad asset — creating a separate NAV for the bad paper. Investors can exit the main portfolio but the side-pocketed units remain frozen until recovered (often years)",
+              "Liquidity risk compounds credit risk: when a credit event happens, redemptions spike. To meet redemptions, the fund sells its good paper first — leaving the remaining investors with an increasingly concentrated bad portfolio",
+              "For most retail investors, credit risk funds are not suitable. The extra 1–2% yield is not worth the asymmetric downside. High-quality short or medium duration funds achieve better risk-adjusted returns over time"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Credit Risk Fund at 9.5%",
+                "approach": "Chase the extra 1.5% yield vs. the category average",
+                "startAmount": "₹5,00,000",
+                "endAmount": "One holding (8% of fund) defaults — NAV drops 7%",
+                "duration": "2 years in",
+                "outcome": "2 years of extra yield (₹15,000) wiped out in one day. Side-pocketed units remain frozen. Effective return turns negative.",
+                "positive": false
+              },
+              "right": {
+                "name": "Banking & PSU Fund at 7.8%",
+                "approach": "AAA-dominated, no credit risk taken",
+                "startAmount": "₹5,00,000",
+                "endAmount": "~₹5,84,000 after 2 years",
+                "duration": "2 years",
+                "outcome": "Steady, predictable return with zero credit surprises. No side-pocketing, no frozen units, no sleepless nights.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "The only time credit risk funds make sense is for sophisticated investors with a long time horizon (5+ years), high risk tolerance, and deep understanding of the underlying portfolio. Even then, limit exposure to 5–10% of your fixed-income allocation. If you can't name the top 5 holdings in the fund and assess their credit health independently, you have no business being in a credit risk fund.",
+            "funFact": "Between 2018 and 2021, credit risk funds suffered a wave of defaults — IL&FS, DHFL, Vodafone, Yes Bank, Zee Entertainment, and others. Over ₹20,000 crore in retail investor money was side-pocketed across multiple funds. Some investors are still waiting to recover their principal — more than 6 years later. The episode permanently changed how sophisticated Indian investors view yield-chasing in debt funds.",
+            "action": "Check if you own any credit risk funds — look at your portfolio on Groww, Zerodha, or your mutual fund statement. If you do, look up the fund's current credit quality breakdown on Value Research. See what % is in AA or below. If more than 20% is below AA, and you don't understand the specific issuers, seriously consider switching to a Banking & PSU or short-duration fund. The yield difference is rarely worth it."
+          }
+        },
+        {
+          "id": "debt-mf-taxation",
+          "title": "Taxation of debt mutual funds post-2023 budget changes",
+          "content": {
+            "heroStat": "April 2023",
+            "heroLabel": "when the indexation benefit for debt mutual funds was removed — the single biggest tax change affecting fixed-income investors in a decade",
+            "intro": "Until March 2023, debt mutual funds held for 3+ years enjoyed two powerful tax advantages: lower LTCG rate of 20%, and indexation — which adjusted your cost upward for inflation, dramatically reducing taxable gains. Both were removed in April 2023. Today, debt fund gains are taxed as ordinary income regardless of holding period. Understanding this change determines whether debt funds still make sense for you.",
+            "keyPoints": [
+              "Pre-April 2023: debt funds held 3+ years were taxed at 20% with indexation benefit. In practice, effective tax on gains was often 5–10% due to cost inflation adjustment — far better than FD interest taxed at slab rate",
+              "Post-April 2023: all debt fund gains — regardless of holding period — are added to your income and taxed at your income tax slab rate (same as FD interest). The 3-year LTCG advantage is gone",
+              "Who is least affected: investors in the 0–5% tax bracket (income below ₹7L under new regime). For them, both FDs and debt funds are near-tax-free anyway",
+              "Who is most affected: 30% bracket investors who used debt funds for 3–5 year goals, relying on indexation. For them, the effective tax on debt fund gains just doubled from ~10% to 30%",
+              "Exceptions — funds that still get LTCG treatment: funds with 35%+ equity allocation (equity savings, balanced hybrid, aggressive hybrid, equity-oriented funds). These are taxed as equity — 12.5% LTCG after 1 year. Check the equity allocation before assuming a fund's tax treatment",
+              "Still worth using debt funds?: yes — for liquidity and flexibility vs. FDs. But the pure tax arbitrage play is largely gone. The choice between debt funds and FDs should now be driven primarily by liquidity needs and yield, not tax"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Debt Fund — old regime (pre-Apr 2023)",
+                "approach": "Hold 3 years, claim indexation, pay 20% LTCG",
+                "startAmount": "₹10,00,000 invested",
+                "endAmount": "₹12,50,000 — effective tax ~₹12,500 after indexation",
+                "duration": "3 years",
+                "outcome": "Effective post-tax yield often exceeded bank FDs by 1–2% for 30% bracket taxpayers. Indexation was a powerful shield.",
+                "positive": true
+              },
+              "right": {
+                "name": "Debt Fund — new regime (post-Apr 2023)",
+                "approach": "Same fund, same 3 years — now taxed at slab rate",
+                "startAmount": "₹10,00,000 invested",
+                "endAmount": "₹12,50,000 — tax at 30% slab = ₹75,000",
+                "duration": "3 years",
+                "outcome": "Now taxed identically to a bank FD. The indexation advantage that made debt funds attractive for high earners no longer exists.",
+                "positive": false
+              }
+            },
+            "example": "",
+            "tip": "The indexation removal killed the 3–5 year 'park in debt funds and save tax' strategy for high earners. But debt funds still win on liquidity — no premature withdrawal penalty, daily NAV-based pricing, and flexibility. For short durations (under 1 year), the tax treatment is identical to FDs anyway. Reassess your debt fund strategy specifically for the 3–5 year horizon bucket.",
+            "funFact": "The indexation removal was slipped into the 2023 Finance Bill as a last-minute amendment — with no public consultation or industry warning. It passed into law before most financial advisors had even fully analysed the implications. The mutual fund industry lobbied hard for reversal, but the government stood firm. It is one of the most significant retroactive changes to investment taxation in India's recent history.",
+            "action": "Review every debt fund you currently hold that you planned to keep for 3+ years for tax purposes. Recalculate the post-tax return assuming slab-rate taxation. Compare to the equivalent bank FD rate. If the debt fund still wins on liquidity and has comparable post-tax yield — keep it. If the FD is simpler and gives similar post-tax returns for your specific goal — switch. The answer depends on your tax bracket and how much you value exit flexibility."
+          }
+        }
       ]
     },
     {
@@ -687,13 +1559,233 @@
             "action": "Visit nseindia.com today. Click on 'Market Data' → 'Nifty 50'. Look at the full list of 50 companies and their weightages. Notice that the top 10 companies make up over 60% of the index. That's what you own when you buy a Nifty 50 index fund. Also check 'Gainers' and 'Losers' of the day — get a feel for daily market movement."
           }
         },
-        { "id": "sebi", "title": "SEBI: role, regulations, and investor protection", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "demat-trading-account", "title": "Opening a Demat and trading account: what to look for in a broker", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "contract-note-settlement", "title": "Understanding a contract note and settlement cycle (T+1)", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "order-types", "title": "Market orders, limit orders, and stop-loss orders", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "reading-stock-quote", "title": "Reading a stock quote: price, volume, circuit limits, and 52-week range", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "stock-indices", "title": "Stock market indices: Sensex, Nifty 50, and sectoral indices", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "ipos", "title": "How IPOs work in India: applying via UPI and ASBA", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "sebi",
+          "title": "SEBI: role, regulations, and investor protection",
+          "content": {
+            "heroStat": "1992",
+            "heroLabel": "year SEBI was given statutory powers — created directly in response to the Harshad Mehta scam that shook India's stock markets",
+            "intro": "SEBI — the Securities and Exchange Board of India — is the regulator for India's entire capital market: stock exchanges, mutual funds, brokers, investment advisors, and listed companies. Every investor protection mechanism you benefit from — direct mutual fund plans, T+1 settlement, nominee registration, grievance redressal — exists because SEBI mandated it. Understanding SEBI's role helps you know your rights and when to exercise them.",
+            "keyPoints": [
+              "SEBI's three-part mandate: protect investors, develop the securities market, and regulate market intermediaries. All three must be balanced — over-regulation kills market development, under-regulation harms investors",
+              "Who SEBI regulates: stock exchanges (NSE, BSE), depositories (NSDL, CDSL), brokers, mutual funds, AMCs, portfolio managers, investment advisors (RIAs), credit rating agencies, and listed companies",
+              "Key investor protections: all mutual fund expense ratios capped by SEBI, direct plans mandated (no commission), T+1 settlement reducing counterparty risk, SCORES grievance portal for complaints, nominee registration rules",
+              "SCORES portal (scores.sebi.gov.in): if a broker, AMC, or listed company does not resolve your complaint within 30 days, you can escalate to SEBI. SEBI has authority to penalise registered entities — this is your last resort before legal action",
+              "SEBI-Registered Investment Advisors (RIAs): individuals who charge a fee for investment advice must be SEBI-registered. Unregistered advisors providing investment advice are operating illegally — always check registration at sebi.gov.in before hiring an advisor",
+              "Investor Education: SEBI runs the SEBI Investor Education portal and mandates AMCs to spend a portion of AUM on investor education — much of the financial literacy content available in India is SEBI-funded"
+            ],
+            "example": "Priya invested ₹1 lakh in a mutual fund through an agent. The agent churned her portfolio 4 times in a year — each time switching to a different fund and earning commissions, but her returns were flat.\n\nShe filed a complaint on SCORES against the agent's distributor. SEBI investigated and found the churn was not in the investor's interest. The distributor's ARN (agent code) was suspended and Priya was compensated.\n\nWithout SCORES and SEBI's distributor regulation, this mis-selling would have had no formal recourse.",
+            "tip": "Keep a record of all investment advice you receive — especially from distributors and advisors. If an advisor recommends frequent fund switches, always ask for the rationale in writing. Churning for commissions is a SEBI violation. A SEBI-Registered Investment Advisor (RIA) is legally a fiduciary — they must act in your interest, not earn commissions from your investments.",
+            "funFact": "SEBI was created in response to the 1992 Harshad Mehta securities scam — a ₹5,000 crore fraud that manipulated the BSE Sensex by exploiting loopholes in the banking and stock settlement system. Before SEBI had statutory power, India's capital markets had almost no meaningful regulation. The Harshad Mehta episode remains the most consequential event in Indian market regulation history.",
+            "action": "Do two things today: (1) Go to sebi.gov.in and verify your financial advisor or broker is registered — search under 'Intermediaries/Market Infrastructure Institutions'. (2) Bookmark scores.sebi.gov.in. If you ever have a complaint against a broker, AMC, or listed company that isn't resolved in 30 days, SCORES is your formal escalation path — and it actually works."
+          }
+        },
+        {
+          "id": "demat-trading-account",
+          "title": "Opening a Demat and trading account: what to look for in a broker",
+          "content": {
+            "heroStat": "2",
+            "heroLabel": "accounts you need to buy stocks in India — a Demat account (holds your shares) and a Trading account (executes your orders) — both usually opened together",
+            "intro": "To buy and sell stocks or ETFs in India, you need two linked accounts: a Demat account (where your shares are held electronically, like a bank account for securities) and a Trading account (through which you place buy and sell orders). Most brokers open both together. The broker you choose affects your costs, platform quality, and how well your money is protected — so the choice matters.",
+            "keyPoints": [
+              "Demat account: held with a Depository Participant (DP), linked to either NSDL or CDSL (India's two depositories). Your shares, ETFs, bonds, and SGBs sit here. Annual Maintenance Charge (AMC) typically ₹300–₹750/year",
+              "Trading account: provided by your broker. You place buy/sell orders here — they are routed to NSE or BSE and settled through the exchange clearing mechanism",
+              "Types of brokers: full-service (HDFC Securities, ICICI Direct, Kotak Securities — higher charges, advisory services) vs. discount brokers (Zerodha, Groww, Angel One, Upstox — zero or flat ₹20 brokerage per order)",
+              "For long-term investors (SIPs, ETF buying): discount brokers work perfectly. Zerodha Coin has zero commission on direct mutual funds. Groww is beginner-friendly. The brokerage savings over a lifetime are significant",
+              "Checking broker safety: ensure the broker is SEBI-registered. Look for segregated client funds (your money kept separately from broker funds). Zerodha, HDFC Securities, and ICICI Direct are well-established with strong compliance records",
+              "TPIN and CDSL EASIEST: before selling shares, you must authorise the transaction via your TPIN or the CDSL EASIEST mechanism. This is a security feature — understand it before your first sell order to avoid failed transactions"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Full-service broker (e.g. HDFC Sec)",
+                "approach": "0.5% brokerage on every buy and sell",
+                "startAmount": "₹10,000 investment, buy + sell",
+                "endAmount": "₹100 in brokerage per round-trip",
+                "duration": "Per transaction",
+                "outcome": "Adds up fast. ₹10,000 × 12 transactions/year = ₹1,200 in brokerage alone. Advisory services are the only reason to pay this.",
+                "positive": false
+              },
+              "right": {
+                "name": "Discount broker (e.g. Zerodha)",
+                "approach": "Flat ₹20 per executed order, zero for delivery equity",
+                "startAmount": "₹10,000 investment, buy + sell",
+                "endAmount": "₹0 brokerage (equity delivery is free)",
+                "duration": "Per transaction",
+                "outcome": "Zero brokerage on equity delivery trades. ₹1,200 saved per year vs. full-service. Identical execution quality on NSE/BSE.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "For most long-term investors, Zerodha (Coin for mutual funds, Kite for stocks) offers the best combination of cost and reliability. If you're completely new and want hand-holding, Groww's interface is simpler. Avoid opening accounts with brokers who call you offering 'tips' or 'advisory packages' — these are almost always high-commission traps dressed as services.",
+            "funFact": "India added over 10 crore new Demat accounts between 2020 and 2024 — more than in all the preceding decades combined. The COVID lockdown, Zerodha's free equity delivery model, and Groww's smartphone-first interface together triggered India's retail investing revolution. Today, India's NSE has more registered investors than any stock exchange in the world by number of accounts.",
+            "action": "If you don't have a Demat account: open one on Zerodha (zerodha.com) or Groww (groww.in) today. The process is fully online — PAN, Aadhaar, bank details, and a selfie. Takes 15–20 minutes. You don't have to invest immediately — just having the account ready means you can act when you find something worth buying. If you already have an account, check the AMC charges and brokerage structure — you may be overpaying."
+          }
+        },
+        {
+          "id": "contract-note-settlement",
+          "title": "Understanding a contract note and settlement cycle (T+1)",
+          "content": {
+            "heroStat": "T+1",
+            "heroLabel": "India's settlement cycle — shares and money change hands by the next working day after your trade, one of the fastest settlement systems in the world",
+            "intro": "Every time you buy or sell a stock, two things must happen: the shares must move to (or from) your Demat account, and the money must move to (or from) your bank account. The contract note is the legal record of every trade you execute, and the settlement cycle determines when these movements actually happen. India moved to T+1 settlement in 2023 — making it one of the fastest equity markets globally.",
+            "keyPoints": [
+              "Contract note: a legal document issued by your broker after every trading session in which you traded. It lists every buy and sell, the price, quantity, brokerage, STT (Securities Transaction Tax), GST, and exchange charges. It is your official trade confirmation and must be kept for tax purposes",
+              "T+1 settlement: 'T' is the trade date. By end of T+1 (the next working day), shares are credited to your Demat and money is debited from your bank (for buys), or shares are debited and money is credited (for sells)",
+              "Securities Transaction Tax (STT): a government tax on every equity trade. For equity delivery: 0.1% on both buy and sell. For intraday: 0.025% on sell only. For F&O: varies. STT is non-refundable and non-adjustable against capital gains",
+              "Other charges on a contract note: exchange transaction charges (~0.00345% for NSE), SEBI turnover fee (₹10 per crore), GST on brokerage, and stamp duty (state-specific). For small trades, these add up to 0.2–0.5% per transaction",
+              "Why T+1 matters: faster settlement means less counterparty risk. In the old T+3 system, 3 days of exposure meant more risk if a broker or counterparty failed. T+1 compresses this window dramatically",
+              "For short-sellers and intraday traders: in intraday trades, shares are bought and sold on the same day — no Demat movement. Settlement is cash-only (profit or loss). The contract note still documents every leg"
+            ],
+            "example": "You buy 10 shares of Infosys at ₹1,800 each on Monday (Trade Day = T).\n\nTotal value: ₹18,000\nSTT (0.1%): ₹18\nBrokerage (Zerodha delivery): ₹0\nExchange charges + GST: ~₹7\nStamp duty: ~₹3\n\nTotal paid: ~₹18,028\n\nBy Tuesday (T+1): ₹18,028 is debited from your linked bank account and 10 Infosys shares appear in your Demat account.\n\nYour contract note arrives by Tuesday morning — keep it. You'll need it when you eventually sell to calculate capital gains.",
+            "tip": "Download and save every contract note your broker sends — most brokers email it or make it available in the 'Reports' section. These are your legal proof of trade price and date, and are essential for accurate ITR filing, especially for calculating STCG and LTCG. Missing contract notes = missing cost basis = overpaying taxes.",
+            "funFact": "India moved from T+3 to T+2 settlement in 2003, and then piloted T+1 starting in January 2022 for smaller stocks before expanding it to all stocks by January 2023. The US still operates on T+1 as of 2024 (only recently shifted from T+2). India is now one of the very few major markets in the world to have fully adopted T+1 — a significant leap in market infrastructure that went largely unnoticed by retail investors.",
+            "action": "Log into your broker account and find your last contract note. Identify: the trade price, STT charged, total charges, and the net amount debited/credited. Now open your ITR from last year — does your reported capital gain match what your contract notes show? If you've never reconciled this, do it once. Understanding your contract note removes all mystery from your trading costs and tax obligations."
+          }
+        },
+        {
+          "id": "order-types",
+          "title": "Market orders, limit orders, and stop-loss orders",
+          "content": {
+            "heroStat": "3 types",
+            "heroLabel": "of orders every stock market investor must understand — market, limit, and stop-loss — each serving a different purpose and carrying different execution risks",
+            "intro": "When you tap 'Buy' on your broker app, you're placing an order — but how that order is executed depends on the order type you choose. Most beginners use only market orders and get burned by slippage. Understanding limit orders and stop-loss orders takes 10 minutes to learn and can save you meaningful money over a lifetime of investing.",
+            "keyPoints": [
+              "Market order: executes immediately at the best available price in the market. Fast — but the price you get may differ from what you saw on screen, especially for illiquid stocks or volatile moments. Fine for large-cap, high-volume stocks",
+              "Limit order: you specify the exact price at which you're willing to buy or sell. The order only executes at that price or better. If the price never reaches your limit, the order stays pending and expires at end of day (unless you set GTD — Good Till Day/Date)",
+              "Stop-loss order (SL): triggers a sell (or buy) when the stock hits a specified price. Used to cap losses on an existing position. Example: you own a stock at ₹500, place SL at ₹460 — if it falls to ₹460, a sell order is automatically triggered",
+              "SL-M (Stop-Loss Market): when the trigger price is hit, a market order is placed — execution is guaranteed but price may be worse than trigger. SL-L (Stop-Loss Limit): when trigger is hit, a limit order is placed — price is controlled but execution is not guaranteed",
+              "Slippage: the difference between the price you see when placing a market order and the price you actually get. Higher for illiquid stocks, during market open/close, and during news events. Limit orders eliminate slippage risk",
+              "After-Market Orders (AMO): placed after trading hours (3:30 PM – 9:00 AM). Executed at market open the next day. Useful if you can't monitor markets during trading hours"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Market order on an illiquid stock",
+                "approach": "Buy 500 shares at 'market price' — stock shows ₹48",
+                "startAmount": "Expected cost: ₹24,000",
+                "endAmount": "Actual execution: avg ₹49.80 due to thin order book",
+                "duration": "Instant",
+                "outcome": "Paid ₹900 more than expected — 3.75% slippage on a single trade. Market orders on low-volume stocks are expensive.",
+                "positive": false
+              },
+              "right": {
+                "name": "Limit order at ₹48",
+                "approach": "Specify the exact price — order fills only if stock hits ₹48",
+                "startAmount": "Target cost: ₹24,000",
+                "endAmount": "Either fills at ₹48 exactly or doesn't fill",
+                "duration": "Up to end of day",
+                "outcome": "Zero slippage if filled. You pay exactly what you decided. May not fill if price moves away — but you're never surprised.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "For Nifty 50 stocks with high daily volume — Reliance, Infosys, HDFC Bank — market orders are generally fine because slippage is negligible. For mid-cap or small-cap stocks with low volume, always use limit orders. The 10-second extra step of setting a price saves you from systematically overpaying on every trade.",
+            "funFact": "The NSE processes over 1 billion orders on peak trading days — and the matching engine executes orders in microseconds. Despite this speed, retail investors placing market orders during the first and last 15 minutes of the trading day (9:15–9:30 AM and 3:15–3:30 PM) face the highest slippage — these periods have the most volatility and widest bid-ask spreads. Professional traders actively avoid placing market orders in these windows.",
+            "action": "Next time you want to buy a stock, try placing a limit order instead of a market order. Check the current bid-ask spread (visible in your broker's order window). Set your limit price at the current 'ask' price for a buy, or the current 'bid' price for a sell. If the stock is liquid, your order will fill almost immediately — at the exact price you chose. No surprises."
+          }
+        },
+        {
+          "id": "reading-stock-quote",
+          "title": "Reading a stock quote: price, volume, circuit limits, and 52-week range",
+          "content": {
+            "heroStat": "10 numbers",
+            "heroLabel": "on a stock quote page that tell you everything about a stock's recent behaviour — most investors look at only one (the price)",
+            "intro": "A stock quote is a snapshot of everything happening with a stock at a given moment. Most retail investors look only at the current price and the day's gain or loss percentage. But the other numbers on that page — volume, 52-week range, circuit limits, P/E ratio, market cap — tell a richer story about the stock's momentum, valuation, and risk. Learning to read them takes minutes and changes how you evaluate any stock.",
+            "keyPoints": [
+              "LTP (Last Traded Price): the most recent price at which the stock changed hands. Changes every second during trading hours. The green/red % next to it shows change from previous day's closing price",
+              "52-week high / low: the highest and lowest price over the past year. A stock near its 52-week high has strong momentum but may be expensive. Near its 52-week low may indicate stress or opportunity — context matters",
+              "Volume: number of shares traded today. High volume on a price move confirms conviction — many participants agreeing on direction. Low volume on a price move suggests it may not sustain. Compare to the average daily volume (ADV) for context",
+              "Circuit limits (upper and lower circuit): SEBI-mandated price bands within which a stock can move in a single day. Typically 5%, 10%, or 20% depending on the stock. If a stock hits its upper circuit, no more sellers — only buyers at that price. Lower circuit means no buyers. Stocks in circuit cannot be traded until the next day",
+              "Market capitalisation: current share price × total shares outstanding. Large-cap (₹20,000+ crore), mid-cap (₹5,000–₹20,000 crore), small-cap (below ₹5,000 crore). Determines volatility profile and liquidity",
+              "P/E ratio (Price-to-Earnings): share price divided by earnings per share. A P/E of 25 means you're paying ₹25 for every ₹1 of annual earnings. Compare to sector average — a P/E far above peers suggests high growth expectations or overvaluation"
+            ],
+            "example": "You look up Tata Motors on NSE:\n\nLTP: ₹940 (+2.3% today)\n52-week range: ₹650 – ₹1,064\nVolume: 1.2 crore shares (vs. ADV of 80 lakh — unusually high)\nMarket cap: ₹3.35 lakh crore (large-cap)\nP/E: 8.5× (low vs. auto sector average of 18×)\nCircuit limits: 10% (₹846 lower, ₹1,034 upper)\n\nReading: strong volume today confirms conviction in the move. Price is below its 52-week high, with room to run before hitting the upper circuit. Low P/E vs. peers suggests either undervaluation or market skepticism about future earnings — needs further research.",
+            "tip": "Before buying any stock, check three things: (1) Is volume today significantly above its average? High volume confirms a real move. (2) How far is the price from its 52-week high and low? (3) What is the P/E vs. sector peers? These three together take 60 seconds and give you a meaningful starting context for any further analysis.",
+            "funFact": "NSE's trading system processes over 1 lakh orders per second and maintains sub-millisecond latency. The LTP you see on your broker app is actually delayed by 15 minutes unless you use a live feed subscription. For long-term investors this doesn't matter — but day traders using phone apps are always working with slightly stale data unless they pay for a real-time feed.",
+            "action": "Pick any stock you own or are curious about. Open its NSE page (nseindia.com) or your broker app. Work through each number: LTP, 52-week range, today's volume vs. average, market cap, and P/E. Google '[stock name] P/E ratio sector comparison' to see how it compares to peers. Write down what each number tells you. This 10-minute exercise trains the habit of reading quotes rather than just watching prices."
+          }
+        },
+        {
+          "id": "stock-indices",
+          "title": "Stock market indices: Sensex, Nifty 50, and sectoral indices",
+          "content": {
+            "heroStat": "50 stocks",
+            "heroLabel": "in the Nifty 50 — yet these 50 companies represent over 65% of India's total listed market capitalisation",
+            "intro": "A stock market index is a number that summarises the performance of a basket of stocks. The Sensex and Nifty 50 are India's most watched indices — they tell you in a single number how the largest Indian companies are doing. Understanding what's in an index, how it's calculated, and what it can and can't tell you makes you a far more informed investor.",
+            "keyPoints": [
+              "Sensex (BSE Sensitive Index): tracks 30 large, actively traded companies listed on BSE. Free-float market-cap weighted. Base value: 100 in 1979. Today it's at ~75,000+ — a 750× return over 45 years",
+              "Nifty 50: tracks 50 large-cap companies on NSE. Free-float market-cap weighted. Reviewed semi-annually — companies are added or removed based on market cap, liquidity, and trading frequency",
+              "Free-float market cap weighting: only publicly available shares (not held by promoters) count toward the index weight. Reliance Industries, HDFC Bank, Infosys, ICICI Bank, and TCS together make up ~35–40% of Nifty 50's weight",
+              "Sectoral indices: Nifty Bank (12 banking stocks), Nifty IT (10 IT companies), Nifty FMCG, Nifty Pharma etc. Used by sector-focused ETFs and to track relative sector performance",
+              "Broader indices: Nifty Next 50 (ranks 51–100 by market cap), Nifty Midcap 150, Nifty Smallcap 250. These capture different segments of the market — each with different return and volatility profiles",
+              "Index ≠ economy: the Sensex rising doesn't mean all Indians are better off — it reflects only listed large companies. Many sectors (agriculture, informal economy, MSMEs) are absent. The index can rise even when GDP growth slows if corporate earnings grow"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Watching Sensex daily",
+                "approach": "Judge your portfolio by today's index move",
+                "startAmount": "Sensex falls 500 points (0.7%)",
+                "endAmount": "Investor reacts — reviews all holdings, considers exiting",
+                "duration": "1 day",
+                "outcome": "Daily index noise causes anxiety and impulsive decisions. A 0.7% move is statistically meaningless over a 10-year investment horizon.",
+                "positive": false
+              },
+              "right": {
+                "name": "Tracking 1-year rolling returns",
+                "approach": "Check index only for quarterly trend, not daily moves",
+                "startAmount": "Same portfolio, same market",
+                "endAmount": "No action taken on noise — stays invested through volatility",
+                "duration": "1 year",
+                "outcome": "Fewer emotional decisions. The long-term signal (earnings growth, index trajectory) is what matters — not daily fluctuations.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "The Nifty 50 is heavily concentrated — the top 10 stocks make up ~60% of the index. This means a Nifty 50 index fund is not as diversified as it sounds. If you want broader market exposure, pair a Nifty 50 fund with a Nifty Next 50 or Nifty Midcap 150 index fund. This gives you the large-cap stability of Nifty 50 plus the growth potential of mid-cap India.",
+            "funFact": "The Sensex was at 100 when it was launched in 1979. Reaching 75,000+ today implies a CAGR of approximately 16% over 45 years — beating almost every asset class globally over the same period. Yet most Indian investors earned far less than this because they entered and exited at the wrong times. The index delivered — but investor behaviour didn't.",
+            "action": "Open NSE India (nseindia.com) and look at the Nifty 50 constituents list. Find the current top 10 stocks and their weightings. Then look at the Nifty Next 50 list. Notice how different the companies are — the Next 50 contains the emerging large-caps and potential future Nifty 50 entrants. If all your index investing is in Nifty 50 only, consider whether adding a Next 50 allocation improves your diversification."
+          }
+        },
+        {
+          "id": "ipos",
+          "title": "How IPOs work in India: applying via UPI and ASBA",
+          "content": {
+            "heroStat": "ASBA",
+            "heroLabel": "Application Supported by Blocked Amount — your IPO money stays in your bank account earning interest until allotment. Only blocked, never debited upfront",
+            "intro": "An IPO (Initial Public Offering) is when a private company sells shares to the public for the first time and gets listed on a stock exchange. India's IPO market is one of the most active in the world. Every retail investor should understand the mechanics — because applying blindly for every IPO is as dangerous as ignoring them entirely.",
+            "keyPoints": [
+              "IPO process: company files a DRHP (Draft Red Herring Prospectus) with SEBI. After SEBI review, the IPO opens for 3–5 days. Retail investors apply during this window. Shares are allotted and listed on exchange typically within 6 working days of IPO close",
+              "ASBA (Application Supported by Blocked Amount): your application amount is blocked in your bank account — not debited. If you don't get allotment, the block is released immediately. You earn interest on the blocked amount throughout. Never pay for IPO applications outside the ASBA mechanism",
+              "UPI-based application: most retail investors apply via their broker app or net banking using UPI. You enter your UPI ID, the exchange sends a mandate request, and you approve it on your UPI app. Fast, paperless, and funds are only blocked — not transferred",
+              "Price band and lot size: IPOs have a price band (e.g. ₹400–₹420) and a minimum lot size (e.g. 35 shares). Retail investors must apply for at least 1 lot. Maximum retail application: ₹2 lakh (applications above this are treated as HNI category)",
+              "Allotment: if the IPO is oversubscribed (more applications than shares), allotment is by computerised lottery for retail. Being in the retail category (under ₹2L) gives you a fairer shot — every application gets 1 equal chance regardless of amount (up to 1 lot basis)",
+              "Listing gain vs. long-term holding: many retail investors apply only for the listing pop (selling on Day 1). This is speculation, not investing. A better approach: apply only when you're willing to hold the company for 2–3 years if the listing is flat or negative"
+            ],
+            "comparison": {
+              "left": {
+                "name": "Apply to every IPO for listing gains",
+                "approach": "Treat IPOs as lottery tickets — apply, sell Day 1",
+                "startAmount": "Applied to 20 IPOs in a year",
+                "endAmount": "12 listed flat or down, 5 got no allotment, 3 gave 20–40% listing gains",
+                "duration": "1 year",
+                "outcome": "Positive expectation from the 3 winners, but capital was locked/blocked for multiple IPOs simultaneously. Net return is modest and effort is high.",
+                "positive": false
+              },
+              "right": {
+                "name": "Apply selectively, hold medium-term",
+                "approach": "Apply to 4–5 high-quality IPOs, hold 12–24 months",
+                "startAmount": "4 applications, got allotment in 2",
+                "endAmount": "Both held 18 months — 60–80% return on allotted shares",
+                "duration": "18 months",
+                "outcome": "Fewer transactions, deeper research per company, long-term holding unlocks the real value of buying into a business at IPO price.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Read the DRHP before applying — especially the 'Risk Factors' section and the 'Objects of the Issue' (what the company will do with the money). Companies raising money to pay back existing debt are a red flag. Companies raising money for capacity expansion or R&D are more credible uses. The DRHP is available on SEBI's website and the exchange portals.",
+            "funFact": "India had 237 IPOs raising ₹61,915 crore in 2023 — one of the busiest IPO years in the world. The most oversubscribed retail IPO in Indian history was IRCTC in 2019, subscribed 112× in the retail category — meaning only 1 in 112 applicants got allotment. The IPO listed at a 100%+ premium. Investors who held rather than sold on Day 1 saw the stock multiply several times further.",
+            "action": "Next time an IPO opens that interests you: (1) Download the Red Herring Prospectus from the exchange website. (2) Read only the 'Objects of the Issue' and 'Risk Factors' sections — 20 minutes of reading. (3) Apply via your broker's IPO section using UPI — the process takes under 5 minutes. (4) Decide before applying whether you'll hold for 12 months regardless of listing price. If the answer is no, be honest with yourself that you're speculating, not investing."
+          }
+        },
         { "id": "sme-ipos", "title": "Understanding SME IPOs and their risks", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
         { "id": "fa-pl-statement", "title": "Fundamental analysis: reading a Profit & Loss statement", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
         { "id": "fa-balance-sheet", "title": "Fundamental analysis: reading a Balance Sheet", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
@@ -793,7 +1885,47 @@
             "action": "Open your mutual fund app right now and check every fund you hold. Does each fund name say 'Direct' or 'Regular'? If it says Regular, note the expense ratio. Search for the Direct version of the same fund and compare expense ratios. Calculate: expense ratio difference × your investment amount = approximate annual cost. That number is what you're paying annually for distribution."
           }
         },
-        { "id": "growth-vs-idcw", "title": "Growth vs. dividend (IDCW) option: which to choose and why", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "growth-vs-idcw",
+          "title": "Growth vs. dividend (IDCW) option: which to choose and why",
+          "content": {
+            "heroStat": "IDCW",
+            "heroLabel": "Income Distribution cum Capital Withdrawal — SEBI's 2021 renaming of the 'dividend' option, to make it clear that payouts come from your own invested capital, not just profits",
+            "intro": "Every mutual fund scheme offers two options: Growth and IDCW (formerly called Dividend). Most investors pick IDCW thinking they're getting 'free income' on top of their investment. They're not. IDCW payouts reduce the NAV by exactly the payout amount — you're essentially receiving your own money back. For almost every long-term investor, Growth is the correct choice.",
+            "keyPoints": [
+              "Growth option: all returns are reinvested automatically. NAV compounds uninterrupted. No payouts, no tax events until you redeem. Ideal for wealth accumulation over 3+ years",
+              "IDCW option: the fund periodically pays out a portion of its returns (or capital) as income. NAV drops by exactly the payout on the ex-dividend date. The payout is not 'extra' — it comes out of your NAV",
+              "SEBI renamed 'Dividend' to 'IDCW' in 2021 precisely to fix this misconception. 'Income Distribution cum Capital Withdrawal' makes it explicit that the payout includes return of your own capital",
+              "Tax treatment: IDCW payouts are added to your taxable income and taxed at your slab rate — even if the fund's underlying gains would qualify for favourable capital gains treatment in the Growth option. For 30% bracket investors, IDCW is significantly tax-inefficient",
+              "When IDCW makes sense: retired investors or those genuinely needing regular income from their investments, who are in a lower tax bracket (0–10%). Even then, a Systematic Withdrawal Plan (SWP) from a Growth fund is usually more tax-efficient",
+              "SWP (Systematic Withdrawal Plan): set up automatic monthly redemptions from a Growth fund. You control the amount and timing. Gains are taxed as capital gains (lower rate after 1 year for equity), not as income. Almost always better than IDCW for tax-efficient regular income"
+            ],
+            "comparison": {
+              "left": {
+                "name": "IDCW option — ₹10,000/month payout",
+                "approach": "30% bracket investor seeking regular income",
+                "startAmount": "₹20,00,000 in equity fund",
+                "endAmount": "₹10,000/month received — but taxed at 30% = ₹7,000 net",
+                "duration": "Per month",
+                "outcome": "₹3,000/month lost to tax. NAV shrinks with every payout. Long-term corpus grows slower due to tax leakage and compounding interruption.",
+                "positive": false
+              },
+              "right": {
+                "name": "Growth + SWP of ₹10,000/month",
+                "approach": "Redeem ₹10,000/month from Growth NAV",
+                "startAmount": "₹20,00,000 in same equity fund",
+                "endAmount": "Most of ₹10,000 is return of capital or LTCG taxed at 10–12.5%",
+                "duration": "Per month",
+                "outcome": "Effective tax on withdrawal is 1–3% vs. 30%. Same ₹10,000 received but far less tax paid. Remaining corpus compounds faster.",
+                "positive": true
+              }
+            },
+            "example": "",
+            "tip": "Switch every IDCW mutual fund you own to its Growth equivalent — unless you genuinely need the income and are in the 0–10% tax bracket. The switch is treated as a redemption and fresh purchase, so check for exit loads and capital gains implications before switching. For schemes held less than 1 year (equity), wait for the 1-year mark to avoid STCG before switching.",
+            "funFact": "The 2021 SEBI renaming from 'Dividend' to 'IDCW' caused significant confusion and complaints from investors who realised for the first time that the 'dividend' they were celebrating was literally their own money coming back to them. Decades of AMC marketing had successfully obscured this basic fact. The renaming was a rare example of a regulator forcing transparency through nomenclature — and it genuinely changed how many investors understood their investments.",
+            "action": "Log into your mutual fund platform and check every fund you own. For each one that shows 'IDCW' or 'Dividend' as the plan type — calculate what you've received as payouts in the last 12 months. Then check: are you in the 30% bracket? If yes, you've been paying 30% tax on those payouts when you could have been paying 10–12.5% LTCG on SWP redemptions. Set up a SWP or switch to Growth, accounting for any exit loads."
+          }
+        },
         { "id": "large-cap-funds", "title": "Equity mutual funds: large-cap funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
         { "id": "mid-small-cap-funds", "title": "Equity mutual funds: mid-cap and small-cap funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
         { "id": "flexi-multi-cap-funds", "title": "Equity mutual funds: flexi-cap and multi-cap funds", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },

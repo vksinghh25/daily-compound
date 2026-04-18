@@ -58,8 +58,8 @@ export default function WelcomeScreen({ totalTopics, completedFoundation, comple
         </div>
 
         {/* Intermediate */}
-        <div className="rounded-2xl border-2 flex flex-col overflow-hidden" style={{ borderColor: "#2563eb" }}>
-          <div className="px-5 py-4 flex-1" style={{ backgroundColor: "#eff6ff" }}>
+        <div className="rounded-2xl border-2 flex flex-col overflow-hidden" style={{ borderColor: "#1D9E75" }}>
+          <div className="px-5 py-4 flex-1" style={{ backgroundColor: "#f0faf6" }}>
             <span className="text-3xl mb-3 block">📈</span>
             <h2 className="text-lg font-bold text-gray-900 mb-1">Intermediate</h2>
             <p className="text-gray-500 text-sm leading-snug mb-4">
@@ -72,14 +72,14 @@ export default function WelcomeScreen({ totalTopics, completedFoundation, comple
             <div className="w-full bg-white rounded-full h-1.5 overflow-hidden">
               <div
                 className="h-full rounded-full transition-all duration-500"
-                style={{ width: `${intermediateProgress}%`, backgroundColor: "#2563eb" }}
+                style={{ width: `${intermediateProgress}%`, backgroundColor: "#1D9E75" }}
               />
             </div>
           </div>
           <button
             onClick={() => onSelectTrack("intermediate")}
             className="w-full py-3 text-white font-semibold text-sm transition-all hover:opacity-90 active:scale-95"
-            style={{ backgroundColor: "#2563eb" }}
+            style={{ backgroundColor: "#1D9E75" }}
           >
             {hasStartedIntermediate ? "Continue →" : "Start Learning →"}
           </button>

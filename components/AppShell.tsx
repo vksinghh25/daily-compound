@@ -35,12 +35,14 @@ interface Day {
 interface AppShellProps {
   sections: Section[];
   days: Day[];
+  daysIntermediate: Day[];
 }
 
 const STORAGE_KEY = "paisa-padho-completed";
 
-export default function AppShell({ sections, days }: AppShellProps) {
+export default function AppShell({ sections, days, daysIntermediate }: AppShellProps) {
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
+  const [activeTrack, setActiveTrack] = useState<"foundation" | "intermediate" | null>(null);
   const [completedTopics, setCompletedTopics] = useState<Set<string>>(new Set());
   const [hydrated, setHydrated] = useState(false);
 
@@ -61,6 +63,16 @@ export default function AppShell({ sections, days }: AppShellProps) {
 
   const allTopics = sections.flatMap((s) => s.topics);
 
+  // The active days array depends on which track is selected
+  const activeDays = activeTrack === "intermediate" ? daysIntermediate : days;
+
+  const handleSelectTrack = (track: "foundation" | "intermediate") => {
+    setActiveTrack(track);
+    const trackDays = track === "intermediate" ? daysIntermediate : days;
+    const firstId = trackDays[0]?.topicId;
+    if (firstId) setActiveTopic(firstId);
+  };
+
   const handleMarkComplete = () => {
     if (!activeTopic) return;
     setCompletedTopics((prev) => new Set([...prev, activeTopic]));
@@ -75,28 +87,22 @@ export default function AppShell({ sections, days }: AppShellProps) {
     });
   };
 
-  const handleStart = () => {
-    const firstId = days[0]?.topicId;
-    if (firstId) setActiveTopic(firstId);
-  };
-
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!activeTopic) return;
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
-      // Don't hijack arrow keys when user is typing
       const tag = (e.target as HTMLElement).tagName;
       if (tag === "INPUT" || tag === "TEXTAREA") return;
       e.preventDefault();
-      const currentIdx = days.findIndex((d) => d.topicId === activeTopic);
+      const currentIdx = activeDays.findIndex((d) => d.topicId === activeTopic);
       if (currentIdx === -1) return;
       const nextIdx = e.key === "ArrowDown" ? currentIdx + 1 : currentIdx - 1;
-      const next = days[nextIdx];
+      const next = activeDays[nextIdx];
       if (next) setActiveTopic(next.topicId);
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [activeTopic, days]);
+  }, [activeTopic, activeDays]);
 
   // Resolve active topic data
   let activeTopicData: Topic | null = null;
@@ -113,8 +119,10 @@ export default function AppShell({ sections, days }: AppShellProps) {
     }
   }
 
-  const activeDay = days.find((d) => d.topicId === activeTopic)?.day ?? null;
-  const progressCompleted = days.filter((d) => completedTopics.has(d.topicId)).length;
+  const activeDay = activeDays.find((d) => d.topicId === activeTopic)?.day ?? null;
+  const progressFoundation = days.filter((d) => completedTopics.has(d.topicId)).length;
+  const progressIntermediate = daysIntermediate.filter((d) => completedTopics.has(d.topicId)).length;
+  const progressCompleted = activeTrack === "intermediate" ? progressIntermediate : progressFoundation;
 
   return (
     <>
@@ -132,11 +140,12 @@ export default function AppShell({ sections, days }: AppShellProps) {
     <div className="flex h-screen bg-white">
       <Sidebar
         sections={sections}
-        days={days}
+        days={activeDays}
+        activeTrack={activeTrack}
         activeTopic={activeTopic}
         completedTopics={completedTopics}
         onSelectTopic={setActiveTopic}
-        onHome={() => setActiveTopic(null)}
+        onHome={() => { setActiveTopic(null); setActiveTrack(null); }}
       />
 
       <div className="flex flex-col flex-1 overflow-hidden" style={{ marginLeft: "280px" }}>
@@ -144,7 +153,12 @@ export default function AppShell({ sections, days }: AppShellProps) {
 
         <main className="flex-1 overflow-y-auto">
           {!activeTopic || !activeTopicData ? (
-            <WelcomeScreen totalTopics={allTopics.length} completedCount={progressCompleted} onStart={handleStart} />
+            <WelcomeScreen
+              totalTopics={allTopics.length}
+              completedFoundation={progressFoundation}
+              completedIntermediate={progressIntermediate}
+              onSelectTrack={handleSelectTrack}
+            />
           ) : (
             <TopicContent
               topic={activeTopicData}
