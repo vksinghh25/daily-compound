@@ -2,13 +2,16 @@
 
 interface WelcomeScreenProps {
   totalTopics: number;
-  completedCount: number;
-  onStart: () => void;
+  completedFoundation: number;
+  completedIntermediate: number;
+  onSelectTrack: (track: "foundation" | "intermediate") => void;
 }
 
-export default function WelcomeScreen({ totalTopics, completedCount, onStart }: WelcomeScreenProps) {
-  const foundationProgress = Math.round((completedCount / 30) * 100);
-  const hasStarted = completedCount > 0;
+export default function WelcomeScreen({ totalTopics, completedFoundation, completedIntermediate, onSelectTrack }: WelcomeScreenProps) {
+  const foundationProgress = Math.round((completedFoundation / 30) * 100);
+  const intermediateProgress = Math.round((completedIntermediate / 30) * 100);
+  const hasStartedFoundation = completedFoundation > 0;
+  const hasStartedIntermediate = completedIntermediate > 0;
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-14">
@@ -35,7 +38,7 @@ export default function WelcomeScreen({ totalTopics, completedCount, onStart }: 
               Start here. Compounding, savings, mutual funds, stocks, and tax — everything a confident investor needs to know.
             </p>
             <div className="text-xs text-gray-400 mb-1 flex justify-between">
-              <span>{completedCount} / 30 days completed</span>
+              <span>{completedFoundation} / 30 days completed</span>
               <span>{foundationProgress}%</span>
             </div>
             <div className="w-full bg-white rounded-full h-1.5 overflow-hidden">
@@ -46,29 +49,40 @@ export default function WelcomeScreen({ totalTopics, completedCount, onStart }: 
             </div>
           </div>
           <button
-            onClick={onStart}
+            onClick={() => onSelectTrack("foundation")}
             className="w-full py-3 text-white font-semibold text-sm transition-all hover:opacity-90 active:scale-95"
             style={{ backgroundColor: "#1D9E75" }}
           >
-            {hasStarted ? "Continue →" : "Start Learning →"}
+            {hasStartedFoundation ? "Continue →" : "Start Learning →"}
           </button>
         </div>
 
         {/* Intermediate */}
-        <div className="rounded-2xl border-2 border-gray-200 flex flex-col overflow-hidden opacity-60">
-          <div className="px-5 py-4 flex-1 bg-gray-50">
+        <div className="rounded-2xl border-2 flex flex-col overflow-hidden" style={{ borderColor: "#2563eb" }}>
+          <div className="px-5 py-4 flex-1" style={{ backgroundColor: "#eff6ff" }}>
             <span className="text-3xl mb-3 block">📈</span>
             <h2 className="text-lg font-bold text-gray-900 mb-1">Intermediate</h2>
             <p className="text-gray-500 text-sm leading-snug mb-4">
-              Go deeper — stocks, bonds, portfolio construction, tax optimisation, and smarter investing strategies.
+              Go deeper — fixed income, bonds, debt mutual funds, stock market mechanics, and smarter investing strategies.
             </p>
-            <span className="inline-block text-xs font-semibold px-2.5 py-1 rounded-full bg-gray-200 text-gray-500">
-              Coming Soon
-            </span>
+            <div className="text-xs text-gray-400 mb-1 flex justify-between">
+              <span>{completedIntermediate} / 30 days completed</span>
+              <span>{intermediateProgress}%</span>
+            </div>
+            <div className="w-full bg-white rounded-full h-1.5 overflow-hidden">
+              <div
+                className="h-full rounded-full transition-all duration-500"
+                style={{ width: `${intermediateProgress}%`, backgroundColor: "#2563eb" }}
+              />
+            </div>
           </div>
-          <div className="w-full py-3 bg-gray-200 text-gray-400 font-semibold text-sm text-center">
-            Coming Soon
-          </div>
+          <button
+            onClick={() => onSelectTrack("intermediate")}
+            className="w-full py-3 text-white font-semibold text-sm transition-all hover:opacity-90 active:scale-95"
+            style={{ backgroundColor: "#2563eb" }}
+          >
+            {hasStartedIntermediate ? "Continue →" : "Start Learning →"}
+          </button>
         </div>
 
         {/* Advanced */}
