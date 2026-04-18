@@ -53,7 +53,7 @@ export default function WelcomeScreen({ totalTopics, completedFoundation, comple
             className="w-full py-3 text-white font-semibold text-sm transition-all hover:opacity-90 active:scale-95"
             style={{ backgroundColor: "#1D9E75" }}
           >
-            {hasStartedFoundation ? "Continue →" : "Start Learning →"}
+            {hasStartedFoundation ? "Continue Learning →" : "Start Learning →"}
           </button>
         </div>
 
@@ -81,7 +81,7 @@ export default function WelcomeScreen({ totalTopics, completedFoundation, comple
             className="w-full py-3 text-white font-semibold text-sm transition-all hover:opacity-90 active:scale-95"
             style={{ backgroundColor: "#1D9E75" }}
           >
-            {hasStartedIntermediate ? "Continue →" : "Start Learning →"}
+            {hasStartedIntermediate ? "Continue Learning →" : "Start Learning →"}
           </button>
         </div>
 
