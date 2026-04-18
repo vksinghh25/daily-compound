@@ -18,8 +18,8 @@ export default function WelcomeScreen({ totalTopics, completedFoundation, comple
       {/* Header */}
       <div className="text-center mb-12">
         <div className="text-5xl mb-4">🗓️</div>
-        <h1 className="text-4xl font-bold text-gray-900 mb-3">
-          Welcome to <span style={{ color: "#1D9E75" }}>Daily Compounding</span>
+        <h1 className="text-5xl font-bold text-gray-900 mb-3">
+          Welcome to<br /><span style={{ color: "#1D9E75" }}>Daily Compounding</span>
         </h1>
         <p className="text-gray-500 text-lg leading-relaxed">
           Choose your learning path. 10–15 minutes a day is all it takes.

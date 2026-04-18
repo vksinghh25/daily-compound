@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Sidebar from "./Sidebar";
-import ProgressBar from "./ProgressBar";
 import TopicContent from "./TopicContent";
 import WelcomeScreen from "./WelcomeScreen";
 
@@ -138,20 +137,20 @@ export default function AppShell({ sections, days, daysIntermediate }: AppShellP
       </div>
 
     <div className="flex h-screen bg-white">
-      <Sidebar
-        sections={sections}
-        days={activeDays}
-        activeTrack={activeTrack}
-        activeTopic={activeTopic}
-        completedTopics={completedTopics}
-        onSelectTopic={setActiveTopic}
-        onHome={() => { setActiveTopic(null); setActiveTrack(null); }}
-      />
+      {activeTrack && (
+        <Sidebar
+          sections={sections}
+          days={activeDays}
+          activeTrack={activeTrack}
+          activeTopic={activeTopic}
+          completedTopics={completedTopics}
+          onSelectTopic={setActiveTopic}
+          onHome={() => { setActiveTopic(null); setActiveTrack(null); }}
+        />
+      )}
 
-      <div className="flex flex-col flex-1 overflow-hidden" style={{ marginLeft: "280px" }}>
-        <ProgressBar completed={progressCompleted} total={30} label="days" />
-
-        <main className="flex-1 overflow-y-auto">
+      <div className="flex flex-col flex-1 overflow-hidden" style={{ marginLeft: activeTrack ? "280px" : "0px" }}>
+<main className="flex-1 overflow-y-auto">
           {!activeTopic || !activeTopicData ? (
             <WelcomeScreen
               totalTopics={allTopics.length}
