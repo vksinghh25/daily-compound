@@ -377,7 +377,7 @@
             ],
             "example": "Aditya's financial snapshot at 35:\nAssets: flat value ₹60L + MF portfolio ₹18L + EPF ₹8L + PPF ₹5L + car ₹4L + savings ₹2L = ₹97L\nLiabilities: home loan outstanding ₹42L + car loan ₹1.5L = ₹43.5L\n\nNet Worth = ₹97L − ₹43.5L = ₹53.5 lakh\n\nHis target: grow this to ₹3 crore by retirement at 55.",
             "tip": "Use a simple Google Sheet with two columns — Assets and Liabilities. Update it every April 1st. Watching your net worth grow year on year is one of the most motivating things in personal finance.",
-            "funFact": "According to Credit Suisse's Global Wealth Report, the median wealth per adult in India is around $16,000 (roughly ₹13 lakh). The top 1% of Indians own 40% of the country's total wealth — highlighting both the inequality and the opportunity for disciplined middle-class savers to grow their net worth substantially.",
+            "funFact": "According to Credit Suisse's Global Wealth Report, the mean wealth per adult in India is around $16,000 (roughly ₹13 lakh) — but the median is just $2,000–4,000, reflecting extreme inequality. The top 1% of Indians own 40% of the country's total wealth. That gap between mean and median is precisely why tracking and growing your own net worth matters.",
             "action": "Do your first net worth calculation right now — it takes 10 minutes. Open a notes app or spreadsheet. List every asset: savings account, FDs, mutual funds, EPF, PPF, gold, property value, vehicle resale value. List every liability: home loan outstanding, car loan, personal loan, credit card balance. Subtract total liabilities from total assets. Whatever that number is, it is your starting point. Set a recurring reminder every April 1st to redo this."
           }
         },
@@ -385,8 +385,8 @@
           "id": "cost-of-waiting",
           "title": "The cost of waiting: why starting early matters more than starting big",
           "content": {
-            "heroStat": "2.8×",
-            "heroLabel": "more money Bharat invested compared to Arjun — yet still ended up with less at retirement",
+            "heroStat": "2.4×",
+            "heroLabel": "more wealth Arjun accumulated vs Bharat — despite investing 2.8× less money and stopping 28 years earlier",
             "intro": "The most common investing mistake in India is not picking the wrong fund — it is waiting. Waiting for the 'right time', waiting for a salary hike, waiting to understand more. Every year of delay has a concrete, calculable cost. And because of compounding, the cost of waiting grows exponentially the longer you wait.",
             "keyPoints": [
               "Starting 10 years early can result in 3–5x more wealth at retirement, even with the same total amount invested",
@@ -395,24 +395,24 @@
               "Delay is not neutral — every month you wait, you permanently lose the compounding that month would have generated",
               "Start imperfectly today rather than perfectly later — the perfect portfolio started tomorrow is worse than a decent portfolio started today"
             ],
-            "example": "Two friends, same salary, same 12% CAGR:\n\nArjun starts a ₹5,000/month SIP at age 22 and stops at 32 (invests for just 10 years, total ₹6 lakh invested).\n\nBharat starts a ₹5,000/month SIP at age 32 and continues until 60 (invests for 28 years, total ₹16.8 lakh invested).\n\nAt age 60:\n• Arjun: ₹1.76 crore — invested ₹6 lakh\n• Bharat: ₹1.60 crore — invested ₹16.8 lakh\n\nArjun invested less than half as much, for less than half as long — and still came out ahead.",
+            "example": "Two friends, same salary, same 12% CAGR:\n\nArjun starts a ₹5,000/month SIP at age 22 and stops at 32 (invests for just 10 years, total ₹6 lakh invested).\n\nBharat starts a ₹5,000/month SIP at age 32 and continues until 60 (invests for 28 years, total ₹16.8 lakh invested).\n\nAt age 60:\n• Arjun: ₹3.26 crore — invested ₹6 lakh\n• Bharat: ₹1.37 crore — invested ₹16.8 lakh\n\nArjun invested 2.8× less, stopped 28 years earlier — and still ended up with 2.4× more money.",
             "comparison": {
               "left": {
                 "name": "Bharat",
                 "approach": "₹5,000/month SIP · started at age 32",
                 "startAmount": "₹16.8L total invested",
-                "endAmount": "₹1.60 crore",
+                "endAmount": "₹1.37 crore",
                 "duration": "28 years of investing",
-                "outcome": "Invested 2.8× more money than Arjun — and still ended up with less at age 60.",
+                "outcome": "Invested 2.8× more money than Arjun — and still ended up with less than half his wealth at age 60.",
                 "positive": false
               },
               "right": {
                 "name": "Arjun",
                 "approach": "₹5,000/month SIP · started at age 22, stopped at 32",
                 "startAmount": "₹6L total invested",
-                "endAmount": "₹1.76 crore",
+                "endAmount": "₹3.26 crore",
                 "duration": "Just 10 years of investing",
-                "outcome": "Invested less, stopped earlier, retired richer. The 10-year head start made all the difference.",
+                "outcome": "Invested less, stopped earlier, retired 2.4× richer. Those 10 early years were worth more than Bharat's entire 28 years of investing.",
                 "positive": true
               }
             },
