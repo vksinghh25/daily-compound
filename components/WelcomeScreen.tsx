@@ -4,14 +4,17 @@ interface WelcomeScreenProps {
   totalTopics: number;
   completedFoundation: number;
   completedIntermediate: number;
-  onSelectTrack: (track: "foundation" | "intermediate") => void;
+  completedAdvanced: number;
+  onSelectTrack: (track: "foundation" | "intermediate" | "advanced") => void;
 }
 
-export default function WelcomeScreen({ totalTopics, completedFoundation, completedIntermediate, onSelectTrack }: WelcomeScreenProps) {
+export default function WelcomeScreen({ totalTopics, completedFoundation, completedIntermediate, completedAdvanced, onSelectTrack }: WelcomeScreenProps) {
   const foundationProgress = Math.round((completedFoundation / 30) * 100);
   const intermediateProgress = Math.round((completedIntermediate / 30) * 100);
+  const advancedProgress = Math.round((completedAdvanced / 30) * 100);
   const hasStartedFoundation = completedFoundation > 0;
   const hasStartedIntermediate = completedIntermediate > 0;
+  const hasStartedAdvanced = completedAdvanced > 0;
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-14">
@@ -86,20 +89,31 @@ export default function WelcomeScreen({ totalTopics, completedFoundation, comple
         </div>
 
         {/* Advanced */}
-        <div className="rounded-2xl border-2 border-gray-200 flex flex-col overflow-hidden opacity-60">
-          <div className="px-5 py-4 flex-1 bg-gray-50">
+        <div className="rounded-2xl border-2 flex flex-col overflow-hidden" style={{ borderColor: "#1D9E75" }}>
+          <div className="px-5 py-4 flex-1" style={{ backgroundColor: "#f0faf6" }}>
             <span className="text-3xl mb-3 block">🧠</span>
             <h2 className="text-lg font-bold text-gray-900 mb-1">Advanced</h2>
             <p className="text-gray-500 text-sm leading-snug mb-4">
-              Master alternative investments, REITs, PMS, behavioral finance, and building a philosophy for life.
+              Go further — REITs, PMS, derivatives, tax optimisation, US stocks, international investing, estate planning, and a wealth philosophy for life.
             </p>
-            <span className="inline-block text-xs font-semibold px-2.5 py-1 rounded-full bg-gray-200 text-gray-500">
-              Coming Soon
-            </span>
+            <div className="text-xs text-gray-400 mb-1 flex justify-between">
+              <span>{completedAdvanced} / 30 days completed</span>
+              <span>{advancedProgress}%</span>
+            </div>
+            <div className="w-full bg-white rounded-full h-1.5 overflow-hidden">
+              <div
+                className="h-full rounded-full transition-all duration-500"
+                style={{ width: `${advancedProgress}%`, backgroundColor: "#1D9E75" }}
+              />
+            </div>
           </div>
-          <div className="w-full py-3 bg-gray-200 text-gray-400 font-semibold text-sm text-center">
-            Coming Soon
-          </div>
+          <button
+            onClick={() => onSelectTrack("advanced")}
+            className="w-full py-3 text-white font-semibold text-sm transition-all hover:opacity-90 active:scale-95"
+            style={{ backgroundColor: "#1D9E75" }}
+          >
+            {hasStartedAdvanced ? "Continue Learning →" : "Start Learning →"}
+          </button>
         </div>
 
       </div>

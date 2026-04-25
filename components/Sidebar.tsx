@@ -22,7 +22,7 @@ interface Day {
 interface SidebarProps {
   sections: Section[];
   days: Day[];
-  activeTrack: "foundation" | "intermediate" | null;
+  activeTrack: "foundation" | "intermediate" | "advanced" | null;
   activeTopic: string | null;
   completedTopics: Set<string>;
   onSelectTopic: (topicId: string) => void;
@@ -81,7 +81,7 @@ export default function Sidebar({
       <nav className="flex-1 px-3 py-4 overflow-y-auto">
         <div className="flex items-center justify-between px-1 mb-3">
           <span className="text-emerald-300 text-xs font-semibold uppercase tracking-wider">
-            {activeTrack === "intermediate" ? "Intermediate" : "Foundation"}
+            {activeTrack === "intermediate" ? "Intermediate" : activeTrack === "advanced" ? "Advanced" : "Foundation"}
           </span>
           <span className="text-emerald-400 text-xs font-medium">
             {daysCompleted}/30 days

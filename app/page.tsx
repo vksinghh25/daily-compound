@@ -7,6 +7,7 @@ export default function Home() {
       sections={topicsData.sections}
       days={topicsData.days}
       daysIntermediate={topicsData.daysIntermediate}
+      daysAdvanced={topicsData.daysAdvanced}
     />
   );
 }

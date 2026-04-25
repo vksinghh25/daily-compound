@@ -35,13 +35,14 @@ interface AppShellProps {
   sections: Section[];
   days: Day[];
   daysIntermediate: Day[];
+  daysAdvanced: Day[];
 }
 
 const STORAGE_KEY = "paisa-padho-completed";
 
-export default function AppShell({ sections, days, daysIntermediate }: AppShellProps) {
+export default function AppShell({ sections, days, daysIntermediate, daysAdvanced }: AppShellProps) {
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
-  const [activeTrack, setActiveTrack] = useState<"foundation" | "intermediate" | null>(null);
+  const [activeTrack, setActiveTrack] = useState<"foundation" | "intermediate" | "advanced" | null>(null);
   const [completedTopics, setCompletedTopics] = useState<Set<string>>(new Set());
   const [hydrated, setHydrated] = useState(false);
 
@@ -63,11 +64,11 @@ export default function AppShell({ sections, days, daysIntermediate }: AppShellP
   const allTopics = sections.flatMap((s) => s.topics);
 
   // The active days array depends on which track is selected
-  const activeDays = activeTrack === "intermediate" ? daysIntermediate : days;
+  const activeDays = activeTrack === "intermediate" ? daysIntermediate : activeTrack === "advanced" ? daysAdvanced : days;
 
-  const handleSelectTrack = (track: "foundation" | "intermediate") => {
+  const handleSelectTrack = (track: "foundation" | "intermediate" | "advanced") => {
     setActiveTrack(track);
-    const trackDays = track === "intermediate" ? daysIntermediate : days;
+    const trackDays = track === "intermediate" ? daysIntermediate : track === "advanced" ? daysAdvanced : days;
     const firstId = trackDays[0]?.topicId;
     if (firstId) setActiveTopic(firstId);
   };
@@ -121,7 +122,8 @@ export default function AppShell({ sections, days, daysIntermediate }: AppShellP
   const activeDay = activeDays.find((d) => d.topicId === activeTopic)?.day ?? null;
   const progressFoundation = days.filter((d) => completedTopics.has(d.topicId)).length;
   const progressIntermediate = daysIntermediate.filter((d) => completedTopics.has(d.topicId)).length;
-  const progressCompleted = activeTrack === "intermediate" ? progressIntermediate : progressFoundation;
+  const progressAdvanced = daysAdvanced.filter((d) => completedTopics.has(d.topicId)).length;
+  const progressCompleted = activeTrack === "intermediate" ? progressIntermediate : activeTrack === "advanced" ? progressAdvanced : progressFoundation;
 
   return (
     <>
@@ -156,6 +158,7 @@ export default function AppShell({ sections, days, daysIntermediate }: AppShellP
               totalTopics={allTopics.length}
               completedFoundation={progressFoundation}
               completedIntermediate={progressIntermediate}
+              completedAdvanced={progressAdvanced}
               onSelectTrack={handleSelectTrack}
             />
           ) : (
