@@ -436,7 +436,7 @@
             "heroLabel": "is what SBI pays on your savings account — while some banks pay 7%. The switch takes 20 minutes.",
             "intro": "Most Indians park money in a basic savings account, earn near-zero interest, and never think about it again. But not all savings accounts are equal — interest rates range from 2.7% to 7%, and smart features like auto-sweep FDs can make your idle cash work harder without any effort on your part.",
             "keyPoints": [
-              "Interest rates vary wildly: SBI pays 2.7%, but IDFC First, Kotak, and AU Small Finance Bank pay 6–7% on the same balance",
+              "Interest rates vary wildly: SBI pays 2.7%, but IDFC First Bank and AU Small Finance Bank pay 6–7% on the same balance",
               "Auto-sweep facility: any balance above a threshold you set is automatically converted to an FD and swept back when you need it",
               "Small Finance Banks (SFBs) are fully RBI-regulated and DICGC-insured up to ₹5 lakh — same protection as large banks",
               "Keep only 3–6× monthly expenses in savings for liquidity; the rest should be earning more",
@@ -473,7 +473,7 @@
           "title": "Fixed deposits: mechanics, laddering, and premature withdrawal",
           "content": {
             "heroStat": "₹200L Cr",
-            "heroLabel": "parked in Indian FDs — more than the total market cap of all BSE-listed companies. Yet most earns below inflation.",
+            "heroLabel": "parked in Indian bank term deposits — more than 3× the entire mutual fund industry's AUM. Yet most of it earns below inflation.",
             "intro": "Fixed Deposits are India's most trusted investment. They're safe, predictable, and require zero expertise. But most people make two mistakes: they pick one bank, lock in one FD, and never revisit it — missing higher rates elsewhere and losing liquidity in emergencies. The fix is a strategy called FD Laddering.",
             "keyPoints": [
               "FD rates currently range from 6.5% to 9% depending on bank, tenure, and whether you're a senior citizen (0.25–0.5% extra)",
@@ -726,7 +726,7 @@
               "UAN (Universal Account Number): your permanent EPF identity, stays with you across all jobs — find it on your salary slip",
               "Interest rate: 8.25% for FY 2023–24, declared annually by the government — tax-free if withdrawn after 5 years of continuous service",
               "Link Aadhaar, PAN, and bank account to your UAN on epfindia.gov.in — required for withdrawals and transfers",
-              "When changing jobs: always transfer your old PF to your new account via the EPFO portal — don't let it go inoperative",
+              "When changing jobs: always transfer your old PF to your new account via the EPFO portal — inoperative accounts still earn interest (EPFO 2016 rule), but fragmented balances are harder to track and claim",
               "Contributions above ₹2.5 lakh/year are taxable; interest on excess contributions above ₹2.5L is also taxable post-2021"
             ],
             "example": "",
@@ -737,7 +737,7 @@
                 "startAmount": "Multiple PF accounts across 3 jobs",
                 "endAmount": "₹2–5L stuck in inoperative accounts",
                 "duration": "5 years of job changes",
-                "outcome": "Old accounts earn no interest after 3 years of inactivity. Money effectively lost to neglect.",
+                "outcome": "Old accounts still earn interest (EPFO 2016 rule), but money sits fragmented and untracked. Risk of missed transfers, wrong bank details, and eventual claim rejection.",
                 "positive": false
               },
               "right": {
@@ -1546,7 +1546,7 @@
               }
             },
             "tip": "Think of buying a stock as buying a business, not a lottery ticket. Ask three questions before buying: Do I understand how this company makes money? Do I trust its management? Would I be comfortable holding this for 5 years if the market closed tomorrow? If yes to all three, it's worth exploring further.",
-            "funFact": "Wipro's IPO in 1980 priced shares at ₹100. A single share, held until today through all splits and bonuses, would be worth over ₹50 lakh. ₹10,000 invested at IPO = over ₹5 crore today. This is not a fluke — it is the compounding power of owning a genuinely great business for decades.",
+            "funFact": "Wipro's shares in 1980 were priced at ₹100. ₹10,000 invested then — through decades of bonus issues and stock splits — is commonly cited as being worth hundreds of crores today. Even a conservative estimate puts it at over ₹5 crore. This is not a fluke — it is the compounding power of owning a genuinely great business for decades.",
             "action": "Pick one company whose product or service you use every day — Zomato, Asian Paints, HDFC Bank, Hindustan Unilever, or Tata Consultancy Services. Search it on Screener.in (free). Look at: revenue growth over 5 years, profit margin, and return on equity. You're not buying anything today — you're learning to see a company as a business, not just a price on a screen."
           }
         },
@@ -1973,7 +1973,7 @@
               "Tax deduction: invest up to ₹1.5L under Section 80C — saves ₹15,000 (20% bracket) / ₹30,000 (30%) / ₹46,800 (30% + cess)",
               "Shortest 80C lock-in: 3 years — vs. PPF (15 years), NSC (5 years), tax-saving FD (5 years), life insurance (5+ years)",
               "Equity-linked returns: ELSS funds invest ≥80% in stocks — historically 12–16% CAGR over long periods, though market risk applies",
-              "LTCG applies post lock-in: gains above ₹1 lakh taxed at 10% — still tax-efficient compared to FD interest taxed as income",
+              "LTCG applies post lock-in: gains above ₹1.25 lakh taxed at 12.5% (Budget 2024 rates) — still far more tax-efficient than FD interest taxed at your slab rate",
               "SIP in ELSS: each monthly instalment has its own 3-year lock-in from that specific date — so you can't redeem the whole lump sum at the end of 3 years in a SIP",
               "New Tax Regime: Section 80C deductions are not available under the new tax regime — ELSS is only relevant if you are under the old regime"
             ],
@@ -1983,14 +1983,14 @@
                 "name": "Tax-saving FD",
                 "approach": "5-year lock-in · 6.5% interest · taxed as income",
                 "startAmount": "₹1,50,000",
-                "endAmount": "~₹1.93L pre-tax",
+                "endAmount": "~₹2.05L pre-tax",
                 "duration": "5 years",
                 "outcome": "In the 30% bracket, post-tax return is ~4.5% p.a. Inflation erodes the real gain. Locked for 5 years with no way out.",
                 "positive": false
               },
               "right": {
                 "name": "ELSS Fund",
-                "approach": "3-year lock-in · ~13% historical CAGR · 10% LTCG on gains above ₹1L",
+                "approach": "3-year lock-in · ~13% historical CAGR · 12.5% LTCG on gains above ₹1.25L",
                 "startAmount": "₹1,50,000",
                 "endAmount": "~₹2.15L (estimated)",
                 "duration": "3 years",
