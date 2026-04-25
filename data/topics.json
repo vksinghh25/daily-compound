@@ -1554,8 +1554,8 @@
           "id": "nse-bse",
           "title": "How NSE and BSE work: exchanges, indices, and market structure",
           "content": {
-            "heroStat": "₹300L Cr",
-            "heroLabel": "combined market cap of BSE-listed companies — making India the world's 5th largest stock market",
+            "heroStat": "₹400L Cr",
+            "heroLabel": "combined market cap of BSE-listed companies — making India the world's 4th largest stock market",
             "intro": "NSE and BSE are India's two stock exchanges — the regulated marketplaces where buyers and sellers of stocks meet. Every trade you place goes through one of these two exchanges. Understanding how they work — their indices, market hours, settlement cycles — is the foundation of navigating markets with confidence.",
             "keyPoints": [
               "BSE (Bombay Stock Exchange): founded 1875, Asia's oldest exchange. 5,000+ listed companies. Benchmark index: Sensex (top 30 companies by free-float market cap)",
@@ -2325,7 +2325,7 @@
                 "startAmount": "Taxable income: ₹12,00,000",
                 "endAmount": "Pays tax on ₹11,20,000",
                 "duration": "One financial year",
-                "outcome": "Leaves ₹70,000 of 80C unused, claims no 80CCD(1B) or 80D. Pays ~₹37,000 extra tax unnecessarily.",
+                "outcome": "Leaves ₹70,000 of 80C unused, claims no 80CCD(1B) or 80D. Pays ~₹43,000 extra tax unnecessarily.",
                 "positive": false
               },
               "right": {
@@ -2334,7 +2334,7 @@
                 "startAmount": "Taxable income: ₹12,00,000",
                 "endAmount": "Pays tax on ₹9,75,000",
                 "duration": "One financial year",
-                "outcome": "Saves ₹1.02 lakh in tax legally. That's ₹1.02 lakh compounding in investments instead of going to the government.",
+                "outcome": "Saves ~₹68,000 in tax legally. That's ₹68,000 compounding in investments instead of going to the government.",
                 "positive": true
               }
             },
@@ -3177,7 +3177,7 @@
               }
             },
             "tip": "The simplest portfolio that beats most retail investors: one Nifty 50 index fund + one short-duration debt fund. Add a Nifty Next 50 if you want more growth exposure. Three funds, annual rebalancing, uninterrupted SIP. Boring, proven, and devastatingly effective over 15+ years.",
-            "funFact": "SEBI's investor survey found that over 60% of retail investors who traded in the equity derivatives (F&O) segment lost money — and the average loss was ₹1.1 lakh per year. Yet F&O trading volumes in India are among the highest in the world, driven largely by retail participation. The most common mistake is confusing speculation with investing.",
+            "funFact": "SEBI's study (2024) found that over 89% of retail investors who traded in the equity derivatives (F&O) segment lost money — and the average loss was ₹1.1 lakh per year. Yet F&O trading volumes in India are among the highest in the world, driven largely by retail participation. The most common mistake is confusing speculation with investing.",
             "action": "Audit your portfolio for the six mistakes above. Count how many mutual funds you own — if it is more than 5, check for overlap at portfoliooverlap.com. Check if any funds are 'Regular' plan. Check if you have an endowment or ULIP policy — calculate the effective return vs. a term plan + index fund combination. One mistake fixed today can be worth lakhs over the next decade."
           }
         },
