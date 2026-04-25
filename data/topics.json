@@ -800,7 +800,7 @@
           "id": "nps-basics",
           "title": "National Pension System (NPS): Tier 1 and Tier 2 explained",
           "content": {
-            "heroStat": "₹60,000",
+            "heroStat": "₹50,000",
             "heroLabel": "maximum additional tax deduction available via NPS Tier 1 under Section 80CCD(1B) — over and above the ₹1.5L 80C limit",
             "intro": "NPS is India's government-run retirement savings system — a market-linked pension account that lets you invest in equity, bonds, and government securities with very low costs. Its biggest selling point isn't the returns — it's the extra ₹60,000 tax deduction that no other instrument offers. For anyone in the 30% bracket, that alone saves ₹18,720 in tax every year.",
             "keyPoints": [
@@ -811,7 +811,7 @@
               "At age 60: withdraw up to 60% of corpus tax-free. The remaining 40% must be used to buy an annuity (monthly pension), which is taxable as income",
               "Partial withdrawals allowed after 3 years for specific needs: higher education, home purchase, critical illness, disability"
             ],
-            "example": "Sneha earns ₹15 lakh/year and is in the 30% tax bracket. She already maxes out 80C (₹1.5L via PPF + ELSS).\n\nShe contributes ₹50,000 to NPS Tier 1 under Section 80CCD(1B).\n\nTax saved: ₹50,000 × 30% = ₹15,000 per year.\nOver 20 years at 12% return: that ₹50,000/year grows to approximately ₹45 lakh — while saving ₹3 lakh in total tax along the way.\n\nThis is the only instrument in India that offers a tax deduction completely outside the ₹1.5L 80C ceiling.",
+            "example": "Sneha earns ₹15 lakh/year and is in the 30% tax bracket. She already maxes out 80C (₹1.5L via PPF + ELSS).\n\nShe contributes ₹50,000 to NPS Tier 1 under Section 80CCD(1B).\n\nTax saved: ₹50,000 × 30% = ₹15,000 per year.\nOver 20 years at 12% return: that ₹50,000/year grows to approximately ₹40 lakh — while saving ₹3 lakh in total tax along the way.\n\nThis is the only instrument in India that offers a tax deduction completely outside the ₹1.5L 80C ceiling.",
             "tip": "The best use of NPS is claiming the 80CCD(1B) deduction — the extra ₹50,000 above 80C. If your employer offers NPS under 80CCD(2), ask HR to route a portion of your CTC as employer NPS contribution — it's completely outside all caps and reduces both your taxable salary and your employer's cost slightly.",
             "funFact": "NPS has grown from 1 lakh subscribers in 2009 to over 7 crore subscribers in 2024. The scheme was originally only for government employees — private sector employees were allowed to join only in 2009. Today, NPS is one of the lowest-cost investment vehicles in India, with fund management charges as low as 0.09% — a fraction of what mutual funds charge.",
             "action": "Check if your employer offers NPS. Ask HR: 'Does our company have an NPS plan under 80CCD(2)?' If yes, request to have a portion of your CTC routed as employer NPS contribution — the tax saving can be significant. If your employer doesn't offer it, open an NPS account independently at npstrust.org.in or through your net banking. Contribute at least ₹50,000 to claim the 80CCD(1B) benefit this financial year."
@@ -1473,7 +1473,7 @@
               "Post-April 2023: all debt fund gains — regardless of holding period — are added to your income and taxed at your income tax slab rate (same as FD interest). The 3-year LTCG advantage is gone",
               "Who is least affected: investors in the 0–5% tax bracket (income below ₹7L under new regime). For them, both FDs and debt funds are near-tax-free anyway",
               "Who is most affected: 30% bracket investors who used debt funds for 3–5 year goals, relying on indexation. For them, the effective tax on debt fund gains just doubled from ~10% to 30%",
-              "Exceptions — funds that still get LTCG treatment: funds with 35%+ equity allocation (equity savings, balanced hybrid, aggressive hybrid, equity-oriented funds). These are taxed as equity — 12.5% LTCG after 1 year. Check the equity allocation before assuming a fund's tax treatment",
+              "Exceptions — funds that still get LTCG treatment: (a) Funds with >65% equity (pure equity, aggressive hybrid): taxed as equity — 12.5% LTCG after 12 months. (b) Funds with 35–65% equity (balanced hybrid, equity savings): 12.5% LTCG after 24 months — not 12 months. Check the equity allocation before assuming a fund's tax treatment and holding period",
               "Still worth using debt funds?: yes — for liquidity and flexibility vs. FDs. But the pure tax arbitrage play is largely gone. The choice between debt funds and FDs should now be driven primarily by liquidity needs and yield, not tax"
             ],
             "comparison": {
@@ -1946,7 +1946,7 @@
                 "name": "Growth + SWP of ₹10,000/month",
                 "approach": "Redeem ₹10,000/month from Growth NAV",
                 "startAmount": "₹20,00,000 in same equity fund",
-                "endAmount": "Most of ₹10,000 is return of capital or LTCG taxed at 10–12.5%",
+                "endAmount": "Most of ₹10,000 is return of capital or LTCG taxed at 12.5%",
                 "duration": "Per month",
                 "outcome": "Effective tax on withdrawal is 1–3% vs. 30%. Same ₹10,000 received but far less tax paid. Remaining corpus compounds faster.",
                 "positive": true
