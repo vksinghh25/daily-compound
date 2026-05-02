@@ -2868,10 +2868,150 @@
             "action": "Think about the last investment decision you made impulsively — during a market crash, after a friend's tip, or when you saw a fund return of 40%. Which bias was driving it? Write down three investment rules you will follow regardless of market conditions: for example, 'I will not stop my SIP when markets fall', 'I will not invest in any product I cannot explain in one sentence', 'I will rebalance once a year and not check my portfolio more than quarterly.'"
           }
         },
-        { "id": "media-and-noise", "title": "The role of media and noise: how to filter signal from hype", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "reading-annual-report", "title": "How to read an annual report: P&L, balance sheet, and cash flow", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "valuation-basics", "title": "Valuation basics: P/E, EV/EBITDA, and when to use them", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "technical-analysis", "title": "Technical analysis: what it can and cannot tell you", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "media-and-noise",
+          "title": "The role of media and noise: how to filter signal from hype",
+          "content": {
+            "heroStat": "0%",
+            "heroLabel": "predictive accuracy of most financial TV commentary — studies show market pundits forecast direction correctly no better than random chance over time",
+            "intro": "Financial media is not in the business of helping you invest well. It is in the business of capturing your attention — and fear, urgency, and certainty are better for engagement than nuance and patience. The result is a 24-hour stream of noise dressed as insight, complete with flashing tickers, 'breaking news' market alerts, and confident experts who face zero accountability for being wrong. Learning to filter this noise is one of the most valuable skills an investor can develop.",
+            "keyPoints": [
+              "Signal vs. noise: signal is information that changes the long-term value of a business — RBI policy decisions, company earnings surprises, sector regulation changes, global macro shifts. Noise is everything else: daily Sensex moves, 'market outlook' segments, analyst price targets, WhatsApp tips, and social media predictions.",
+              "Financial TV has a structural incentive to manufacture urgency. A calm, patient market is bad for viewership. 'Markets fall 2% — should you panic?' is better TV than 'Stay invested, nothing has changed.'",
+              "Analyst price targets are largely meaningless: studies show that consensus analyst price targets have zero predictive power beyond 12 months. They also tend to cluster near the current price and revise upward after prices rise — the opposite of useful contrarian insight.",
+              "The 'expert' accountability gap: a pundit who makes 10 predictions on TV is never held accountable for the 7 that were wrong. Only the 3 successes are replayed. This survivorship bias in media creates the illusion of expertise where none exists systematically.",
+              "What is worth reading: company quarterly results (especially management commentary), RBI policy statements, SEBI regulatory changes, and annual reports. These are primary sources — not filtered through a journalist with a deadline.",
+              "The action trap: financial media creates an itch to do something. But for long-term investors, most of the time the correct action is no action. Checking your portfolio daily and reading daily market commentary creates activity without benefit."
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "News-reactive investor",
+                "approach": "Watches CNBC daily, trades on headlines and tips",
+                "startAmount": "₹5,00,000 portfolio",
+                "endAmount": "Bought in FOMO, sold in panic — multiple times",
+                "duration": "5-year bull-and-crash cycle",
+                "outcome": "Transaction costs, STCG taxes, and ill-timed entries/exits reduced effective returns to 4–6%. The market returned 12%. The investor underperformed by their own activity.",
+                "positive": false
+              },
+              "right": {
+                "name": "Low-information investor",
+                "approach": "SIP runs automatically, checks portfolio quarterly",
+                "startAmount": "₹5,00,000 portfolio",
+                "endAmount": "Stayed invested through every correction",
+                "duration": "5-year bull-and-crash cycle",
+                "outcome": "Matched or beat the index. No STCG, no mistimed exits. Made no exciting decisions — which was the correct strategy.",
+                "positive": true
+              }
+            },
+            "tip": "Conduct a simple experiment: for the next 3 months, stop reading daily market news. Check your portfolio once a month. At the end of 3 months, ask: did the reduced information hurt your investment outcomes? Almost certainly not. The realisation that most financial news is irrelevant to your long-term portfolio is more liberating than any market insight you will ever read.",
+            "funFact": "Philip Tetlock's 20-year study of expert predictions (published in 'Superforecasting') found that political and economic experts performed no better than a 'dart-throwing chimpanzee' at long-range forecasts. A follow-up study of financial analysts found similar results. The media's most confident voices — those who express certainty with no hedging — are actually among the worst forecasters. Accuracy and confidence are inversely correlated in finance.",
+            "action": "Audit your information sources this week. List every financial media outlet, app, YouTube channel, or WhatsApp group you follow. For each one, ask: 'In the past 6 months, has following this improved my investment decisions?' If the honest answer is no — unsubscribe, mute, or unfollow. Replace the time with one primary source: a company's annual report or SEBI's regulatory updates. Less input, better output."
+          }
+        },
+        {
+          "id": "reading-annual-report",
+          "title": "How to read an annual report: P&L, balance sheet, and cash flow",
+          "content": {
+            "heroStat": "3 statements",
+            "heroLabel": "in every annual report that tell you everything about a business — P&L, Balance Sheet, and Cash Flow — most investors read none of them",
+            "intro": "An annual report is a company's complete financial disclosure — prepared by management, audited by a CA firm, and filed with SEBI and the stock exchanges. It contains more reliable information about a business than any analyst report, news article, or TV segment. Reading three key financial statements takes 30–60 minutes and gives you a clearer picture of a company than months of following its stock price.",
+            "keyPoints": [
+              "Profit & Loss (P&L / Income Statement): shows revenue earned and expenses incurred over the year. Key line items: Revenue from operations (top line), EBITDA (operating profit before depreciation and interest), Depreciation & Amortisation, EBIT, Finance costs (interest on debt), Profit Before Tax, Tax, and PAT (Profit After Tax, the bottom line). Trend the margin — not just the absolute number.",
+              "Balance Sheet: a snapshot at year-end of what the company owns (assets) and owes (liabilities). Current assets (cash, receivables, inventory) vs. non-current (property, equipment, goodwill). Current liabilities vs. long-term debt. The difference is shareholders' equity — what belongs to you as an owner.",
+              "Cash Flow Statement: the most honest of the three statements because it's hardest to manipulate. Three sections: Operating cash flow (cash from the core business — the most important number), Investing cash flow (capex, acquisitions — usually negative for growing companies), Financing cash flow (debt raised/repaid, dividends paid). A company with rising profits but consistently negative operating cash flow is a red flag.",
+              "Key ratios to compute from these statements: ROE (PAT / Shareholders' Equity) — measures how efficiently equity is deployed; Debt-to-Equity (total debt / equity); Interest Coverage (EBIT / interest expense) — should be >3× for safety; Working Capital cycle — how long it takes to convert inventory to cash.",
+              "Management Discussion & Analysis (MD&A): the narrative section where promoters and management explain the year — their strategy, risks, and outlook. Read this sceptically: it is written by management, not auditors. Compare the tone of last year's MD&A with actual outcomes this year.",
+              "Auditor's report and notes to accounts: if the auditor gives a qualified opinion or highlights going-concern issues — that is a serious red flag. The notes contain disclosures that companies often bury — related-party transactions, contingent liabilities, off-balance sheet items. Always read the notes."
+            ],
+            "example": "You're evaluating Infosys. From its FY2024 annual report:\n\nRevenue: ₹1,53,670 crore (+4.7% YoY)\nEBITDA margin: 20.7% (stable)\nPAT: ₹26,248 crore\nOperating cash flow: ₹27,942 crore (exceeds PAT — good quality of earnings)\nDebt: near zero\nDividend paid: ₹8,496 crore (32% of PAT)\n\nConclusion from 3 statements: Stable top line, consistent margins, cash-generative, debt-free, shareholder-friendly. Nothing alarming in the auditor's report. A business worth understanding deeper.",
+            "tip": "Start with operating cash flow, not PAT. A company that consistently converts its profits into cash is far more trustworthy than one with high PAT but poor cash conversion. The formula: Cash Conversion = Operating Cash Flow / PAT. A ratio consistently above 1× is ideal. Below 0.5× for multiple years means the profits are not real in a cash sense.",
+            "funFact": "Warren Buffett reads dozens of annual reports every year — not for stock tips, but to understand businesses. He famously said he learned more about valuation from reading annual reports than from any textbook or professor. All listed Indian companies must file their annual reports with SEBI and their respective stock exchanges — they are freely available on the BSE and NSE websites. The information is free; what's scarce is the willingness to read it.",
+            "action": "Pick one company you own or are considering. Go to BSE (bseindia.com) or NSE (nseindia.com), search the company name, and download the most recent Annual Report. Open the Cash Flow Statement first — look at operating cash flow for the last 5 years. Is it consistently positive? Then open the P&L — check whether margins have expanded or contracted. Finally, read the first 2 pages of the MD&A. This 30-minute exercise gives you more insight than a year of following the stock price."
+          }
+        },
+        {
+          "id": "valuation-basics",
+          "title": "Valuation basics: P/E, EV/EBITDA, and when to use them",
+          "content": {
+            "heroStat": "P/E",
+            "heroLabel": "Price-to-Earnings — the most used valuation ratio in the world, and the most misused one by investors who forget it means nothing without context",
+            "intro": "Valuation is the art of determining what a business is worth — and comparing that to what the market is charging. A stock is expensive or cheap only relative to something: its own history, its peers, or the growth you're paying for. The ratios that measure this — P/E, EV/EBITDA, P/B — are tools, not verdicts. Used correctly they clarify thinking. Used carelessly they justify overpaying or missing obvious value.",
+            "keyPoints": [
+              "P/E (Price-to-Earnings): market price per share ÷ earnings per share. Tells you how many rupees you're paying for every ₹1 of annual profit. A P/E of 30 means you're paying ₹30 for ₹1 of earnings. Context is everything: 30× is cheap for a 30% growth company, expensive for a 5% growth one. Always compare to sector average and company's own history.",
+              "EV/EBITDA (Enterprise Value to EBITDA): EV = market cap + debt – cash. EBITDA = earnings before interest, tax, depreciation, and amortisation. This ratio is preferred for comparing companies with different capital structures and debt levels — it puts leveraged and debt-free companies on equal footing. More sophisticated than P/E for industrial and capital-intensive businesses.",
+              "P/B (Price-to-Book): market cap ÷ book value of equity. Most useful for financial companies (banks, NBFCs) where assets (loans) are measured at cost on the balance sheet. A bank trading at 3× book is pricing in strong return on equity. A bank at 0.5× book implies the market doubts the quality of its loan book.",
+              "PEG ratio (P/E adjusted for Growth): P/E ÷ earnings growth rate. A P/E of 30 with 30% earnings growth = PEG of 1 — often considered fairly valued. A P/E of 30 with 10% growth = PEG of 3 — potentially expensive. Useful for comparing growth companies across sectors.",
+              "DCF (Discounted Cash Flow): the theoretically most rigorous method — projects future free cash flows and discounts them to present value. In practice, DCF is highly sensitive to assumptions: change the terminal growth rate by 1% and the valuation changes dramatically. Better used to test scenarios than to produce a single 'correct' value.",
+              "Valuation without context is dangerous: a 'low P/E' stock may be cheap for a reason — a declining business, regulatory risk, or promoter issues. A 'high P/E' stock may be justified by compounding earnings. Always pair valuation with business quality assessment."
+            ],
+            "example": "Comparing two IT companies:\n\nCompany A: Revenue growing 25% YoY, ROE 28%, P/E = 45×, PEG = 1.8×\nCompany B: Revenue growing 5% YoY, ROE 12%, P/E = 15×, PEG = 3.0×\n\nAt first glance, Company B looks 'cheap' (lower P/E). But Company A has a lower PEG — you're paying less for each unit of growth. Company B's low P/E reflects low growth expectations, not genuine value.\n\nLesson: a high P/E with high growth can be cheaper than a low P/E with stagnant growth.",
+            "comparison": {
+              "left": {
+                "name": "P/E alone as a buy signal",
+                "approach": "Buy everything with P/E below 10 — 'it's cheap'",
+                "startAmount": "Bought 5 'low P/E' stocks",
+                "endAmount": "3 were value traps — declining businesses with justifiably low P/Es",
+                "duration": "2 years",
+                "outcome": "Average loss of 25%. A low P/E is often a warning, not an invitation. Cheap can get cheaper when the business continues to deteriorate.",
+                "positive": false
+              },
+              "right": {
+                "name": "P/E + growth + business quality",
+                "approach": "High P/E but exceptional ROE, market leadership, and earnings compounding",
+                "startAmount": "Bought at 45× — 'expensive'",
+                "endAmount": "Earnings grew 25%/year — P/E expanded further",
+                "duration": "2 years",
+                "outcome": "Stock returned 60% in 2 years despite starting at a 'high' P/E. Quality compounds. Valuation ratios are a starting filter, not a final answer.",
+                "positive": true
+              }
+            },
+            "tip": "Use Screener.in (free) to build a watchlist of companies. Filter by P/E, ROE, debt-to-equity, and 5-year earnings growth. This surfaces quality businesses — then use valuation ratios to assess relative pricing. Never buy a stock purely because it has a low P/E. Always ask: 'Low relative to what, and why?'",
+            "funFact": "During the dot-com bubble of 1999–2000, many US technology companies traded at P/E ratios of 200–1000× — or had no earnings at all. Indian IT companies like Infosys also saw their P/Es briefly exceed 100× in 2000. Within 2 years, many had fallen 70–80% not because earnings collapsed, but because P/E multiples compressed. This is 'multiple contraction' — the risk that even great businesses face when you overpay for them.",
+            "action": "Open Screener.in and search for any company you follow. Look at the 'Ratios' section: P/E, P/B, EV/EBITDA. Then scroll to the '10 Years' financial data section. Check whether earnings have grown consistently. Now compare the current P/E to the 5-year median P/E — is it above or below historical average? If above, what would justify the premium? This 15-minute exercise is the foundation of all value investing."
+          }
+        },
+        {
+          "id": "technical-analysis",
+          "title": "Technical analysis: what it can and cannot tell you",
+          "content": {
+            "heroStat": "Price + Volume",
+            "heroLabel": "the only two inputs technical analysis uses — everything else (patterns, indicators, signals) is derived from these two numbers and the assumptions you make about them",
+            "intro": "Technical analysis is the study of past price and volume data to forecast future price movements. It is widely used by short-term traders, and almost universally ignored by long-term investors. Understanding what technical analysis actually is — and critically, what it isn't — helps you use it as a context tool rather than a prediction machine. Most retail investors either over-rely on it (treating candlestick patterns as prophecies) or dismiss it entirely. The truth is more nuanced.",
+            "keyPoints": [
+              "What technical analysis assumes: that all known information is already reflected in the price, and that price patterns repeat because human psychology repeats. If the same fear and greed patterns drove prices in the past, they will drive them similarly in the future.",
+              "Core tools: Candlestick charts (open, high, low, close for each period), Moving Averages (50-day and 200-day MAs smooth out noise — a 'golden cross' when 50-day crosses above 200-day is a bullish signal), RSI (Relative Strength Index — momentum indicator, oversold below 30, overbought above 70), MACD, Support and Resistance levels.",
+              "What technical analysis can tell you: current market sentiment and momentum; likely zones of support (where buyers historically step in) and resistance (where sellers have historically emerged); relative strength of a stock vs. the index; and when a trend is accelerating or exhausting.",
+              "What technical analysis cannot tell you: the intrinsic value of a business, whether earnings will grow, the impact of a regulatory change, or how a company will perform over 5 years. It is a rear-view mirror, not a windshield.",
+              "The reliability problem: most technical patterns (head-and-shoulders, double top, cup-and-handle) have been statistically tested and show marginal predictive power at best. The ones that worked in the past attract more followers, which changes the market dynamics and reduces their future effectiveness.",
+              "Best use for long-term investors: use technical levels as entry timing tools — not to decide what to buy, but when to buy it. If you've already decided a stock is a buy based on fundamentals, waiting for an RSI below 40 or a price near a long-term support level gives you a marginally better entry. That's the legitimate use."
+            ],
+            "example": "",
+            "comparison": {
+              "left": {
+                "name": "Pure technical trader (retail)",
+                "approach": "Trade Nifty based on daily candlesticks and RSI",
+                "startAmount": "₹5,00,000",
+                "endAmount": "Multiple small wins, occasional large losses",
+                "duration": "1 year",
+                "outcome": "Transaction costs (STT, brokerage, GST) and STCG tax erode even winning strategies. Without an institutional-grade edge, technical trading is a high-effort, low-probability activity for retail investors.",
+                "positive": false
+              },
+              "right": {
+                "name": "Fundamental investor using technicals for timing",
+                "approach": "Buy quality stocks at technical support after earnings-driven selloffs",
+                "startAmount": "Same ₹5,00,000",
+                "endAmount": "Better average cost basis vs. buying at random",
+                "duration": "1 year",
+                "outcome": "Using the 200-day MA or RSI as a secondary filter when buying fundamentally sound companies can marginally improve returns. It doesn't replace the fundamental thesis — it helps execute it.",
+                "positive": true
+              }
+            },
+            "tip": "If you want to learn technical analysis, study the 200-day moving average first — it's the most reliable, most widely followed, and most self-fulfilling technical level in markets. When the Nifty is above its 200 DMA, institutional money tends to stay long. When it breaks below, sentiment shifts. This single indicator captures regime changes better than most complex patterns.",
+            "funFact": "The Efficient Market Hypothesis (EMH), developed by Eugene Fama (2013 Nobel Prize in Economics), argues that in a 'semi-strong' efficient market, technical analysis cannot consistently generate excess returns because all publicly available information — including past prices — is already reflected in current prices. While markets are not perfectly efficient, decades of academic research confirm that technical analysis alone, without an informational edge, does not systematically beat the market after costs.",
+            "action": "Open any charting tool (TradingView is free). Pull up Nifty 50's weekly chart for the past 5 years. Add two overlays: 50-week moving average and 200-week moving average. Observe how the index behaves around these levels over multiple cycles. Then add RSI. Notice how RSI hitting extreme levels (below 30 or above 70) correlates with major turning points. This visual exercise builds intuition for market sentiment — without making it the basis of every investment decision."
+          }
+        },
         {
           "id": "futures-basics",
           "title": "Futures contracts: how they work and who should use them",
@@ -2912,7 +3052,47 @@
             "action": "Go to NSE's website and look up the 'Nifty 50 Futures' contract. Note the current price, lot size (75), and initial margin required. Now calculate: how much money would you lose if Nifty fell 3% in one day? Compare that to your margin amount. If a 3% Nifty move equals more than 50% of your margin — that's the leverage risk you're taking. Then read SEBI's study on retail F&O losses (search 'SEBI F&O study 2024') — 11 pages that could save you lakhs."
           }
         },
-        { "id": "options-basics", "title": "Options basics: calls, puts, and why most retail investors should avoid them", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "options-basics",
+          "title": "Options basics: calls, puts, and why most retail investors should avoid them",
+          "content": {
+            "heroStat": "93%",
+            "heroLabel": "of individual options traders in India lost money over FY22–FY24, per SEBI's own study — the highest loss rate of any financial product the regulator has ever measured",
+            "intro": "An options contract gives you the right — but not the obligation — to buy or sell an asset at a predetermined price before a specific date. Options are extraordinarily powerful as hedging tools and are used by institutions to manage risk. But for retail investors trading directional options on Nifty or individual stocks, they are the most reliable wealth-destruction machine in the market. SEBI's data is unambiguous: 9 in 10 retail options traders lose money systematically.",
+            "keyPoints": [
+              "Call option: gives the buyer the right to purchase an underlying asset at a fixed price (strike price) before expiry. You buy a call when you expect the price to rise. If it doesn't, you lose the entire premium paid.",
+              "Put option: gives the buyer the right to sell at the strike price before expiry. You buy a put when you expect the price to fall. Same asymmetry — profit is theoretically unlimited, loss is capped at the premium.",
+              "Premium: what you pay to buy an option contract. Determined by the option's intrinsic value (how far in-the-money it is) and time value (how long till expiry). Time value decays every day — this is called theta decay, and it works relentlessly against option buyers.",
+              "Expiry: Indian equity options expire every Thursday (weekly) and on the last Thursday of the month (monthly). Nifty lot size = 75 units. At Nifty 24,000, one lot = ₹18,00,000 notional value. Even a small premium per unit × 75 = significant capital at risk.",
+              "Why sellers (writers) win most of the time: option sellers collect the premium and profit when the market stays rangebound. Because options expire worthless most weeks, sellers have a structural edge. But a single large adverse move can wipe out months of premium income — option selling is not as safe as it appears.",
+              "Legitimate use for retail investors: buying a put option on a stock you own acts as insurance — a temporary hedge. If you hold ₹10L of Nifty stocks and buy a Nifty put at a cost of ₹5,000, you've capped your downside for that month. This is hedging, not speculation."
+            ],
+            "example": "Rahul buys a Nifty 24,000 Call option expiring Thursday, paying ₹150 premium per unit. Lot size = 75. Total cost = ₹11,250.\n\nFor Rahul to profit, Nifty must close above 24,150 (strike + premium) by Thursday.\n\nScenario A — Nifty closes at 24,300: profit = ₹300 – ₹150 = ₹150 × 75 = ₹11,250. Doubled his money.\n\nScenario B — Nifty closes at 24,050: option expires worthless. Loss = ₹11,250 (100% of capital).\n\nThis is why experienced traders say: options can go to zero. A stock can recover. An expired option cannot.",
+            "comparison": {
+              "left": {
+                "name": "Buying weekly Nifty options",
+                "approach": "₹10,000/week in directional call/put bets",
+                "startAmount": "₹10,000 per week × 52 weeks",
+                "endAmount": "SEBI data: 93% of traders lose money over 3 years",
+                "duration": "1 year",
+                "outcome": "Even with occasional wins, the cumulative loss from theta decay and wrong calls adds up. Average retail F&O trader loses ₹1.1L per year. Most quit after 1–2 years of losses.",
+                "positive": false
+              },
+              "right": {
+                "name": "Same ₹10,000/week in Nifty 50 SIP",
+                "approach": "₹43,333/month in index fund",
+                "startAmount": "₹5,20,000 per year",
+                "endAmount": "~12–13% CAGR, no expiry, no theta decay",
+                "duration": "1 year",
+                "outcome": "No weekly stress, no expiry risk, no margin calls. Participates in market growth without fighting institutional algorithms. No skill edge needed.",
+                "positive": true
+              }
+            },
+            "tip": "If you're curious about options, start by paper-trading for 3 months — track every trade without real money. Calculate the actual outcome weekly. Most people discover that their directional calls are roughly 50% accurate, but theta decay and bid-ask spreads mean they still lose money overall. That discovery is far cheaper made on paper than with real capital.",
+            "funFact": "India is the world's largest equity options market by number of contracts — NSE's weekly Nifty and Sensex options see notional turnover of ₹300–500 lakh crore per month. This is driven overwhelmingly by retail speculation. The options market is so large that on weekly expiry days (Thursdays), market volumes spike dramatically. Most of this volume is zero-sum between retail buyers and institutional/algorithmic sellers — and retail consistently ends up on the losing side.",
+            "action": "Before ever trading an option, read SEBI's F&O study (search 'SEBI F&O loss study 2024' — it's a free 11-page PDF). Then open an options chain on NSE (nseindia.com → Derivatives → Options Chain → Nifty). Look at the current week's at-the-money call. Note the premium, calculate the total lot cost, and ask: 'By how much does Nifty need to move in my favour by Thursday for me to break even?' The answer will clarify the real odds."
+          }
+        },
         {
           "id": "smallcase",
           "title": "Smallcase investing: thematic portfolios, costs, and rebalancing",
@@ -3095,9 +3275,109 @@
             "action": "If your family has ancestral property (flat, plot, farmland inherited from parents or grandparents) generating rent or income — consult a CA about routing that income through an HUF. Ask specifically: (1) Can this property be treated as HUF property? (2) What's the annual tax saving? (3) What are the costs to set it up? Most CAs charge ₹3,000–₹8,000 for HUF setup. If the annual saving is ₹30,000+, the setup pays for itself in the first year."
           }
         },
-        { "id": "estate-planning", "title": "Estate planning: wills, nominations, and transmission of assets", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "term-insurance", "title": "Term insurance: how much cover you need and what to avoid", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
-        { "id": "health-insurance", "title": "Health insurance: choosing a policy and reading the fine print", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "estate-planning",
+          "title": "Estate planning: wills, nominations, and transmission of assets",
+          "content": {
+            "heroStat": "70%",
+            "heroLabel": "of Indians have no will — meaning their assets will be distributed according to succession laws, not their wishes, often after years of legal disputes",
+            "intro": "Estate planning is the process of deciding who gets what when you're no longer around — and making sure the transition actually happens that way, without legal battles or unnecessary tax. Most Indians defer this indefinitely, treating it as morbid or premature. It is neither. A 30-year-old with a family, life insurance, a Demat account, and a bank FD already has an estate that needs a plan.",
+            "keyPoints": [
+              "Will vs. Nomination — the critical difference: a nominee is not the legal heir. A nominee is a trustee who holds the asset on behalf of the legal heirs until a court determines distribution. For Demat accounts and bank deposits, the nominee receives the asset initially, but legal heirs can challenge it. A will overrides nomination in court — make sure both are consistent.",
+              "Succession without a will (intestate succession): for Hindus, the Hindu Succession Act applies — assets go to Class I heirs (spouse, children, mother) in equal shares. For Muslims, the personal law (Sharia) applies with specific fixed fractions. Without a will, your exact wishes may not be honoured — especially for specific assets like a family business or jewellery.",
+              "How to make a valid will: must be in writing, signed by the testator (you) in the presence of two witnesses, who must also sign. The will does not need to be stamped or registered — but registering it at a sub-registrar's office makes it harder to challenge. An unregistered will is still legally valid.",
+              "Update nominations on every financial instrument: bank accounts, FDs, Demat/trading accounts, mutual funds (via AMC or CAMS/KFin), EPF (Form 2 via EPFO), PPF, NPS, life insurance policy. Many people change jobs, get married, or have children without updating nominations — resulting in the wrong person receiving the asset.",
+              "Life insurance and EPF: these pass directly to the nominee outside the will and outside succession laws. The nominee receives the proceeds. This is a key reason to keep nominations updated — especially for life insurance, where the sum involved can be large.",
+              "Power of Attorney (PoA): a document authorising someone to manage your financial affairs if you become incapacitated. Critical for elderly parents with investments — a PoA avoids the need to go to court for a guardianship order if they lose the ability to manage finances independently."
+            ],
+            "example": "Vikram, 42, dies unexpectedly. He has:\n- ₹35L in a Demat account (nominee: his mother)\n- ₹20L in a bank FD (nominee: his wife)\n- ₹50L life insurance (nominee: his wife)\n- A flat worth ₹1.2 crore (no will, no nomination possible on property)\n\nOutcome without a will: the flat goes through intestate succession — his mother, wife, and two children are all Class I heirs with equal rights. Disputes follow.\n\nWith a simple will: the flat passes to his wife uncontested. Total legal cost: ₹5,000–₹15,000 for drafting and registration. Total conflict saved: incalculable.",
+            "tip": "Draft your will this month — it takes 2 hours and costs ₹2,000–₹10,000 with a lawyer. Write a simple document listing all your assets and who should receive each one. Name an executor (ideally a trusted family member or CA) to carry out your wishes. Then spend another 2 hours updating nominations on every financial account. These two steps protect your family from years of legal grief for a total investment of one afternoon.",
+            "funFact": "Some of India's most high-profile succession disputes — Ambani vs. Ambani (2002), Bajaj family splits, countless Bollywood estates — could have been significantly simplified with a clear, registered will. Legal disputes over undivided Hindu family property remain one of the most common categories of civil litigation in Indian courts, often running for decades and consuming more wealth than the original estate was worth.",
+            "action": "Do a 'nomination audit' today. Log in to: (1) your bank's net banking — check all accounts for nominee. (2) Your Demat account — check nominee under 'Profile'. (3) MF Central (mfcentral.com) — check nominees across all funds. (4) EPFO portal — check EPF nominee under 'Manage' → 'e-Nomination'. (5) Your life insurance policy document — check the nominee field. Update anything that is blank or outdated. Then set a reminder to draft your will within the next 30 days."
+          }
+        },
+        {
+          "id": "term-insurance",
+          "title": "Term insurance: how much cover you need and what to avoid",
+          "content": {
+            "heroStat": "10–15×",
+            "heroLabel": "your annual income — the thumb rule for term insurance cover. A ₹10 lakh annual earner needs ₹1–1.5 crore of life cover",
+            "intro": "Term insurance is the only type of life insurance that does exactly one thing: pays a lump sum to your family if you die during the policy term. No investment component, no maturity benefit — just pure protection at the lowest possible cost. A healthy 30-year-old can get ₹1 crore of cover for ₹700–1,000 per month. Everything else marketed as 'insurance' — ULIPs, endowment plans, money-back policies — mixes insurance with investment badly, at high cost to both.",
+            "keyPoints": [
+              "How much cover: replace your income for 10–15 years. Add outstanding loans (home loan, car loan). Add any specific future liability (children's education, spouse's income gap). A ₹12L/year earner with a ₹40L home loan and two school-age children needs approximately ₹1.5–2 crore cover.",
+              "How long a term: cover the period until your family is financially independent — typically until your youngest child finishes education and your home loan is repaid. Most experts recommend cover until age 60–65 or for a 30–40 year term.",
+              "Claims Settlement Ratio (CSR): the percentage of death claims paid by the insurer in a year. Check IRDAI's annual report (freely available) for each insurer. LIC: 98%+. HDFC Life, ICICI Prudential, Max Life, SBI Life: all consistently above 95–97%. Avoid insurers with CSR below 90%.",
+              "What to avoid: ULIPs (Unit Linked Insurance Plans) have 5–8% charges in early years and poor transparency. Endowment plans offer 4–5% effective returns — below inflation. Money-back policies have even worse math. The correct approach: buy term insurance for protection, invest separately in mutual funds for wealth. Never combine the two.",
+              "Riders worth considering: Accidental Death Benefit (low cost, meaningful extra cover in case of accidental death), Critical Illness Rider (lump sum on diagnosis of specified illnesses — cancer, heart attack, stroke), Waiver of Premium (premiums waived if you become disabled). Disability income cover is underused and important.",
+              "Online vs. offline: online term plans are 20–40% cheaper than offline plans for the same cover. Buy directly from the insurer's website — not through an agent (who earns 15–30% first-year commission). Compare on PolicyBazaar or Ditto Insurance's website before buying."
+            ],
+            "example": "Priya, 32, earns ₹15L/year. She has a ₹50L home loan (20-year tenure) and two children aged 3 and 6.\n\nHer cover need: 15× annual income = ₹2.25 crore, plus ₹50L home loan = ₹2.75 crore total. She rounds to ₹2.5 crore cover.\n\nOnline term plan (30-year term, till age 62): ₹1,050/month premium at HDFC Life or ICICI Prudential.\n\nIf she had bought an endowment plan for the same ₹1,050/month: cover would be approximately ₹15–20 lakh — completely inadequate for her family's actual needs.",
+            "comparison": {
+              "left": {
+                "name": "Endowment / Money-back plan",
+                "approach": "₹1,000/month, cover ₹15L, maturity benefit promised",
+                "startAmount": "₹12,000/year for 30 years = ₹3.6L total paid",
+                "endAmount": "Maturity corpus at ~4–5% effective return: ~₹8–10L",
+                "duration": "30 years",
+                "outcome": "₹15L of life cover (inadequate). ₹8–10L maturity (below inflation). The insurance company earned well; you did not.",
+                "positive": false
+              },
+              "right": {
+                "name": "Term plan + index fund SIP",
+                "approach": "₹700/month term cover (₹1Cr) + ₹300/month in Nifty 50 index fund",
+                "startAmount": "₹12,000/year, same total budget",
+                "endAmount": "₹1 crore life cover. SIP corpus at 12%: ~₹32L in 30 years on ₹300/month",
+                "duration": "30 years",
+                "outcome": "6× more life cover, significantly higher investment corpus, full transparency. Protection and wealth building done properly — separately.",
+                "positive": true
+              }
+            },
+            "tip": "Never let a term insurance lapse — especially in the first 10 years, when you likely have dependents, a home loan, and insufficient assets to self-insure. Set up a bank auto-debit for the annual premium. Keep the policy document, premium receipts, and insurer's claim helpline number in one folder and inform your spouse or nominee where it is. A claim that the nominee doesn't know to file is a policy that never protected anyone.",
+            "funFact": "India's life insurance penetration (premiums as % of GDP) is approximately 3.2% — well below the global average of 6–7%. But the mix is skewed: the vast majority of life insurance in India is investment-linked (endowment, ULIP) rather than pure term protection. This means millions of Indians are 'insured' but dangerously underinsured — paying high premiums for inadequate death cover mixed with poor investment returns.",
+            "action": "Calculate your life cover need now: (annual income × 15) + all outstanding loans + (estimated future expenses for children's education). Compare this to your current total life insurance cover across all policies. If the gap is more than ₹50 lakh, get a term quote on Ditto Insurance (joinditto.com) or compare on PolicyBazaar. A ₹1 crore term plan for a healthy 30-year-old costs under ₹10,000/year. Buy it before your next birthday — premiums increase with age."
+          }
+        },
+        {
+          "id": "health-insurance",
+          "title": "Health insurance: choosing a policy and reading the fine print",
+          "content": {
+            "heroStat": "₹25 lakh",
+            "heroLabel": "minimum sum insured recommended for a family of four in a metro city — where a single serious hospitalisation can cost ₹8–20 lakh",
+            "intro": "A single cancer diagnosis, heart bypass, or road accident hospitalisation can cost ₹5–25 lakh in a private hospital. Without health insurance, this is a wealth-destroying event — savings wiped out, investments redeemed, loans taken. With the right policy, it's a covered claim. Health insurance is not an investment — it is protection against the one financial risk that can be both sudden and catastrophic.",
+            "keyPoints": [
+              "Types of health insurance: Individual policy (covers one person), Family Floater (one sum insured shared among all family members — cheaper but exhausted faster if multiple claims), Super Top-Up (kicks in only after a deductible threshold is crossed — very cost-effective for large cover at low premium).",
+              "Sum insured: minimum ₹10 lakh for an individual in a tier-1 city; ₹15–25 lakh for a family of four. Medical inflation runs at 10–14% per year — the ₹3 lakh policy your father bought in 2010 covers approximately one room charge in 2025. Under-insurance is as dangerous as no insurance.",
+              "Key inclusions to verify: pre-hospitalisation expenses (typically 30–60 days), post-hospitalisation (60–90 days), daycare procedures (covered even without 24-hour admission), AYUSH treatment (Ayurveda, Yoga, Unani, Siddha, Homeopathy — required by IRDAI to be covered), ambulance charges, organ donor expenses.",
+              "Key exclusions to understand: pre-existing diseases (PED) — waiting period is typically 2–4 years before the insurer covers conditions you had before buying the policy. This is the most impactful clause. Also: cosmetic surgery, dental treatment (unless due to accident), infertility treatment, self-inflicted injuries, war-related injuries.",
+              "Cashless vs. reimbursement: cashless means the insurer settles directly with the hospital (within the network). Reimbursement means you pay and file a claim later. Always prefer cashless — especially in emergencies when you don't have the cash upfront. Before any planned hospitalisation, verify that your preferred hospital is in the network.",
+              "Restoration benefit and NCB: Restoration automatically replenishes your sum insured if it's exhausted within the year. No-Claim Bonus (NCB) increases your sum insured by 10–50% for every claim-free year at no extra premium. Both make a policy more valuable over time — check for these features."
+            ],
+            "example": "Arun, 38, has a family of four. His employer provides ₹3L group health cover. He buys:\n- Base individual policy: ₹5L sum insured, family floater, ₹14,000/year premium\n- Super top-up: ₹25L additional cover (activates above ₹5L deductible), ₹8,000/year premium\n\nTotal annual premium: ₹22,000 for ₹30L effective cover.\n\nYear 3: his wife is hospitalised for cardiac surgery. Total bill: ₹12L.\n- First ₹5L: base policy pays\n- Remaining ₹7L: super top-up pays\n- Out-of-pocket: ₹0\n\nWithout insurance: ₹12L from savings or a loan — a financial emergency.",
+            "comparison": {
+              "left": {
+                "name": "No health insurance (self-funded)",
+                "approach": "Keep ₹5L in FD as 'medical emergency fund'",
+                "startAmount": "₹5,00,000 medical corpus",
+                "endAmount": "Single cancer treatment or cardiac surgery: ₹10–25L",
+                "duration": "One event",
+                "outcome": "Medical corpus exhausted, retirement savings raided, possibly a loan taken. One health event can set back financial goals by 5–10 years.",
+                "positive": false
+              },
+              "right": {
+                "name": "₹25L health cover via base + super top-up",
+                "approach": "₹22,000–₹30,000/year in premiums",
+                "startAmount": "₹22,000/year",
+                "endAmount": "₹25L of cover — ₹1.14 per ₹1,000 of coverage per day",
+                "duration": "Per year",
+                "outcome": "Even a ₹15L hospitalisation is fully covered. Savings and investments stay untouched. Annual premium is less than one month's rent in most cities.",
+                "positive": true
+              }
+            },
+            "tip": "Buy health insurance before you need it — specifically, before any known health condition develops. A pre-existing condition (diabetes, hypertension, thyroid) means a 2–4 year waiting period before that condition is covered. If you're young and healthy now, the best time to buy is today — when premiums are lowest and no waiting periods apply to your specific conditions.",
+            "funFact": "IRDAI (Insurance Regulatory and Development Authority of India) introduced standard health insurance regulations in 2020 — making it mandatory for all insurers to cover specific conditions (mental illness, HIV, genetic disorders) and to allow policyholders to port their policy to a different insurer while retaining their waiting period credits. This was a landmark change: you no longer have to stay with a bad insurer just because you've already waited out the PED period. Portability is your right.",
+            "action": "If you only have employer group health cover: check the sum insured (usually ₹3–5L) and whether it covers your parents. If your employer cover is under ₹10L, buy a personal policy immediately — group cover lapses the day you leave the job. Go to Ditto Insurance (joinditto.com — SEBI/IRDAI regulated, fee-based advisors with no commission incentive) and get an unbiased recommendation for your age, city, and family size. Compare two quotes before buying."
+          }
+        },
         {
           "id": "new-vs-old-regime",
           "title": "New vs. old tax regime: which one to choose and when to switch",
@@ -3139,7 +3419,47 @@
             "action": "Open a spreadsheet and list every deduction you currently claim: EPF (12% of basic from salary slip), PPF deposit, ELSS SIP × 12, life insurance premium, NPS, health insurance premium, home loan interest, HRA. Sum them up. If the total is above ₹3.75L — stay on old regime. If below — switch to new. Inform your employer of your choice in April before they process April's payroll."
           }
         },
-        { "id": "multi-generational-wealth", "title": "Building multi-generational wealth: compounding across decades", "content": { "intro": "", "keyPoints": [], "example": "", "tip": "", "funFact": "" } },
+        {
+          "id": "multi-generational-wealth",
+          "title": "Building multi-generational wealth: compounding across decades",
+          "content": {
+            "heroStat": "3 generations",
+            "heroLabel": "is all it takes — one generation that saves, one that grows it, one that compounds it further. Most wealth stories begin with a single disciplined decision made 30–40 years ago",
+            "intro": "Multi-generational wealth is not about leaving a fortune — it is about leaving a system. A family that builds the right financial habits, structures, and education across two to three generations can go from a first-generation salaried employee to a family with durable, self-sustaining wealth. The maths is simple: ₹10 lakh invested at 12% CAGR for 40 years becomes ₹9.3 crore. The difficulty is human — staying patient, avoiding catastrophic mistakes, and transmitting the habits alongside the money.",
+            "keyPoints": [
+              "The compounding math across generations: ₹10 lakh invested today at 12% CAGR becomes ₹9.3 crore in 40 years and ₹86 crore in 60 years. The generation that plants the tree does not sit in the shade — but their grandchildren do. The key is not touching the principal.",
+              "What destroys multi-generational wealth: lifestyle inflation (spending rises with every income jump), division at inheritance (splitting the corpus into smaller pools that compound less effectively), unclear succession (family disputes freeze assets for years), over-concentration in one asset (a single business or property that can go wrong), and debt taken on illiquid assets.",
+              "Structural tools for wealth preservation: a Will that distributes assets clearly. Updated nominations on every instrument. An HUF (Hindu Undivided Family) account for tax efficiency on family income. For high-net-worth families, a Private Family Trust — which holds assets for defined beneficiaries and continues beyond any one person's life.",
+              "Financial education as the most durable inheritance: teaching children how to read a financial statement, understand compound interest, distinguish between assets and liabilities, and delay gratification is worth more than any corpus. Wealthy families that skip this step rarely sustain wealth beyond the third generation — a well-documented global pattern sometimes called the 'shirtsleeves to shirtsleeves in three generations' phenomenon.",
+              "Long-duration investment vehicles are underused: PPF extended in 5-year blocks indefinitely, a Nifty 50 index fund held for 20+ years, a SCSS account opened for parents, and SGBs that grow for a full 8-year term — these are instruments that benefit from time in ways that most investors never fully exploit because they sell too soon.",
+              "The role of insurance in wealth preservation: a large, unexpected medical or life event can wipe out a decade of wealth creation. Adequate term insurance and health insurance are not optional for a family building generational wealth — they are the protection layer that keeps the compounding engine running even when life is unpredictable."
+            ],
+            "example": "Ramesh, born 1960, starts investing ₹5,000/month in 1985 at age 25. By 2010 (age 50), at 12% CAGR, his corpus is approximately ₹1.88 crore.\n\nHis son Anil inherits ₹1.88 crore in 2025 (after estate costs and taxes), invests it and continues ₹10,000/month SIP for 30 more years at 12%:\n- The ₹1.88 crore alone at 12% grows to ₹56 crore in 30 years.\n- His SIP adds another ₹3.5 crore.\n- Total by 2055: approximately ₹59 crore.\n\nTwo generations of disciplined investing — started with ₹5,000/month in 1985 — creates a ₹59 crore family portfolio by 2055.",
+            "comparison": {
+              "left": {
+                "name": "Wealth without a system",
+                "approach": "High income, no plan, no will, no financial education for children",
+                "startAmount": "₹5 crore built over 25 years",
+                "endAmount": "Divided, disputed, and largely spent within 10 years of transfer",
+                "duration": "One generation",
+                "outcome": "The classic pattern: builder generation works hard, inheritor generation spends without the habits that created the wealth. Third generation starts from scratch.",
+                "positive": false
+              },
+              "right": {
+                "name": "Wealth with a system",
+                "approach": "Clear will, financial education for children, long-duration index funds untouched",
+                "startAmount": "₹5 crore built over 25 years",
+                "endAmount": "₹5 crore compounding for 30 more years at 12% = ₹1.5 crore × 30-year CAGR factor",
+                "duration": "Two generations",
+                "outcome": "Second generation adds to the corpus rather than depleting it. The system — the habits, the instruments, the will — compounds alongside the money.",
+                "positive": true
+              }
+            },
+            "tip": "The most powerful action you can take for generational wealth today is to open an index fund SIP in your child's or grandchild's name and commit to not touching it for 20 years. ₹5,000/month for 20 years at 12% compounds to approximately ₹49 lakh. That ₹49 lakh, left for another 20 years untouched at 12%, becomes ₹4.7 crore — without adding a single additional rupee. Time does the work. Your job is to not interrupt it.",
+            "funFact": "Research on family wealth across generations — from the University of Michigan and studies by wealth management firms — consistently finds that 70% of family wealth is lost by the second generation and 90% by the third. The primary cause is not market crashes or bad investments — it is family conflict, lack of financial education, and the absence of a shared vision for the money. The families that maintain wealth across generations are those that treat financial education as seriously as academic education.",
+            "action": "Have a family money conversation this month — with your spouse, your parents, or your adult children. Discuss three things: (1) Where are all your family's financial assets held? (2) Are nominations and wills up to date? (3) Does every adult in the family understand the basics of how the family's wealth is invested? If the answer to any of these is no, fix that before making any new investment. The foundation of multi-generational wealth is transparency and preparation — not returns."
+          }
+        },
         {
           "id": "common-mistakes",
           "title": "Common mistakes Indian retail investors make",
